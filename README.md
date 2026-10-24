@@ -1,30 +1,39 @@
 # Sales & Operations Intelligence Dashboard
 
-> **Braahmam International Limited — Interview Assignment Prototype**  
+> **Braahmam International Limited — Intern Assignment Prototype**
 > 2-day scoped prototype · Synthetic data only · Not production-ready
-
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app.streamlit.app)
 
 ---
 
-## Quick Start (Local)
+## Live Demo
+
+Deploy to [Streamlit Community Cloud](https://share.streamlit.io) (see Deployment section below).
+
+---
+
+## What It Does
+
+Combines data from three separate synthetic sources — a CRM system, an operations/project management system, and a planning spreadsheet — into a single interactive dashboard. The goal is to demonstrate how data from disparate systems can be loaded, normalised, joined, and presented as useful reports for sales and management teams.
+
+---
+
+## Quick Start
 
 ```bash
-# 1. Clone the repository
+# 1. Clone the repo
 git clone https://github.com/YOUR_USERNAME/sales-ops-dashboard.git
 cd sales-ops-dashboard
 
-# 2. Install dependencies (Python 3.9+)
+# 2. Install dependencies  (Python 3.9+)
 pip install -r requirements.txt
 
-# 3. Generate synthetic data
+# 3. Generate synthetic datasets (run once)
 python generate_data.py
 
-# 4. Run the dashboard
+# 4. Launch the dashboard
 streamlit run app.py
+# Opens at http://localhost:8501
 ```
-
-Open http://localhost:8501 in your browser.
 
 ---
 
@@ -33,124 +42,153 @@ Open http://localhost:8501 in your browser.
 ```
 .
 ├── app.py                    # Main Streamlit application
-├── generate_data.py          # Synthetic data generator (run once)
+├── generate_data.py          # Synthetic data generator
+├── test_all.py               # Smoke tests (30 checks)
 ├── requirements.txt
 ├── README.md
+│
 ├── data/
-│   ├── crm_leads.csv         # Source 1: CRM (200 synthetic leads)
-│   ├── ops_projects.json     # Source 2: Operations (150 synthetic projects)
-│   └── targets_sheet.csv     # Source 3: Google Sheets simulation (735 rows)
+│   ├── crm_leads.csv         # CRM source  — 200 synthetic leads
+│   ├── ops_projects.json     # Ops source  — 150 synthetic projects
+│   └── targets_sheet.csv     # Sheet source — 735 monthly target rows
+│
 ├── src/
-│   ├── data_loader.py        # Load, normalize & join datasets
-│   ├── data_quality.py       # Data quality checks
-│   ├── insights.py           # Rule-based analytical insights engine
-│   └── charts.py             # Plotly chart builders
+│   ├── data_loader.py        # Load, normalise, and join all three datasets
+│   ├── data_quality.py       # Per-source quality summaries
+│   ├── insights.py           # Rule-based analytical insights (7 checks)
+│   └── charts.py             # Plotly chart builders (13 charts)
+│
 ├── docs/
-│   ├── DATA_DICTIONARY.md    # Full data dictionary
-│   ├── ARCHITECTURE.md       # Architecture and stack rationale
-│   └── PRODUCTION_ROADMAP.md # Path to production
+│   ├── DATA_DICTIONARY.md    # Field-level data dictionary for all sources
+│   ├── ARCHITECTURE.md       # Tech stack, component diagram, trade-offs
+│   └── PRODUCTION_ROADMAP.md # Five-phase path to a production-ready tool
+│
 └── .streamlit/
-    └── config.toml           # Theme configuration
+    └── config.toml           # Theme (purple/white)
 ```
 
 ---
 
-## Technology Stack
+## Tech Stack
 
-| Layer | Technology | Reason |
+| Layer | Choice | Why |
 |---|---|---|
-| Dashboard Framework | **Streamlit** | Fastest Python dashboard path; built-in widgets |
-| Data Processing | **Pandas** | Flexible joins, groupby, normalization |
-| Charting | **Plotly Express** | Interactive charts, works natively with Streamlit |
-| Storage | **CSV + JSON files** | Lightweight, version-controlled, no DB server needed |
-| AI / Insights | **Rule-based Python** | Deterministic, explainable, no API key required |
-| Hosting | **Streamlit Community Cloud** | Free, GitHub-integrated, one-click deploy |
+| Dashboard | **Streamlit** | Fastest Python-to-browser path; built-in caching and widgets |
+| Data wrangling | **Pandas** | Flexible joins, groupby, date normalisation |
+| Charts | **Plotly Express + Graph Objects** | Interactive, works natively in Streamlit |
+| Storage | **CSV + JSON files** | No server needed; version-controllable alongside the code |
+| AI / Insights | **Rule-based Python** | Deterministic, explainable, no API key or cost |
+| Hosting | **Streamlit Community Cloud** | Free, GitHub-backed, one-click deploy |
 
 ---
 
-## Data Sources
+## Data Sources (All Synthetic)
 
-| Source | Format | Records | Represents |
-|---|---|---|---|
-| CRM Leads | CSV | 200 leads | GHL CRM / pipeline system |
-| Operations Projects | JSON | 150 projects | Plunet / operations management system |
-| Targets & Forecast | CSV | 735 rows | Google Sheets targets export |
+| Source | File | Format | Records | Represents |
+|---|---|---|---|---|
+| CRM | `data/crm_leads.csv` | CSV | 200 leads | GoHighLevel / CRM system |
+| Operations | `data/ops_projects.json` | JSON | 150 projects | Plunet / operations system |
+| Targets | `data/targets_sheet.csv` | CSV | 735 rows | Google Sheets planning export |
 
-**All data is entirely synthetic and generated by `generate_data.py`.**
+**All data is generated by `generate_data.py` and is entirely fictional.**
+
+### Join Strategy
+- **Key**: `ops.client_id = crm.company` (exact name match)
+- **Type**: Left outer join — all ops rows are kept; unmatched ones are flagged
+- **Unmatched by design**: 3 ops-only client names don't exist in the CRM (simulates real-world data gaps)
+- **Double-counting prevention**: KPIs are always computed from a single source; the joined table is used only for the combined view chart
 
 ---
 
 ## Dashboard Features
 
-### Sales Dashboard
-- KPIs: Total Leads, Open Pipeline Value, Won Deals, Win Rate, Avg Deal Value
-- Leads over time (monthly trend)
-- Lead distribution by source, stage (funnel), region, owner
-- Pipeline value by owner
-- Stale lead indicator (no activity > 14 days)
+### Sales Dashboard (Tab 1)
+- KPIs: Total Leads, Open Pipeline Value, Closed Won, Win Rate, Avg Open Deal
+- Leads over time (monthly line chart)
+- Lead breakdown by source, funnel stage, region
+- Open pipeline value by owner
+- Stale leads by owner (no activity > 14 days)
+- Drilldown table of stale leads
 
-### Operations Dashboard
-- KPIs: Total Projects, Open/Overdue/Completed, Total Revenue
-- Project volume by status and over time
-- Workload by team and service type
-- SLA compliance (completed projects)
-- Target vs Actual revenue (monthly)
-- Combined sales-to-ops view (matched accounts)
+### Operations Dashboard (Tab 2)
+- KPIs: Total Projects, Active, Overdue, Completed, Total Revenue
+- Projects by status; projects over time (stacked bar)
+- Workload by team and by service type
+- SLA compliance donut (completed projects)
+- Target vs Actual revenue (dual-line chart)
+- Combined Sales-to-Ops view (green = CRM-matched, red = unmatched)
+- Targets vs Actuals owner-level detail table
 
-### AI / Analytical Insights
-- Lead volume month-over-month trend
-- Pipeline concentration risk
-- Stale lead summary
-- Win rate analysis
-- Overdue project spike alert
-- SLA breach rate
-- Target vs actual gap
+### Insights (Tab 3)
+Seven rule-based checks — no LLM, all deterministic:
+1. Lead volume month-over-month trend
+2. Pipeline concentration (single owner holding > 40% of value)
+3. Stale lead count and worst-affected rep
+4. Win rate vs 40% benchmark
+5. Overdue project rate vs 15% threshold
+6. SLA breach rate vs 10% threshold
+7. Latest month revenue vs target
 
-### Filters (5 working filters)
-1. Date range picker
-2. Region multi-select
-3. Owner / Sales rep multi-select
-4. Pipeline stage multi-select
-5. Ops status multi-select
+### Data Quality & Docs (Tab 4)
+- Per-source quality report (row counts, nulls, duplicates, status breakdowns)
+- Join quality report (matched / unmatched counts + list of unmatched clients)
+- Full inline data dictionary
+- KPI definition table
+- Raw data preview (first 50 rows of each dataset)
 
----
-
-## Assumptions & Known Limitations
-
-- **Join key**: `ops.client_id` = `crm.company` (exact name match). In production, use stable UUID foreign keys.
-- ~5 ops clients are intentionally unmatched to demonstrate data-quality reporting.
-- All amounts are in USD; no currency conversion.
-- Stale lead threshold is 14 days (configurable in `insights.py`).
-- Win rate denominator = Closed Won + Closed Lost (excludes open stages).
-- SLA breach rate is calculated only for completed projects.
-- No real-time data refresh; "Refresh Data" button clears cache and reloads files.
+### Filters
+Five sidebar filters that update all charts and KPIs simultaneously:
+1. Date range
+2. Region
+3. Owner / Sales Rep
+4. Pipeline Stage
+5. Ops Status
 
 ---
 
 ## Running Tests
 
 ```bash
-python -m pytest tests/ -v    # (if tests are added)
+python test_all.py
+# Expected: Passed: 30   Failed: 0
 ```
+
+Tests cover: data loading, derived columns, join correctness, quality reports, all 7 insights, all 13 charts, and empty-DataFrame guard cases.
 
 ---
 
 ## Deployment (Streamlit Community Cloud)
 
-1. Push this repository to GitHub (public or private).
-2. Visit [share.streamlit.io](https://share.streamlit.io).
-3. Connect your GitHub repo, set `app.py` as the entry point.
-4. Click **Deploy**. The `data/` folder must be committed (or `generate_data.py` must run on startup).
+1. Push this repo to GitHub (public or private)
+2. Go to [share.streamlit.io](https://share.streamlit.io) → **New app**
+3. Connect the repo, set **Main file path** to `app.py`
+4. Click **Deploy**
+
+The `data/` folder is committed so the app has data on first load. Click the **Refresh Data** button in the sidebar to reload from files.
+
+> **Note**: Commit `data/` to the repo. If you prefer not to, add a `[packages]` section to `requirements.txt` and run `generate_data.py` as a startup step.
+
+---
+
+## Assumptions and Limitations
+
+- All data is synthetic — no real company, client, employee, or financial data was used
+- Join key is company name (string equality) — fragile in production; should use stable UUIDs
+- All amounts are in USD; no currency conversion is implemented
+- Stale-lead threshold (14 days) is hardcoded in `src/data_loader.py` as `STALE_THRESHOLD_DAYS`
+- Win rate denominator is Closed Won + Closed Lost only (open stages excluded)
+- SLA breach rate is calculated only on completed projects
+- "Today" for stale/overdue calculations is set at load time and frozen in Streamlit's cache (clear with Refresh Data)
 
 ---
 
 ## Security Notes
 
-- No API keys, tokens or secrets are in this repository.
-- All data is synthetic — no real client, employee or financial data.
-- See `docs/PRODUCTION_ROADMAP.md` for production security requirements.
+- No API keys, tokens, or secrets anywhere in this repository
+- `.streamlit/secrets.toml` is in `.gitignore` — do not add secrets there for this prototype
+- All data sent is synthetic — nothing real leaves the machine
+- See `docs/PRODUCTION_ROADMAP.md` for production security requirements (Secret Manager, RBAC, audit logs, etc.)
 
 ---
 
-*Submitted by candidate for Braahmam International Limited intern assignment.*
-
+*Submitted for the Braahmam International Limited intern assignment.*
