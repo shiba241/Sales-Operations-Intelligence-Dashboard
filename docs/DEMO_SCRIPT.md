@@ -65,3 +65,4 @@
 1. **Screen Resolution**: Set display to 1080p (1920x1080) with 100% scaling so all Streamlit charts fit neatly.
 2. **Audio**: Use a headset mic to ensure crisp, clean audio with minimal background noise.
 3. **Free Tools**: Use **OBS Studio** or Windows built-in Game Bar (`Win + G` or `Win + Alt + R`) or **Loom** for seamless recording.
+
