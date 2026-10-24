@@ -9,7 +9,7 @@
 
 - **Public Demo**: https://sales-operations-intelligence-dashboard.streamlit.app/
 - **Local URL**: `http://localhost:8501`
-- **Video Demo Walkthrough Guide**: 
+- **Video Demo Walkthrough Guide**: https://drive.google.com/file/d/1C2W-_FVJK0RMOE_tyW2F5dYZNkGmKTVW/view?usp=sharing
 
 ---
 
