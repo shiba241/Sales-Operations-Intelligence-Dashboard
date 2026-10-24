@@ -7,9 +7,9 @@
 
 ## Live Demo & Repository
 
-- **Public Demo**: Deployable in 1 click to [Streamlit Community Cloud](https://share.streamlit.io) (see Deployment section below)
+- **Public Demo**: https://sales-operations-intelligence-dashboard.streamlit.app/
 - **Local URL**: `http://localhost:8501`
-- **Video Demo Walkthrough Guide**: [`docs/DEMO_SCRIPT.md`](docs/DEMO_SCRIPT.md) (Script for the 3–5 min demo video required by PRD Section 13)
+- **Video Demo Walkthrough Guide**: 
 
 ---
 
