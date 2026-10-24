@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+env/
+*.egg-info/
+
+# Streamlit secrets (never commit)
+.streamlit/secrets.toml
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Antigravity / workspace tooling (not part of the submission)
+.agent/
+.agents/
+.gsd/
+.gemini/
+adapters/
+scripts/
+GSD-STYLE.md
+PROJECT_RULES.md
+VERSION
+model_capabilities.yaml
+
+# Secrets - belt and braces
+*.key
+*.pem
+secrets.*
