@@ -98,6 +98,32 @@ def chart_leads_by_stage(crm: pd.DataFrame) -> go.Figure:
     return fig
 
 
+def chart_status_breakdown(crm: pd.DataFrame) -> go.Figure:
+    """PRD Section 6.2: Status breakdown (Won vs Lost vs Open) with deal values."""
+    if crm.empty:
+        return _empty_fig("No data")
+
+    summary = (
+        crm.groupby("status")
+        .agg(count=("lead_id", "count"), value=("deal_value", "sum"))
+        .reset_index()
+    )
+
+    color_map = {"Won": "#2ECC71", "Lost": "#E74C3C", "Open": "#3498DB"}
+
+    fig = px.pie(
+        summary, values="count", names="status",
+        title="Opportunity Status Breakdown (Count & Value)",
+        template=TEMPLATE,
+        color="status",
+        color_discrete_map=color_map,
+        hole=0.4,
+        hover_data=["value"],
+    )
+    fig.update_traces(textinfo="percent+label")
+    return fig
+
+
 def chart_leads_by_region(crm: pd.DataFrame) -> go.Figure:
     if crm.empty:
         return _empty_fig("No data")
@@ -142,7 +168,6 @@ def chart_stale_leads(crm: pd.DataFrame) -> go.Figure:
     if crm.empty:
         return _empty_fig("No data")
 
-    # Count stale leads per owner (stale_lead is a bool column)
     stale_counts = (
         crm[crm["stale_lead"]]
         .groupby("owner")
@@ -156,7 +181,7 @@ def chart_stale_leads(crm: pd.DataFrame) -> go.Figure:
 
     fig = px.bar(
         stale_counts, x="owner", y="stale_count",
-        title=f"Stale Leads by Owner (No Activity > 14 Days)",
+        title="Stale Leads by Owner (No Activity > 14 Days)",
         labels={"stale_count": "Stale Leads", "owner": "Owner"},
         template=TEMPLATE,
         color="stale_count",
@@ -174,9 +199,6 @@ def chart_projects_by_status(ops: pd.DataFrame) -> go.Figure:
 
     counts = ops["status"].value_counts().reset_index()
     counts.columns = ["status", "count"]
-
-    # Apply consistent status colours where possible
-    colours = [STATUS_COLOUR_MAP.get(s, "#BDC3C7") for s in counts["status"]]
 
     fig = px.bar(
         counts, x="status", y="count",
@@ -231,6 +253,33 @@ def chart_workload_by_team(ops: pd.DataFrame) -> go.Figure:
     return fig
 
 
+def chart_client_workload(ops: pd.DataFrame) -> go.Figure:
+    """PRD Section 6.3: Workload by client."""
+    active = ops[ops["status"].isin(["Open", "In Progress", "Overdue"])]
+    if active.empty:
+        return _empty_fig("No active projects")
+
+    by_client = (
+        active.groupby("client_id")
+        .size()
+        .sort_values(ascending=False)
+        .head(10)
+        .reset_index(name="active_projects")
+    )
+
+    fig = px.bar(
+        by_client, x="client_id", y="active_projects",
+        title="Top 10 Clients by Active Project Workload",
+        labels={"active_projects": "Active Projects", "client_id": "Client"},
+        template=TEMPLATE,
+        color="active_projects",
+        color_continuous_scale="Purples",
+    )
+    fig.update_layout(coloraxis_showscale=False)
+    fig.update_xaxes(tickangle=30)
+    return fig
+
+
 def chart_workload_by_service(ops: pd.DataFrame) -> go.Figure:
     if ops.empty:
         return _empty_fig("No data")
@@ -276,6 +325,7 @@ def chart_sla_compliance(ops: pd.DataFrame) -> go.Figure:
 
 
 def chart_targets_vs_actuals(crm: pd.DataFrame, targets: pd.DataFrame) -> go.Figure:
+    """PRD Section 6.3: Targets vs Actuals and Forecast vs Actuals."""
     if crm.empty or targets.empty:
         return _empty_fig("Insufficient data for target comparison")
 
@@ -293,24 +343,39 @@ def chart_targets_vs_actuals(crm: pd.DataFrame, targets: pd.DataFrame) -> go.Fig
         .sum()
         .reset_index(name="target")
     )
+    forecast_monthly = (
+        targets.groupby("month")["forecast_revenue"]
+        .sum()
+        .reset_index(name="forecast")
+    )
 
-    merged = actuals.merge(target_monthly, on="month", how="outer").sort_values("month")
+    merged = (
+        target_monthly.merge(forecast_monthly, on="month", how="outer")
+        .merge(actuals, on="month", how="outer")
+        .sort_values("month")
+    )
 
     fig = go.Figure()
     fig.add_trace(go.Scatter(
         x=merged["month"], y=merged["target"],
-        name="Target",
-        line=dict(color="#3498DB", dash="dash"),
+        name="Target Revenue",
+        line=dict(color="#3498DB", dash="dash", width=2),
+        mode="lines+markers",
+    ))
+    fig.add_trace(go.Scatter(
+        x=merged["month"], y=merged["forecast"],
+        name="Forecast Revenue",
+        line=dict(color="#9B59B6", dash="dot", width=2),
         mode="lines+markers",
     ))
     fig.add_trace(go.Scatter(
         x=merged["month"], y=merged["actual"],
         name="Actual (Won Revenue)",
-        line=dict(color="#2ECC71"),
+        line=dict(color="#2ECC71", width=3),
         mode="lines+markers",
     ))
     fig.update_layout(
-        title="Target vs Actual Revenue (Monthly)",
+        title="Target vs Forecast vs Actual Revenue (Monthly)",
         xaxis_title="Month",
         yaxis_title="Revenue (USD)",
         template=TEMPLATE,
@@ -343,4 +408,40 @@ def chart_sales_to_ops(joined: pd.DataFrame) -> go.Figure:
         color_discrete_map={"Matched to CRM": "#2ECC71", "No CRM Match": "#E74C3C"},
     )
     fig.update_xaxes(tickangle=45)
+    return fig
+
+
+# ── Year-over-Year comparison (PRD Section 7 Question 5) ─────────────────────
+
+def chart_yoy_comparison(crm: pd.DataFrame) -> go.Figure:
+    """Compare month-by-month lead volume between 2025 and 2026."""
+    if crm.empty:
+        return _empty_fig("No lead data for Year-over-Year comparison")
+
+    df = crm.copy()
+    df["year"] = df["created_date"].dt.year
+    df["month_num"] = df["created_date"].dt.month
+    df["month_name"] = df["created_date"].dt.strftime("%b")
+
+    # Filter to 2025 and 2026
+    df = df[df["year"].isin([2025, 2026])]
+    if df.empty:
+        return _empty_fig("Year-over-Year data requires 2025 and 2026 records")
+
+    monthly = (
+        df.groupby(["month_num", "month_name", "year"])
+        .size()
+        .reset_index(name="lead_count")
+        .sort_values("month_num")
+    )
+    monthly["year"] = monthly["year"].astype(str)
+
+    fig = px.bar(
+        monthly, x="month_name", y="lead_count", color="year",
+        barmode="group",
+        title="Year-over-Year Lead Creation: 2025 vs 2026 by Month",
+        labels={"lead_count": "Number of Leads", "month_name": "Month", "year": "Year"},
+        template=TEMPLATE,
+        color_discrete_map={"2025": "#95A5A6", "2026": "#764ba2"},
+    )
     return fig

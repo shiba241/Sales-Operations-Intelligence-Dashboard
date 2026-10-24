@@ -27,7 +27,7 @@ def check(label, fn):
 
 # ── Data loading ──────────────────────────────────────────────────────────────
 
-from src.data_loader import load_all, load_crm, load_ops, load_targets, build_joined
+from src.data_loader import load_all, load_crm, load_ops, load_targets, build_joined, query_db
 
 crm      = check("load_crm()",     load_crm)
 ops      = check("load_ops()",     load_ops)
@@ -45,11 +45,19 @@ def _load_all():
     assert len(t) > 0,   "Targets DataFrame is empty"
     assert len(j) > 0,   "Joined DataFrame is empty"
     assert "load_time" in q
+    assert "sqlite_db" in q
     return c, o, t, j, q
 
 all_data = check("load_all() + quality dict", _load_all)
 if all_data:
     crm, ops, targets, joined, quality = all_data
+
+def _sqlite_test():
+    res = query_db("SELECT COUNT(*) AS total FROM crm_leads")
+    assert res.iloc[0]["total"] == len(crm), "SQLite lead count mismatch"
+    return res
+
+check("SQLite intelligence.db query", _sqlite_test)
 
 # ── Derived columns ───────────────────────────────────────────────────────────
 
@@ -126,9 +134,10 @@ insights = check("get_all_insights()", _insights)
 from src.charts import (
     chart_leads_over_time, chart_leads_by_source, chart_leads_by_stage,
     chart_leads_by_region, chart_pipeline_value_by_owner, chart_stale_leads,
+    chart_status_breakdown, chart_yoy_comparison,
     chart_projects_by_status, chart_projects_over_time, chart_workload_by_team,
-    chart_workload_by_service, chart_sla_compliance, chart_targets_vs_actuals,
-    chart_sales_to_ops,
+    chart_workload_by_service, chart_client_workload, chart_sla_compliance,
+    chart_targets_vs_actuals, chart_sales_to_ops,
 )
 
 sales_charts = [
@@ -138,6 +147,8 @@ sales_charts = [
     ("chart_leads_by_region",        lambda: chart_leads_by_region(crm)),
     ("chart_pipeline_value_by_owner",lambda: chart_pipeline_value_by_owner(crm)),
     ("chart_stale_leads",            lambda: chart_stale_leads(crm)),
+    ("chart_status_breakdown",       lambda: chart_status_breakdown(crm)),
+    ("chart_yoy_comparison",         lambda: chart_yoy_comparison(crm)),
 ]
 
 ops_charts = [
@@ -145,6 +156,7 @@ ops_charts = [
     ("chart_projects_over_time",  lambda: chart_projects_over_time(ops)),
     ("chart_workload_by_team",    lambda: chart_workload_by_team(ops)),
     ("chart_workload_by_service", lambda: chart_workload_by_service(ops)),
+    ("chart_client_workload",     lambda: chart_client_workload(ops)),
     ("chart_sla_compliance",      lambda: chart_sla_compliance(ops)),
     ("chart_targets_vs_actuals",  lambda: chart_targets_vs_actuals(crm, targets)),
     ("chart_sales_to_ops",        lambda: chart_sales_to_ops(joined)),

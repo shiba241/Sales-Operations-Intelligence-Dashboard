@@ -1,201 +1,201 @@
 lead_id,created_date,source,owner,company,region,pipeline_stage,deal_value,status,last_activity_date,account_segment
-CRM-0001,2024-04-24,Cold Call,Bob Smith,Horizon Group,South,New Lead,,Open,2024-06-10,SMB
-CRM-0002,2024-04-14,Referral,Emily Chen,Nova Dynamics,North,Closed Lost,89398.79,Lost,2024-05-18,Enterprise
-CRM-0003,2024-04-05,Referral,Emily Chen,Global Reach,Central,Qualified,29453.99,Open,2024-05-13,Mid-Market
-CRM-0004,2024-08-13,Partner,Alice Johnson,Frontier Tech,West,Negotiation,71533.35,Open,2024-10-03,Mid-Market
-CRM-0005,2024-10-11,Cold Call,Alice Johnson,Cascade Inc,West,Qualified,27407.02,Open,2024-11-28,Enterprise
-CRM-0006,2025-01-02,Referral,Frank Wilson,Orbit Systems,Central,Proposal Sent,73239.67,Open,2025-02-22,Enterprise
-CRM-0007,2025-01-22,Cold Call,Grace Kim,Titan Group,East,New Lead,,Open,2025-02-26,SMB
-CRM-0008,2024-07-15,Website,Grace Kim,Jetstream LLC,North,Closed Lost,10207.51,Lost,2024-08-26,Enterprise
-CRM-0009,2024-04-13,Partner,Carol Davis,Frontier Tech,East,Negotiation,34800.89,Open,2024-05-23,Mid-Market
-CRM-0010,2024-08-02,Email Campaign,Frank Wilson,Cascade Inc,Central,Closed Lost,33503.38,Lost,2024-09-30,SMB
-CRM-0011,2024-06-24,LinkedIn,David Lee,Infinity Co,Central,Closed Won,88036.96,Won,2024-07-04,Enterprise
-CRM-0012,2024-11-28,Partner,Alice Johnson,KineTech,West,New Lead,,Open,2024-12-12,Mid-Market
-CRM-0013,2024-03-08,Email Campaign,Carol Davis,Global Reach,West,Qualified,109750.06,Open,2024-04-13,Mid-Market
-CRM-0014,2025-04-14,Email Campaign,Emily Chen,Radiant Corp,East,Qualified,33255.86,Open,2025-04-29,SMB
-CRM-0015,2025-08-21,Cold Call,Bob Smith,Everest Solutions,Central,Negotiation,107943.1,Open,2025-09-15,Mid-Market
-CRM-0016,2024-04-03,Referral,Bob Smith,Frontier Tech,West,New Lead,,Open,2024-05-28,SMB
-CRM-0017,2024-03-06,Trade Show,Carol Davis,Radiant Corp,North,Negotiation,47031.08,Open,2024-04-04,SMB
-CRM-0018,2024-04-27,Cold Call,Grace Kim,KineTech,North,Closed Lost,106405.04,Lost,2024-06-14,Mid-Market
-CRM-0019,2025-03-21,Email Campaign,Carol Davis,Quasar Group,South,Qualified,55539.4,Open,2025-05-06,SMB
-CRM-0020,2024-04-18,Trade Show,Emily Chen,Global Reach,South,Closed Lost,37216.49,Lost,2024-05-28,Mid-Market
-CRM-0021,2024-06-14,Trade Show,Alice Johnson,Titan Group,East,Closed Won,114512.97,Won,2024-08-12,Mid-Market
-CRM-0022,2024-01-20,Cold Call,Grace Kim,Jetstream LLC,South,New Lead,,Open,2024-03-19,Enterprise
-CRM-0023,2024-09-03,Email Campaign,David Lee,Cascade Inc,Central,Closed Won,113740.03,Won,2024-09-08,Enterprise
-CRM-0024,2024-05-11,Website,Carol Davis,Quasar Group,Central,Closed Lost,58083.32,Lost,2024-06-15,Mid-Market
-CRM-0025,2024-08-04,Website,Frank Wilson,Jetstream LLC,West,Closed Won,91121.29,Won,2024-09-17,SMB
-CRM-0026,2025-01-17,Referral,Bob Smith,Horizon Group,North,Negotiation,108154.46,Open,2025-02-14,Mid-Market
-CRM-0027,2024-01-22,Website,Alice Johnson,Cascade Inc,North,Closed Won,67362.74,Won,2024-02-28,Enterprise
-CRM-0028,2024-03-10,Cold Call,Alice Johnson,Quasar Group,South,New Lead,,Open,2024-05-04,Mid-Market
-CRM-0029,2025-05-12,Trade Show,Emily Chen,Pinnacle Works,South,Qualified,65629.6,Open,2025-06-27,Mid-Market
-CRM-0030,2025-02-20,LinkedIn,Carol Davis,Nova Dynamics,West,Qualified,13130.44,Open,2025-04-03,Mid-Market
-CRM-0031,2024-02-25,Referral,Alice Johnson,Momentum Ltd,East,Closed Lost,79107.75,Lost,2024-04-06,Enterprise
-CRM-0032,2024-09-11,Website,David Lee,Frontier Tech,East,Qualified,24444.65,Open,2024-10-09,Mid-Market
-CRM-0033,2024-09-12,Partner,Grace Kim,Radiant Corp,North,New Lead,,Open,2024-10-10,Enterprise
-CRM-0034,2025-07-07,Partner,Grace Kim,Horizon Group,South,New Lead,,Open,2025-07-12,Mid-Market
-CRM-0035,2025-05-12,Referral,Bob Smith,Momentum Ltd,North,Negotiation,27222.18,Open,2025-06-06,Mid-Market
-CRM-0036,2024-09-28,Email Campaign,Grace Kim,Radiant Corp,West,Negotiation,35659.41,Open,2024-11-11,Enterprise
-CRM-0037,2024-07-13,Trade Show,Frank Wilson,Radiant Corp,North,Proposal Sent,27688.71,Open,2024-07-16,SMB
-CRM-0038,2024-11-17,Trade Show,David Lee,Quasar Group,Central,New Lead,,Open,2024-11-20,Enterprise
-CRM-0039,2024-02-28,Referral,Emily Chen,Cascade Inc,South,Closed Won,11453.15,Won,2024-03-10,Mid-Market
-CRM-0040,2024-05-02,Referral,Emily Chen,Cascade Inc,West,Closed Won,31053.41,Won,2024-06-09,SMB
-CRM-0041,2025-08-20,Cold Call,Bob Smith,KineTech,South,Closed Won,63688.36,Won,2025-09-30,Mid-Market
-CRM-0042,2025-02-09,LinkedIn,Carol Davis,Cascade Inc,North,Qualified,81259.45,Open,2025-02-28,Mid-Market
-CRM-0043,2025-09-28,Trade Show,Bob Smith,Quasar Group,East,Closed Won,119539.38,Won,2025-09-30,Enterprise
-CRM-0044,2024-12-23,Website,Carol Davis,Jetstream LLC,South,New Lead,,Open,2025-02-17,Mid-Market
-CRM-0045,2025-07-10,Email Campaign,Emily Chen,Apex Corp,Central,Closed Lost,37697.02,Lost,2025-08-30,Mid-Market
-CRM-0046,2024-04-16,Referral,Frank Wilson,Radiant Corp,South,Qualified,33206.98,Open,2024-06-11,Mid-Market
-CRM-0047,2024-10-15,Website,Frank Wilson,Infinity Co,Central,Closed Won,26854.3,Won,2024-11-05,Mid-Market
-CRM-0048,2024-09-14,Email Campaign,David Lee,Infinity Co,North,New Lead,,Open,2024-09-19,Enterprise
-CRM-0049,2024-12-07,Website,Frank Wilson,Orbit Systems,Central,Qualified,77179.38,Open,2024-12-23,SMB
-CRM-0050,2025-03-13,Email Campaign,Bob Smith,Radiant Corp,North,Closed Won,3141.02,Won,2025-03-17,Mid-Market
-CRM-0051,2025-08-19,Referral,Carol Davis,Luminary Ventures,North,Closed Won,19475.07,Won,2025-08-27,Mid-Market
-CRM-0052,2024-08-03,Cold Call,Grace Kim,Radiant Corp,West,Closed Lost,31444.51,Lost,2024-08-09,SMB
-CRM-0053,2024-06-07,Partner,Bob Smith,Nova Dynamics,North,Qualified,104023.47,Open,2024-07-28,Enterprise
-CRM-0054,2024-12-06,Email Campaign,Grace Kim,Horizon Group,East,Negotiation,96663.75,Open,2025-01-30,Enterprise
-CRM-0055,2024-04-20,LinkedIn,Bob Smith,Global Reach,West,Negotiation,104915.68,Open,2024-06-13,Mid-Market
-CRM-0056,2024-11-08,Website,David Lee,KineTech,East,Qualified,28304.98,Open,2024-12-20,Enterprise
-CRM-0057,2024-10-12,Email Campaign,Grace Kim,Radiant Corp,East,Proposal Sent,77694.85,Open,2024-11-06,Enterprise
-CRM-0058,2024-04-28,Referral,Alice Johnson,Titan Group,West,Proposal Sent,23071.0,Open,2024-05-14,Mid-Market
-CRM-0059,2024-11-17,Referral,David Lee,Summit Strategies,South,Negotiation,73532.64,Open,2024-12-19,Mid-Market
-CRM-0060,2024-02-15,Partner,Emily Chen,Global Reach,East,Closed Lost,53454.79,Lost,2024-03-19,Mid-Market
-CRM-0061,2024-03-12,Cold Call,Frank Wilson,Delta Partners,East,Closed Lost,110650.96,Lost,2024-04-20,SMB
-CRM-0062,2024-11-12,Email Campaign,Carol Davis,Radiant Corp,South,Closed Lost,50190.36,Lost,2024-12-07,Enterprise
-CRM-0063,2025-03-06,Email Campaign,Bob Smith,Titan Group,Central,Closed Lost,112962.91,Lost,2025-04-18,Mid-Market
-CRM-0064,2025-02-19,Cold Call,Bob Smith,Nova Dynamics,Central,Closed Won,100379.57,Won,2025-03-10,SMB
-CRM-0065,2024-11-25,Website,Emily Chen,Pinnacle Works,South,Negotiation,54130.75,Open,2025-01-07,SMB
-CRM-0066,2024-03-27,Trade Show,Carol Davis,Cascade Inc,South,Proposal Sent,62823.34,Open,2024-05-06,SMB
-CRM-0067,2024-11-13,Referral,Alice Johnson,Horizon Group,West,Qualified,97174.42,Open,2024-11-22,SMB
-CRM-0068,2024-03-15,Trade Show,Bob Smith,Momentum Ltd,West,Negotiation,50904.04,Open,2024-04-24,Mid-Market
-CRM-0069,2024-09-06,Partner,Grace Kim,Delta Partners,West,Qualified,79414.85,Open,2024-09-06,Enterprise
-CRM-0070,2024-06-29,Trade Show,Bob Smith,Delta Partners,West,Closed Lost,63119.01,Lost,2024-07-02,Enterprise
-CRM-0071,2025-04-20,Trade Show,Carol Davis,Orbit Systems,Central,Closed Lost,64673.56,Lost,2025-05-25,SMB
-CRM-0072,2025-05-31,LinkedIn,Bob Smith,Pinnacle Works,West,Negotiation,100007.16,Open,2025-07-05,Mid-Market
-CRM-0073,2024-09-10,Trade Show,David Lee,Horizon Group,East,Closed Lost,34722.74,Lost,2024-10-29,Mid-Market
-CRM-0074,2024-03-20,Cold Call,Carol Davis,Radiant Corp,North,Closed Lost,35715.92,Lost,2024-04-06,Enterprise
-CRM-0075,2024-06-03,Email Campaign,Bob Smith,Cascade Inc,West,Qualified,47198.16,Open,2024-06-12,Mid-Market
-CRM-0076,2024-12-04,Website,Grace Kim,Nova Dynamics,West,Closed Won,56979.07,Won,2024-12-07,SMB
-CRM-0077,2024-01-21,Cold Call,Carol Davis,Momentum Ltd,West,Closed Won,46884.96,Won,2024-01-21,SMB
-CRM-0078,2025-07-13,Website,Carol Davis,Nova Dynamics,West,Closed Won,107941.74,Won,2025-08-13,Enterprise
-CRM-0079,2025-02-02,LinkedIn,Frank Wilson,Frontier Tech,West,Proposal Sent,80927.09,Open,2025-03-25,Enterprise
-CRM-0080,2025-09-29,Trade Show,Emily Chen,Apex Corp,North,Closed Won,5182.04,Won,2025-09-30,SMB
-CRM-0081,2025-03-14,Referral,Carol Davis,Momentum Ltd,East,Qualified,104288.46,Open,2025-03-25,Enterprise
-CRM-0082,2025-04-10,LinkedIn,Carol Davis,Nova Dynamics,East,Proposal Sent,41825.06,Open,2025-06-05,Enterprise
-CRM-0083,2025-04-26,Trade Show,Alice Johnson,Luminary Ventures,South,New Lead,,Open,2025-06-12,SMB
-CRM-0084,2024-03-11,Website,Bob Smith,Apex Corp,Central,Closed Lost,6750.46,Lost,2024-03-12,Enterprise
-CRM-0085,2024-09-01,Trade Show,Bob Smith,Orbit Systems,East,Qualified,57880.21,Open,2024-09-08,Mid-Market
-CRM-0086,2024-06-20,Email Campaign,Alice Johnson,Frontier Tech,East,Closed Won,73655.2,Won,2024-08-06,Enterprise
-CRM-0087,2025-08-15,Cold Call,Emily Chen,Momentum Ltd,West,New Lead,,Open,2025-09-30,SMB
-CRM-0088,2024-07-22,Email Campaign,Grace Kim,Horizon Group,North,New Lead,,Open,2024-08-28,SMB
-CRM-0089,2024-11-04,Partner,Emily Chen,BlueSky Ltd,East,Closed Lost,72848.57,Lost,2024-11-11,SMB
-CRM-0090,2025-03-14,Email Campaign,Carol Davis,Apex Corp,West,Closed Lost,45727.36,Lost,2025-04-15,Mid-Market
-CRM-0091,2024-04-18,Partner,David Lee,Everest Solutions,West,Negotiation,115372.93,Open,2024-05-28,Enterprise
-CRM-0092,2025-06-18,Trade Show,Grace Kim,Pinnacle Works,West,Closed Lost,33869.72,Lost,2025-08-08,Mid-Market
-CRM-0093,2025-08-29,Partner,Alice Johnson,Infinity Co,West,Proposal Sent,40031.94,Open,2025-09-13,Enterprise
-CRM-0094,2025-04-20,Cold Call,Alice Johnson,Pinnacle Works,East,Closed Won,74019.14,Won,2025-05-14,Enterprise
-CRM-0095,2025-05-14,Cold Call,Carol Davis,Titan Group,East,Qualified,43869.35,Open,2025-05-30,SMB
-CRM-0096,2024-01-11,Website,Frank Wilson,Nova Dynamics,West,Closed Won,113871.38,Won,2024-01-16,SMB
-CRM-0097,2024-09-03,LinkedIn,David Lee,Apex Corp,North,Closed Lost,58178.99,Lost,2024-10-18,Mid-Market
-CRM-0098,2024-08-14,Email Campaign,Emily Chen,Luminary Ventures,West,Negotiation,83630.88,Open,2024-09-02,SMB
-CRM-0099,2025-06-27,Trade Show,Carol Davis,Luminary Ventures,West,Proposal Sent,52209.45,Open,2025-08-13,Mid-Market
-CRM-0100,2024-11-09,Website,Carol Davis,Delta Partners,Central,Proposal Sent,29203.49,Open,2024-12-25,SMB
-CRM-0101,2024-07-08,Cold Call,Frank Wilson,Summit Strategies,Central,Qualified,27533.39,Open,2024-08-07,SMB
-CRM-0102,2024-10-16,Website,Carol Davis,Horizon Group,East,New Lead,,Open,2024-12-08,Enterprise
-CRM-0103,2024-11-05,Trade Show,Bob Smith,Infinity Co,North,New Lead,,Open,2024-12-20,Enterprise
-CRM-0104,2025-07-20,Email Campaign,Grace Kim,Pinnacle Works,North,Proposal Sent,84295.25,Open,2025-07-28,Enterprise
-CRM-0105,2025-08-10,Cold Call,Bob Smith,BlueSky Ltd,East,Proposal Sent,57388.84,Open,2025-09-07,Mid-Market
-CRM-0106,2024-04-26,LinkedIn,Alice Johnson,Summit Strategies,North,New Lead,,Open,2024-05-21,Enterprise
-CRM-0107,2024-06-01,Website,Alice Johnson,Radiant Corp,West,Closed Won,113996.83,Won,2024-06-06,SMB
-CRM-0108,2025-09-02,LinkedIn,David Lee,Orbit Systems,East,Closed Won,28631.08,Won,2025-09-30,SMB
-CRM-0109,2025-03-15,Trade Show,Frank Wilson,Delta Partners,South,Proposal Sent,69098.28,Open,2025-03-18,SMB
-CRM-0110,2024-08-04,Website,Bob Smith,Radiant Corp,North,Proposal Sent,79930.52,Open,2024-08-14,Enterprise
-CRM-0111,2024-01-03,LinkedIn,Carol Davis,BlueSky Ltd,South,Negotiation,55159.44,Open,2024-02-10,Mid-Market
-CRM-0112,2024-10-16,Email Campaign,Bob Smith,Infinity Co,Central,Closed Lost,103433.59,Lost,2024-10-20,SMB
-CRM-0113,2024-07-21,Email Campaign,Bob Smith,Infinity Co,South,Negotiation,15543.6,Open,2024-08-04,Enterprise
-CRM-0114,2024-03-02,Email Campaign,Grace Kim,Summit Strategies,East,Qualified,95530.17,Open,2024-04-09,Mid-Market
-CRM-0115,2024-05-07,LinkedIn,Carol Davis,Quasar Group,Central,Negotiation,83264.0,Open,2024-06-20,Mid-Market
-CRM-0116,2025-03-24,Referral,David Lee,KineTech,Central,New Lead,,Open,2025-05-01,Mid-Market
-CRM-0117,2024-01-27,Email Campaign,Grace Kim,Summit Strategies,Central,New Lead,,Open,2024-02-10,Enterprise
-CRM-0118,2024-10-02,Website,David Lee,Quasar Group,West,Closed Won,6747.34,Won,2024-11-19,Mid-Market
-CRM-0119,2024-07-04,LinkedIn,Alice Johnson,Pinnacle Works,East,Closed Won,53434.43,Won,2024-08-25,Mid-Market
-CRM-0120,2024-12-07,Website,Carol Davis,Nova Dynamics,West,Proposal Sent,81075.75,Open,2025-01-30,Mid-Market
-CRM-0121,2025-02-14,Cold Call,Carol Davis,KineTech,North,Closed Won,6330.26,Won,2025-02-19,Mid-Market
-CRM-0122,2025-06-10,Partner,Emily Chen,Orbit Systems,West,New Lead,,Open,2025-07-22,Enterprise
-CRM-0123,2024-07-11,LinkedIn,Frank Wilson,Orbit Systems,North,Closed Won,44689.96,Won,2024-08-28,Enterprise
-CRM-0124,2024-09-30,LinkedIn,Frank Wilson,Pinnacle Works,North,Closed Won,17459.56,Won,2024-10-18,Enterprise
-CRM-0125,2025-09-15,Trade Show,Alice Johnson,Radiant Corp,West,Qualified,85754.37,Open,2025-09-30,Enterprise
-CRM-0126,2024-08-18,Referral,Frank Wilson,Everest Solutions,West,New Lead,,Open,2024-09-16,SMB
-CRM-0127,2024-10-25,Partner,David Lee,Pinnacle Works,South,Closed Won,85238.57,Won,2024-11-20,Mid-Market
-CRM-0128,2025-07-18,Trade Show,Emily Chen,Everest Solutions,North,Qualified,47263.15,Open,2025-09-14,Mid-Market
-CRM-0129,2025-02-28,Cold Call,Grace Kim,Apex Corp,East,Proposal Sent,112241.31,Open,2025-04-01,SMB
-CRM-0130,2024-11-01,LinkedIn,Grace Kim,Everest Solutions,West,Closed Won,70430.96,Won,2024-12-13,SMB
-CRM-0131,2025-05-10,Trade Show,David Lee,Orbit Systems,East,Proposal Sent,41227.91,Open,2025-06-27,Enterprise
-CRM-0132,2024-09-01,Partner,David Lee,BlueSky Ltd,East,Closed Won,47190.56,Won,2024-10-25,SMB
-CRM-0133,2025-04-29,LinkedIn,Frank Wilson,Everest Solutions,West,Closed Lost,109784.76,Lost,2025-05-23,Enterprise
-CRM-0134,2024-05-09,Partner,Alice Johnson,Orbit Systems,North,Closed Won,115911.72,Won,2024-05-30,SMB
-CRM-0135,2025-04-12,Website,David Lee,Everest Solutions,North,New Lead,,Open,2025-05-28,Mid-Market
-CRM-0136,2024-09-28,Email Campaign,Alice Johnson,KineTech,Central,Proposal Sent,75544.61,Open,2024-10-23,Mid-Market
-CRM-0137,2024-11-20,LinkedIn,Grace Kim,Radiant Corp,North,Closed Lost,86808.66,Lost,2025-01-07,SMB
-CRM-0138,2024-03-11,Cold Call,Bob Smith,Cascade Inc,West,Qualified,76477.0,Open,2024-05-08,Enterprise
-CRM-0139,2024-04-12,Referral,Alice Johnson,KineTech,North,Negotiation,21631.04,Open,2024-05-01,Mid-Market
-CRM-0140,2025-01-02,Trade Show,David Lee,Summit Strategies,South,Proposal Sent,52821.04,Open,2025-01-17,Enterprise
-CRM-0141,2024-06-28,Partner,David Lee,Titan Group,South,New Lead,,Open,2024-08-06,Mid-Market
-CRM-0142,2025-08-20,Cold Call,David Lee,Infinity Co,North,Qualified,29398.24,Open,2025-09-29,Mid-Market
-CRM-0143,2024-10-21,LinkedIn,Carol Davis,Summit Strategies,East,Closed Lost,66498.58,Lost,2024-10-25,SMB
-CRM-0144,2025-03-10,Cold Call,Bob Smith,Momentum Ltd,West,Closed Lost,31511.59,Lost,2025-05-03,Enterprise
-CRM-0145,2024-08-30,Cold Call,Frank Wilson,Jetstream LLC,North,Negotiation,69486.88,Open,2024-10-05,SMB
-CRM-0146,2025-02-09,Email Campaign,Grace Kim,BlueSky Ltd,Central,Proposal Sent,2955.56,Open,2025-04-05,SMB
-CRM-0147,2025-05-23,Trade Show,Grace Kim,Luminary Ventures,South,Proposal Sent,93537.44,Open,2025-06-06,SMB
-CRM-0148,2024-07-13,Email Campaign,Grace Kim,Everest Solutions,North,Closed Won,31573.96,Won,2024-08-30,SMB
-CRM-0149,2024-02-10,Trade Show,Carol Davis,Everest Solutions,North,Proposal Sent,95056.04,Open,2024-02-12,Mid-Market
-CRM-0150,2024-11-30,Website,Grace Kim,Radiant Corp,East,Closed Lost,51029.37,Lost,2024-12-12,SMB
-CRM-0151,2025-05-28,Partner,David Lee,Jetstream LLC,East,Proposal Sent,99995.77,Open,2025-06-13,Enterprise
-CRM-0152,2025-04-24,Partner,Bob Smith,Momentum Ltd,Central,New Lead,,Open,2025-05-03,Mid-Market
-CRM-0153,2024-04-02,Referral,David Lee,Luminary Ventures,East,Negotiation,3642.4,Open,2024-05-06,SMB
-CRM-0154,2025-01-25,Email Campaign,Bob Smith,Pinnacle Works,North,Closed Lost,112954.44,Lost,2025-01-31,SMB
-CRM-0155,2025-07-28,Email Campaign,Alice Johnson,Orbit Systems,East,Proposal Sent,110000.2,Open,2025-08-11,SMB
-CRM-0156,2025-02-22,Referral,Alice Johnson,Jetstream LLC,West,New Lead,,Open,2025-03-02,Enterprise
-CRM-0157,2024-04-09,LinkedIn,David Lee,Luminary Ventures,Central,Qualified,106696.6,Open,2024-04-17,Mid-Market
-CRM-0158,2025-08-24,LinkedIn,Frank Wilson,Delta Partners,West,Closed Lost,87738.7,Lost,2025-09-30,SMB
-CRM-0159,2025-02-21,Website,David Lee,Orbit Systems,South,Proposal Sent,5860.52,Open,2025-03-16,Mid-Market
-CRM-0160,2024-04-11,Email Campaign,Carol Davis,BlueSky Ltd,West,Closed Lost,45345.53,Lost,2024-06-07,Mid-Market
-CRM-0161,2024-07-13,Partner,Grace Kim,Orbit Systems,North,New Lead,,Open,2024-09-11,SMB
-CRM-0162,2024-08-05,Referral,Grace Kim,KineTech,South,Closed Lost,77460.16,Lost,2024-08-06,Enterprise
-CRM-0163,2025-08-01,Trade Show,Bob Smith,Summit Strategies,South,Qualified,10096.0,Open,2025-09-18,Enterprise
-CRM-0164,2024-12-02,Referral,Carol Davis,Everest Solutions,South,Qualified,95059.96,Open,2025-01-09,SMB
-CRM-0165,2024-09-13,Referral,Bob Smith,Apex Corp,East,Qualified,14971.31,Open,2024-11-07,Enterprise
-CRM-0166,2025-08-25,Referral,Bob Smith,Nova Dynamics,Central,Proposal Sent,3862.17,Open,2025-09-10,Enterprise
-CRM-0167,2024-03-06,Trade Show,Emily Chen,Delta Partners,West,Negotiation,54896.48,Open,2024-03-29,SMB
-CRM-0168,2024-08-14,Partner,Frank Wilson,Quasar Group,East,Closed Won,7117.07,Won,2024-10-03,Mid-Market
-CRM-0169,2024-02-01,Partner,David Lee,Nova Dynamics,North,New Lead,,Open,2024-03-02,Mid-Market
-CRM-0170,2025-03-30,Referral,Carol Davis,Titan Group,South,New Lead,,Open,2025-05-26,Enterprise
-CRM-0171,2024-05-09,Trade Show,Frank Wilson,KineTech,West,Proposal Sent,75669.46,Open,2024-06-15,SMB
-CRM-0172,2025-06-27,LinkedIn,Alice Johnson,Delta Partners,Central,Proposal Sent,55538.42,Open,2025-08-04,SMB
-CRM-0173,2024-08-08,LinkedIn,Carol Davis,Orbit Systems,West,Negotiation,55283.48,Open,2024-08-22,Mid-Market
-CRM-0174,2024-04-07,Cold Call,Carol Davis,Everest Solutions,West,Proposal Sent,52358.15,Open,2024-05-19,Enterprise
-CRM-0175,2024-04-03,LinkedIn,Alice Johnson,Luminary Ventures,South,New Lead,,Open,2024-04-08,SMB
-CRM-0176,2024-03-02,Cold Call,Frank Wilson,Delta Partners,West,Closed Won,114881.71,Won,2024-04-06,Mid-Market
-CRM-0177,2025-03-09,Trade Show,Carol Davis,Luminary Ventures,North,Closed Lost,8070.64,Lost,2025-03-27,SMB
-CRM-0178,2025-06-03,Website,Grace Kim,Delta Partners,East,Qualified,20258.16,Open,2025-07-03,SMB
-CRM-0179,2025-01-11,Cold Call,Emily Chen,Horizon Group,West,New Lead,,Open,2025-02-28,SMB
-CRM-0180,2025-09-28,Referral,Emily Chen,Infinity Co,North,Closed Won,81647.25,Won,2025-09-30,Enterprise
-CRM-0181,2024-10-06,Cold Call,Carol Davis,Apex Corp,South,Closed Lost,91964.32,Lost,2024-12-03,Enterprise
-CRM-0182,2025-08-02,Email Campaign,Frank Wilson,Apex Corp,North,Closed Lost,49292.55,Lost,2025-08-11,SMB
-CRM-0183,2025-06-27,Cold Call,Bob Smith,Luminary Ventures,East,Qualified,46390.94,Open,2025-07-26,SMB
-CRM-0184,2024-11-28,Referral,Bob Smith,Frontier Tech,Central,Closed Won,72354.41,Won,2025-01-23,Enterprise
-CRM-0185,2024-03-24,LinkedIn,Emily Chen,Orbit Systems,West,Proposal Sent,54287.33,Open,2024-04-20,Mid-Market
-CRM-0186,2024-08-08,Referral,Carol Davis,Summit Strategies,West,Closed Won,15430.47,Won,2024-09-04,SMB
-CRM-0187,2024-11-11,LinkedIn,Emily Chen,BlueSky Ltd,North,New Lead,,Open,2024-11-25,Enterprise
-CRM-0188,2024-11-04,Cold Call,Carol Davis,KineTech,North,Qualified,92547.24,Open,2024-12-22,Enterprise
-CRM-0189,2025-05-24,LinkedIn,Emily Chen,Horizon Group,Central,Closed Lost,52817.29,Lost,2025-06-01,SMB
-CRM-0190,2024-12-28,Partner,Frank Wilson,BlueSky Ltd,West,New Lead,,Open,2025-01-22,Enterprise
-CRM-0191,2025-04-15,Cold Call,Emily Chen,Nova Dynamics,Central,New Lead,,Open,2025-06-09,Mid-Market
-CRM-0192,2025-03-03,Cold Call,Bob Smith,Titan Group,West,Proposal Sent,15590.46,Open,2025-03-04,SMB
-CRM-0193,2025-01-05,Partner,Alice Johnson,Horizon Group,West,New Lead,,Open,2025-02-01,SMB
-CRM-0194,2025-02-14,Cold Call,Frank Wilson,KineTech,South,Closed Won,11280.36,Won,2025-04-10,Mid-Market
-CRM-0195,2024-06-21,Email Campaign,Alice Johnson,Quasar Group,Central,New Lead,,Open,2024-07-23,Enterprise
-CRM-0196,2024-12-23,Email Campaign,Grace Kim,Everest Solutions,South,Proposal Sent,87830.73,Open,2025-02-13,Enterprise
-CRM-0197,2024-05-29,Website,Grace Kim,Cascade Inc,South,Proposal Sent,25278.07,Open,2024-07-06,SMB
-CRM-0198,2025-05-20,Trade Show,David Lee,Summit Strategies,Central,Negotiation,91024.61,Open,2025-07-07,Mid-Market
-CRM-0199,2024-11-19,LinkedIn,Frank Wilson,Jetstream LLC,East,Qualified,53892.01,Open,2024-12-19,SMB
-CRM-0200,2024-02-27,LinkedIn,David Lee,BlueSky Ltd,North,Proposal Sent,61865.75,Open,2024-03-17,Mid-Market
+CRM-0001,2026-10-17,Email Campaign,Carol Davis,Horizon Group,South,New Lead,,Open,2026-10-17,Enterprise
+CRM-0002,2025-04-15,LinkedIn,Alice Johnson,Apex Corp,North,Closed Lost,89398.79,Lost,2026-10-14,Enterprise
+CRM-0003,2025-08-27,Email Campaign,Frank Wilson,Radiant Corp,West,Closed Won,73038.21,Won,2026-10-12,Enterprise
+CRM-0004,2026-04-05,Partner,Bob Smith,Nova Dynamics,East,Closed Won,34826.5,Won,2026-05-23,Mid-Market
+CRM-0005,2025-06-09,LinkedIn,Alice Johnson,Luminary Ventures,East,Qualified,114951.14,Open,2026-10-22,SMB
+CRM-0006,2025-09-28,Referral,David Lee,Cascade Inc,Central,New Lead,,Open,2025-11-01,Mid-Market
+CRM-0007,2026-10-06,Email Campaign,Alice Johnson,BlueSky Ltd,South,Closed Won,106483.31,Won,2026-10-20,Mid-Market
+CRM-0008,2025-03-23,Email Campaign,Grace Kim,Luminary Ventures,South,Qualified,104245.07,Open,2026-10-16,Mid-Market
+CRM-0009,2025-12-30,Email Campaign,Alice Johnson,Titan Group,South,Qualified,81080.67,Open,2026-02-11,SMB
+CRM-0010,2025-09-08,Email Campaign,Emily Chen,Horizon Group,East,Qualified,56546.7,Open,2026-10-13,Enterprise
+CRM-0011,2025-08-23,Cold Call,Alice Johnson,Global Reach,Central,New Lead,,Open,2025-09-17,SMB
+CRM-0012,2025-11-19,LinkedIn,Bob Smith,Infinity Co,South,Qualified,79341.76,Open,2026-10-13,Enterprise
+CRM-0013,2026-07-29,LinkedIn,Carol Davis,Horizon Group,South,Closed Won,33003.51,Won,2026-10-14,SMB
+CRM-0014,2026-05-21,Referral,Bob Smith,Frontier Tech,West,New Lead,,Open,2026-07-15,SMB
+CRM-0015,2025-03-07,Cold Call,Emily Chen,Apex Corp,North,Negotiation,47031.08,Open,2025-04-09,SMB
+CRM-0016,2026-07-04,LinkedIn,Bob Smith,Orbit Systems,North,Proposal Sent,92694.65,Open,2026-10-19,SMB
+CRM-0017,2025-09-27,Partner,Frank Wilson,Jetstream LLC,Central,Closed Won,91911.54,Won,2026-10-22,SMB
+CRM-0018,2025-07-23,Trade Show,Alice Johnson,Titan Group,East,Qualified,46121.83,Open,2026-10-11,Mid-Market
+CRM-0019,2025-01-20,Partner,Grace Kim,Jetstream LLC,South,New Lead,,Open,2025-03-17,Enterprise
+CRM-0020,2025-09-04,Partner,Alice Johnson,Radiant Corp,South,Closed Won,113740.03,Won,2026-10-16,Enterprise
+CRM-0021,2026-05-02,LinkedIn,Bob Smith,Radiant Corp,South,Closed Won,21484.98,Won,2026-10-14,SMB
+CRM-0022,2025-11-16,Trade Show,David Lee,Delta Partners,South,Negotiation,119427.62,Open,2026-10-16,Enterprise
+CRM-0023,2025-03-07,Website,Alice Johnson,Cascade Inc,North,Proposal Sent,4482.04,Open,2026-10-14,Enterprise
+CRM-0024,2025-03-11,Trade Show,Bob Smith,Infinity Co,West,New Lead,,Open,2025-03-15,Enterprise
+CRM-0025,2026-07-07,LinkedIn,Bob Smith,Pinnacle Works,West,Qualified,87355.6,Open,2026-08-12,Enterprise
+CRM-0026,2025-04-07,LinkedIn,David Lee,Orbit Systems,North,New Lead,,Open,2025-04-29,SMB
+CRM-0027,2026-10-24,LinkedIn,Frank Wilson,KineTech,North,New Lead,,Open,2026-10-24,Enterprise
+CRM-0028,2025-07-16,Cold Call,David Lee,Horizon Group,North,Qualified,65281.72,Open,2026-10-21,Mid-Market
+CRM-0029,2026-07-18,Partner,Alice Johnson,Cascade Inc,South,New Lead,,Open,2026-10-15,Enterprise
+CRM-0030,2026-02-21,Referral,Bob Smith,Momentum Ltd,North,Negotiation,58800.29,Open,2026-04-19,Mid-Market
+CRM-0031,2025-09-29,Partner,Emily Chen,Pinnacle Works,South,Negotiation,35659.41,Open,2025-11-14,Enterprise
+CRM-0032,2025-10-31,Referral,Frank Wilson,KineTech,North,Qualified,116307.71,Open,2026-10-15,Enterprise
+CRM-0033,2026-08-22,Referral,Emily Chen,Cascade Inc,South,Negotiation,61336.35,Open,2026-09-01,Enterprise
+CRM-0034,2026-09-02,LinkedIn,Alice Johnson,Summit Strategies,South,New Lead,,Open,2026-09-17,SMB
+CRM-0035,2026-09-01,Email Campaign,Emily Chen,Summit Strategies,Central,New Lead,,Open,2026-10-17,Mid-Market
+CRM-0036,2025-09-25,LinkedIn,Bob Smith,Jetstream LLC,West,Qualified,81027.67,Open,2026-10-19,Mid-Market
+CRM-0037,2025-03-16,Referral,Alice Johnson,Radiant Corp,South,New Lead,,Open,2026-10-14,SMB
+CRM-0038,2025-09-29,Website,Carol Davis,Jetstream LLC,South,Qualified,112124.61,Open,2025-11-24,Mid-Market
+CRM-0039,2026-07-11,Email Campaign,Emily Chen,Apex Corp,Central,Closed Lost,37697.02,Lost,2026-08-31,Mid-Market
+CRM-0040,2025-04-17,Trade Show,Bob Smith,Infinity Co,East,Qualified,33206.98,Open,2025-06-03,SMB
+CRM-0041,2025-08-04,Cold Call,Emily Chen,Pinnacle Works,East,Closed Lost,42459.87,Lost,2025-09-27,Enterprise
+CRM-0042,2025-04-05,Cold Call,Grace Kim,Everest Solutions,East,Closed Lost,51981.94,Lost,2026-10-23,Enterprise
+CRM-0043,2026-03-29,Referral,Frank Wilson,Everest Solutions,Central,Closed Won,85268.76,Won,2026-10-22,Enterprise
+CRM-0044,2026-01-14,Cold Call,Carol Davis,BlueSky Ltd,East,Closed Won,67197.96,Won,2026-10-23,Enterprise
+CRM-0045,2025-09-13,Partner,David Lee,Titan Group,South,Closed Lost,14129.65,Lost,2025-11-08,Enterprise
+CRM-0046,2025-06-16,Cold Call,Grace Kim,Nova Dynamics,South,Qualified,106007.11,Open,2026-10-12,Mid-Market
+CRM-0047,2025-06-13,LinkedIn,Bob Smith,Global Reach,West,Closed Lost,14755.28,Lost,2025-08-06,Mid-Market
+CRM-0048,2025-11-09,Cold Call,Carol Davis,Cascade Inc,East,Qualified,28304.98,Open,2025-12-04,Mid-Market
+CRM-0049,2026-10-19,Cold Call,Alice Johnson,Delta Partners,East,Closed Won,49162.05,Won,2026-10-23,Enterprise
+CRM-0050,2026-08-18,Email Campaign,Grace Kim,KineTech,West,Proposal Sent,6514.35,Open,2026-10-18,SMB
+CRM-0051,2026-06-08,Website,Carol Davis,BlueSky Ltd,West,New Lead,,Open,2026-10-14,Enterprise
+CRM-0052,2026-06-17,Email Campaign,Bob Smith,Luminary Ventures,West,Closed Won,83049.14,Won,2026-08-03,Enterprise
+CRM-0053,2025-12-05,Cold Call,Emily Chen,Jetstream LLC,West,Closed Won,39042.05,Won,2026-01-20,Mid-Market
+CRM-0054,2026-02-17,Email Campaign,David Lee,Frontier Tech,Central,Closed Lost,36887.31,Lost,2026-10-17,SMB
+CRM-0055,2025-11-05,Website,David Lee,Summit Strategies,Central,Negotiation,66656.59,Open,2026-10-19,SMB
+CRM-0056,2025-11-26,LinkedIn,Grace Kim,Frontier Tech,North,Negotiation,54130.75,Open,2025-12-28,Mid-Market
+CRM-0057,2026-06-12,Website,Frank Wilson,Jetstream LLC,South,Closed Lost,76687.02,Lost,2026-10-11,Enterprise
+CRM-0058,2025-05-31,Trade Show,Grace Kim,Cascade Inc,West,New Lead,,Open,2026-10-16,Mid-Market
+CRM-0059,2026-10-07,LinkedIn,Bob Smith,Everest Solutions,North,Closed Won,24943.36,Won,2026-10-08,Enterprise
+CRM-0060,2026-03-12,LinkedIn,Alice Johnson,Radiant Corp,South,Qualified,22754.63,Open,2026-04-14,Enterprise
+CRM-0061,2026-04-13,Trade Show,Carol Davis,Orbit Systems,Central,Qualified,96567.16,Open,2026-05-18,SMB
+CRM-0062,2026-06-01,Email Campaign,Grace Kim,Pinnacle Works,West,Negotiation,100007.16,Open,2026-10-21,Mid-Market
+CRM-0063,2025-09-11,Email Campaign,Bob Smith,Infinity Co,West,Closed Lost,34722.74,Lost,2025-10-12,Enterprise
+CRM-0064,2025-10-20,Referral,Bob Smith,Everest Solutions,South,Qualified,34062.38,Open,2026-10-15,Mid-Market
+CRM-0065,2025-06-06,Trade Show,David Lee,Nova Dynamics,North,Closed Lost,27246.44,Lost,2026-10-18,Enterprise
+CRM-0066,2026-03-07,Referral,Grace Kim,Summit Strategies,West,Negotiation,108770.94,Open,2026-10-12,Mid-Market
+CRM-0067,2025-01-07,Trade Show,Frank Wilson,Radiant Corp,Central,Proposal Sent,37236.29,Open,2026-10-17,Enterprise
+CRM-0068,2026-05-15,Cold Call,Frank Wilson,Momentum Ltd,South,Qualified,34206.37,Open,2026-10-17,Mid-Market
+CRM-0069,2025-05-11,Trade Show,Frank Wilson,Apex Corp,North,Closed Won,65026.59,Won,2025-06-17,SMB
+CRM-0070,2026-03-15,LinkedIn,Carol Davis,Global Reach,West,Qualified,104288.46,Open,2026-10-19,Mid-Market
+CRM-0071,2025-12-12,Cold Call,Grace Kim,Cascade Inc,West,Negotiation,34834.28,Open,2026-01-07,Enterprise
+CRM-0072,2026-07-07,Website,Frank Wilson,Cascade Inc,North,New Lead,,Open,2026-07-29,Enterprise
+CRM-0073,2025-09-11,Website,David Lee,Delta Partners,Central,Qualified,101029.0,Open,2026-10-20,Enterprise
+CRM-0074,2026-04-22,Trade Show,Frank Wilson,Delta Partners,South,Closed Lost,32236.76,Lost,2026-10-14,Mid-Market
+CRM-0075,2025-04-21,LinkedIn,David Lee,Global Reach,North,Closed Won,5030.05,Won,2026-10-13,SMB
+CRM-0076,2026-10-05,Partner,Alice Johnson,Summit Strategies,North,Qualified,14024.35,Open,2026-10-09,Mid-Market
+CRM-0077,2026-06-30,Cold Call,Alice Johnson,Nova Dynamics,West,Negotiation,80059.52,Open,2026-10-13,Enterprise
+CRM-0078,2026-03-20,Website,David Lee,Frontier Tech,Central,Proposal Sent,76999.04,Open,2026-05-04,SMB
+CRM-0079,2025-10-04,LinkedIn,David Lee,Summit Strategies,East,Closed Won,97367.51,Won,2026-10-16,Mid-Market
+CRM-0080,2025-09-09,Website,Grace Kim,Orbit Systems,Central,New Lead,,Open,2026-10-16,SMB
+CRM-0081,2026-01-24,LinkedIn,Bob Smith,Luminary Ventures,East,Proposal Sent,5386.6,Open,2026-02-04,Mid-Market
+CRM-0082,2025-10-14,Trade Show,Bob Smith,Cascade Inc,South,Closed Won,84739.68,Won,2026-10-23,SMB
+CRM-0083,2026-02-21,Email Campaign,Frank Wilson,Pinnacle Works,West,Negotiation,67510.79,Open,2026-10-16,Enterprise
+CRM-0084,2025-04-06,Email Campaign,Emily Chen,Luminary Ventures,West,Proposal Sent,28148.38,Open,2025-04-25,SMB
+CRM-0085,2026-06-28,Cold Call,Frank Wilson,Orbit Systems,East,Proposal Sent,52209.45,Open,2026-07-19,Mid-Market
+CRM-0086,2025-09-15,Email Campaign,Emily Chen,Frontier Tech,South,Qualified,16237.39,Open,2026-10-22,Enterprise
+CRM-0087,2026-05-11,Trade Show,Carol Davis,Delta Partners,South,Proposal Sent,87501.03,Open,2026-06-13,Mid-Market
+CRM-0088,2025-08-21,Website,Carol Davis,BlueSky Ltd,North,Proposal Sent,23174.1,Open,2026-10-15,SMB
+CRM-0089,2025-10-27,LinkedIn,Alice Johnson,Apex Corp,Central,Closed Lost,113402.57,Lost,2026-10-11,Mid-Market
+CRM-0090,2026-04-26,Cold Call,Grace Kim,Pinnacle Works,North,Negotiation,53975.32,Open,2026-10-23,Enterprise
+CRM-0091,2026-02-15,Website,Bob Smith,Summit Strategies,East,Negotiation,10741.7,Open,2026-10-23,Enterprise
+CRM-0092,2025-09-12,Trade Show,Emily Chen,Titan Group,South,New Lead,,Open,2026-10-17,SMB
+CRM-0093,2026-01-25,LinkedIn,Carol Davis,Summit Strategies,Central,Negotiation,109203.52,Open,2026-10-14,Enterprise
+CRM-0094,2026-09-17,Website,Carol Davis,Cascade Inc,South,Closed Lost,13709.56,Lost,2026-10-07,Enterprise
+CRM-0095,2025-06-27,Email Campaign,Emily Chen,Pinnacle Works,East,Closed Won,10857.65,Won,2026-10-16,Enterprise
+CRM-0096,2025-08-26,Referral,Frank Wilson,Horizon Group,East,Proposal Sent,85420.79,Open,2025-09-24,SMB
+CRM-0097,2026-08-27,Trade Show,Bob Smith,Everest Solutions,East,Closed Lost,96860.87,Lost,2026-10-22,Enterprise
+CRM-0098,2025-03-15,Trade Show,Frank Wilson,Summit Strategies,East,New Lead,,Open,2026-10-19,Mid-Market
+CRM-0099,2025-05-08,Cold Call,Emily Chen,Radiant Corp,West,Negotiation,83264.0,Open,2025-07-07,Mid-Market
+CRM-0100,2025-03-24,Trade Show,Carol Davis,Apex Corp,North,Closed Won,6703.57,Won,2026-10-18,Enterprise
+CRM-0101,2026-08-13,Partner,Carol Davis,Summit Strategies,North,Closed Won,114192.78,Won,2026-09-25,Enterprise
+CRM-0102,2026-04-27,Trade Show,David Lee,Pinnacle Works,North,Closed Won,78878.12,Won,2026-05-08,Mid-Market
+CRM-0103,2025-12-23,Website,Carol Davis,Nova Dynamics,West,Negotiation,41330.39,Open,2026-02-15,Mid-Market
+CRM-0104,2026-02-15,Cold Call,Alice Johnson,Momentum Ltd,Central,Closed Won,6330.26,Won,2026-10-19,Enterprise
+CRM-0105,2026-07-10,Trade Show,Grace Kim,Pinnacle Works,West,Negotiation,50763.21,Open,2026-10-18,Enterprise
+CRM-0106,2025-07-28,Email Campaign,David Lee,Delta Partners,North,Proposal Sent,66807.92,Open,2025-08-25,SMB
+CRM-0107,2026-09-16,Trade Show,David Lee,Cascade Inc,South,Qualified,85754.37,Open,2026-10-23,Enterprise
+CRM-0108,2026-04-18,LinkedIn,Frank Wilson,Jetstream LLC,Central,New Lead,,Open,2026-10-21,SMB
+CRM-0109,2025-10-07,LinkedIn,Emily Chen,Everest Solutions,West,Negotiation,100497.43,Open,2025-10-22,Enterprise
+CRM-0110,2026-09-06,Cold Call,Grace Kim,Nova Dynamics,East,Closed Won,90062.52,Won,2026-10-22,SMB
+CRM-0111,2025-10-01,Partner,Emily Chen,Summit Strategies,West,New Lead,,Open,2026-10-19,Enterprise
+CRM-0112,2026-04-03,Trade Show,David Lee,Orbit Systems,East,Closed Won,59152.28,Won,2026-10-11,Enterprise
+CRM-0113,2025-09-02,Referral,Carol Davis,Pinnacle Works,West,Closed Won,47190.56,Won,2025-09-28,Mid-Market
+CRM-0114,2025-06-05,Cold Call,Grace Kim,Delta Partners,West,Negotiation,115849.28,Open,2026-10-14,Enterprise
+CRM-0115,2026-06-23,Website,Alice Johnson,Pinnacle Works,East,Negotiation,3811.02,Open,2026-10-13,Mid-Market
+CRM-0116,2026-10-01,Partner,Frank Wilson,Radiant Corp,West,Closed Lost,48903.03,Lost,2026-10-18,Mid-Market
+CRM-0117,2026-10-04,Referral,Emily Chen,Cascade Inc,South,Closed Lost,106717.76,Lost,2026-10-15,SMB
+CRM-0118,2025-10-22,Partner,Frank Wilson,Delta Partners,West,Qualified,90118.43,Open,2026-10-22,Enterprise
+CRM-0119,2025-11-03,Referral,Carol Davis,Luminary Ventures,East,New Lead,,Open,2026-10-11,Mid-Market
+CRM-0120,2025-05-30,Website,Bob Smith,Frontier Tech,North,Qualified,64677.63,Open,2026-10-11,SMB
+CRM-0121,2026-01-27,Website,Bob Smith,Orbit Systems,East,Closed Won,82609.88,Won,2026-10-14,Mid-Market
+CRM-0122,2025-09-19,Cold Call,Frank Wilson,Radiant Corp,South,Closed Lost,3108.9,Lost,2025-11-15,Enterprise
+CRM-0123,2026-03-29,Email Campaign,Carol Davis,Orbit Systems,East,Proposal Sent,118542.9,Open,2026-10-17,Enterprise
+CRM-0124,2026-01-29,Trade Show,Carol Davis,Jetstream LLC,North,Negotiation,14585.09,Open,2026-10-18,SMB
+CRM-0125,2026-02-10,Email Campaign,Alice Johnson,Titan Group,West,Proposal Sent,2955.56,Open,2026-03-31,Mid-Market
+CRM-0126,2025-08-24,Trade Show,Carol Davis,Everest Solutions,North,Closed Won,96627.97,Won,2026-10-20,SMB
+CRM-0127,2026-10-24,Partner,David Lee,BlueSky Ltd,Central,New Lead,,Open,2026-10-24,Mid-Market
+CRM-0128,2025-05-15,Email Campaign,David Lee,Frontier Tech,South,New Lead,,Open,2025-06-04,Enterprise
+CRM-0129,2026-07-07,Website,Carol Davis,Pinnacle Works,East,Proposal Sent,64640.58,Open,2026-08-29,SMB
+CRM-0130,2025-12-13,Website,Grace Kim,Horizon Group,West,New Lead,,Open,2026-10-22,SMB
+CRM-0131,2026-01-10,Cold Call,Emily Chen,Delta Partners,West,New Lead,,Open,2026-01-10,Mid-Market
+CRM-0132,2025-09-26,Referral,Frank Wilson,Horizon Group,West,Closed Won,46961.01,Won,2026-10-18,Enterprise
+CRM-0133,2026-09-27,Referral,Frank Wilson,Orbit Systems,East,Closed Won,40704.74,Won,2026-10-13,SMB
+CRM-0134,2026-02-23,Cold Call,David Lee,Delta Partners,North,New Lead,,Open,2026-10-23,Enterprise
+CRM-0135,2026-07-05,Email Campaign,Emily Chen,Nova Dynamics,Central,Qualified,47860.21,Open,2026-10-12,SMB
+CRM-0136,2025-06-08,LinkedIn,Carol Davis,BlueSky Ltd,East,Negotiation,79280.78,Open,2025-07-17,Enterprise
+CRM-0137,2026-03-31,Email Campaign,Carol Davis,Radiant Corp,East,Negotiation,114165.51,Open,2026-04-06,Enterprise
+CRM-0138,2026-02-12,Referral,Frank Wilson,Global Reach,Central,Proposal Sent,24397.41,Open,2026-10-16,Enterprise
+CRM-0139,2025-02-21,Website,Alice Johnson,Radiant Corp,South,Proposal Sent,30741.13,Open,2026-10-14,SMB
+CRM-0140,2025-08-10,Referral,Carol Davis,Everest Solutions,South,Qualified,40770.03,Open,2026-10-14,SMB
+CRM-0141,2025-09-14,Referral,Carol Davis,Horizon Group,Central,Qualified,14971.31,Open,2025-09-22,Mid-Market
+CRM-0142,2025-01-17,Trade Show,Alice Johnson,Cascade Inc,West,Qualified,33313.37,Open,2026-10-17,Mid-Market
+CRM-0143,2026-01-06,Trade Show,Alice Johnson,Quasar Group,East,Closed Won,72052.59,Won,2026-10-20,Mid-Market
+CRM-0144,2026-10-21,LinkedIn,Grace Kim,Momentum Ltd,West,New Lead,,Open,2026-10-21,SMB
+CRM-0145,2025-04-21,Cold Call,Emily Chen,Everest Solutions,North,Negotiation,86063.36,Open,2026-10-22,Enterprise
+CRM-0146,2025-10-09,LinkedIn,Emily Chen,Quasar Group,East,Closed Won,76703.05,Won,2026-10-18,Mid-Market
+CRM-0147,2026-06-02,Partner,Frank Wilson,Radiant Corp,South,Closed Won,52763.52,Won,2026-06-09,Mid-Market
+CRM-0148,2026-04-08,LinkedIn,Frank Wilson,Delta Partners,East,Qualified,50830.0,Open,2026-05-03,Mid-Market
+CRM-0149,2025-11-17,LinkedIn,Alice Johnson,Cascade Inc,North,Closed Lost,32077.0,Lost,2025-12-30,Enterprise
+CRM-0150,2026-03-19,Partner,Bob Smith,Radiant Corp,North,New Lead,,Open,2026-04-11,SMB
+CRM-0151,2026-07-30,Partner,Frank Wilson,Nova Dynamics,North,Closed Won,40898.23,Won,2026-10-18,Mid-Market
+CRM-0152,2026-09-07,Website,Frank Wilson,Pinnacle Works,South,Proposal Sent,43494.25,Open,2026-10-20,Enterprise
+CRM-0153,2025-12-25,Website,Grace Kim,Nova Dynamics,Central,Closed Won,45372.2,Won,2026-01-30,SMB
+CRM-0154,2026-09-21,Partner,Frank Wilson,Infinity Co,North,Closed Lost,77838.5,Lost,2026-10-13,Enterprise
+CRM-0155,2025-10-07,Referral,Bob Smith,Everest Solutions,Central,Closed Lost,91964.32,Lost,2025-10-29,SMB
+CRM-0156,2026-02-15,Referral,Alice Johnson,Quasar Group,South,New Lead,,Open,2026-10-13,Mid-Market
+CRM-0157,2026-03-06,Cold Call,Grace Kim,Summit Strategies,Central,Negotiation,42225.73,Open,2026-10-12,Enterprise
+CRM-0158,2025-02-23,Referral,Carol Davis,Orbit Systems,West,Qualified,20574.37,Open,2026-10-13,Mid-Market
+CRM-0159,2026-09-14,Referral,Carol Davis,Nova Dynamics,North,Negotiation,50873.68,Open,2026-10-15,Mid-Market
+CRM-0160,2026-08-31,LinkedIn,Emily Chen,BlueSky Ltd,North,Negotiation,64178.22,Open,2026-10-20,Enterprise
+CRM-0161,2025-11-05,Cold Call,Alice Johnson,Apex Corp,West,Qualified,92547.24,Open,2025-11-23,SMB
+CRM-0162,2026-03-17,Trade Show,Emily Chen,Luminary Ventures,North,Qualified,17243.91,Open,2026-10-20,Mid-Market
+CRM-0163,2025-02-13,Cold Call,Emily Chen,Nova Dynamics,Central,Negotiation,4211.5,Open,2025-04-09,Mid-Market
+CRM-0164,2026-10-18,Referral,Carol Davis,Frontier Tech,Central,Negotiation,36162.79,Open,2026-10-21,Mid-Market
+CRM-0165,2026-01-06,Website,David Lee,Summit Strategies,West,New Lead,,Open,2026-10-22,SMB
+CRM-0166,2025-03-22,Cold Call,Grace Kim,Frontier Tech,North,Negotiation,104721.88,Open,2025-04-05,SMB
+CRM-0167,2026-10-11,Trade Show,Bob Smith,Luminary Ventures,East,New Lead,,Open,2026-10-19,SMB
+CRM-0168,2026-10-23,Cold Call,Bob Smith,Frontier Tech,Central,Qualified,29879.72,Open,2026-10-23,Enterprise
+CRM-0169,2025-03-19,Partner,Emily Chen,Summit Strategies,West,Qualified,114252.47,Open,2026-10-16,SMB
+CRM-0170,2026-08-02,Cold Call,Bob Smith,Orbit Systems,North,Closed Lost,76965.2,Lost,2026-10-13,Mid-Market
+CRM-0171,2026-03-29,Cold Call,Emily Chen,Cascade Inc,East,Closed Lost,37732.81,Lost,2026-10-23,Mid-Market
+CRM-0172,2026-04-08,Referral,Frank Wilson,Cascade Inc,Central,New Lead,,Open,2026-10-19,SMB
+CRM-0173,2026-06-04,Email Campaign,Alice Johnson,Orbit Systems,Central,Negotiation,56599.98,Open,2026-10-11,SMB
+CRM-0174,2025-07-12,LinkedIn,Alice Johnson,KineTech,North,Proposal Sent,73390.69,Open,2026-10-23,SMB
+CRM-0175,2026-10-24,LinkedIn,Emily Chen,Quasar Group,Central,Qualified,6618.77,Open,2026-10-24,Enterprise
+CRM-0176,2026-01-08,Cold Call,Frank Wilson,Titan Group,North,Proposal Sent,110316.54,Open,2026-10-11,SMB
+CRM-0177,2025-12-09,Email Campaign,David Lee,Jetstream LLC,East,New Lead,,Open,2026-10-15,SMB
+CRM-0178,2026-09-10,Cold Call,Carol Davis,Momentum Ltd,South,Qualified,41336.72,Open,2026-10-21,SMB
+CRM-0179,2025-03-28,Partner,Bob Smith,Quasar Group,North,Proposal Sent,67952.8,Open,2026-10-18,SMB
+CRM-0180,2026-03-10,Website,Carol Davis,Pinnacle Works,South,Closed Won,44695.72,Won,2026-10-21,Enterprise
+CRM-0181,2025-05-21,Trade Show,Grace Kim,Radiant Corp,Central,Qualified,11105.48,Open,2025-05-27,Enterprise
+CRM-0182,2025-12-11,Website,Grace Kim,Titan Group,South,Closed Won,17463.79,Won,2026-10-21,SMB
+CRM-0183,2026-03-25,Email Campaign,Bob Smith,Orbit Systems,Central,New Lead,,Open,2026-10-13,Mid-Market
+CRM-0184,2026-04-05,Partner,David Lee,Global Reach,East,Qualified,65013.32,Open,2026-10-11,SMB
+CRM-0185,2026-08-08,Trade Show,Emily Chen,Nova Dynamics,South,Negotiation,56478.24,Open,2026-10-17,Enterprise
+CRM-0186,2026-09-12,Partner,Carol Davis,Radiant Corp,North,Qualified,105014.23,Open,2026-10-16,SMB
+CRM-0187,2026-06-13,Website,Carol Davis,Orbit Systems,Central,New Lead,,Open,2026-10-11,Enterprise
+CRM-0188,2026-03-24,Partner,David Lee,Luminary Ventures,North,New Lead,,Open,2026-04-07,Mid-Market
+CRM-0189,2025-02-24,Cold Call,Bob Smith,Apex Corp,East,Negotiation,61236.84,Open,2026-10-22,Enterprise
+CRM-0190,2025-12-10,Email Campaign,Grace Kim,Everest Solutions,West,Qualified,18236.75,Open,2026-10-16,Mid-Market
+CRM-0191,2026-09-23,Cold Call,Bob Smith,Everest Solutions,Central,New Lead,,Open,2026-09-23,SMB
+CRM-0192,2026-09-16,Cold Call,Alice Johnson,BlueSky Ltd,South,Closed Won,51944.06,Won,2026-09-23,Mid-Market
+CRM-0193,2026-10-17,Partner,David Lee,Titan Group,Central,Closed Won,55939.41,Won,2026-10-18,Enterprise
+CRM-0194,2026-10-10,Website,Carol Davis,Nova Dynamics,North,Closed Won,69855.6,Won,2026-10-21,SMB
+CRM-0195,2025-12-28,Referral,Emily Chen,Luminary Ventures,North,Qualified,69338.32,Open,2026-10-13,SMB
+CRM-0196,2026-07-12,LinkedIn,Grace Kim,Pinnacle Works,North,Closed Won,94796.66,Won,2026-10-23,SMB
+CRM-0197,2026-02-01,Referral,Carol Davis,Horizon Group,North,Proposal Sent,31930.73,Open,2026-10-11,SMB
+CRM-0198,2025-12-07,Website,Grace Kim,Orbit Systems,West,Qualified,7231.61,Open,2026-10-13,SMB
+CRM-0199,2025-07-06,Referral,Carol Davis,Global Reach,North,Qualified,9445.86,Open,2025-08-04,Enterprise
+CRM-0200,2025-02-12,LinkedIn,Carol Davis,BlueSky Ltd,South,Proposal Sent,112137.78,Open,2026-10-15,Mid-Market

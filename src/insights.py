@@ -215,6 +215,53 @@ def insight_target_vs_actual(crm: pd.DataFrame, targets: pd.DataFrame):
     return {"title": "Revenue: Target vs Actual", "severity": severity, "detail": detail, "recommendation": rec}
 
 
+def insight_yoy_comparison(crm: pd.DataFrame):
+    """
+    Compare Year-over-Year lead creation for matching months in 2025 vs 2026.
+    Directly answers PRD Section 7 Question 5 regarding previous year comparisons.
+    """
+    df = crm.copy()
+    df["year"] = df["created_date"].dt.year
+    df["month"] = df["created_date"].dt.month
+
+    months_2025 = set(df[df["year"] == 2025]["month"].unique())
+    months_2026 = set(df[df["year"] == 2026]["month"].unique())
+    common_months = months_2025.intersection(months_2026)
+
+    if not common_months:
+        return None
+
+    leads_2025 = len(df[(df["year"] == 2025) & (df["month"].isin(common_months))])
+    leads_2026 = len(df[(df["year"] == 2026) & (df["month"].isin(common_months))])
+
+    growth = _pct_change(leads_2026, leads_2025)
+    if growth is None:
+        return None
+
+    severity = "success" if growth > 5 else ("warning" if growth < -5 else "info")
+    sign = "+" if growth >= 0 else ""
+    month_count = len(common_months)
+
+    detail = (
+        f"Comparing {month_count} overlapping calendar months: **{leads_2026} leads in 2026** "
+        f"vs **{leads_2025} leads in 2025** ({sign}{growth}% YoY)."
+    )
+
+    if growth >= 10:
+        rec = "Strong Year-over-Year expansion. Verify sales rep bandwidth and ensure operational capacity keeps pace."
+    elif growth < -5:
+        rec = "Year-over-Year inbound decline. Audit lead sources (Website, LinkedIn, Referrals) to spot underperforming channels."
+    else:
+        rec = "Lead creation is tracking consistently alongside the prior year's baseline."
+
+    return {
+        "title": "Year-over-Year Lead Comparison (2025 vs 2026)",
+        "severity": severity,
+        "detail": detail,
+        "recommendation": rec,
+    }
+
+
 # --- Runner ---
 
 def get_all_insights(crm: pd.DataFrame, ops: pd.DataFrame, targets: pd.DataFrame) -> list:
@@ -226,6 +273,7 @@ def get_all_insights(crm: pd.DataFrame, ops: pd.DataFrame, targets: pd.DataFrame
     # Pair each single-source insight with its DataFrame directly — no guessing from names
     single_source_checks = [
         (insight_lead_volume_trend,      crm),
+        (insight_yoy_comparison,         crm),
         (insight_pipeline_concentration, crm),
         (insight_stale_leads,            crm),
         (insight_stage_conversion,       crm),

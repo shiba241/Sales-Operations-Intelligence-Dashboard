@@ -1,18 +1,21 @@
 # data_loader.py
 # Handles loading, normalising, and joining the three synthetic datasets.
-# Each source keeps its own DataFrame - they're only joined when explicitly needed.
+# Also mirrors all datasets into a lightweight SQLite database (data/intelligence.db)
+# to satisfy PRD Section 4.1 requirements for relational storage.
 
 import os
 import json
+import sqlite3
 import pandas as pd
 from datetime import datetime, date
 
 DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
+DB_PATH  = os.path.join(DATA_DIR, "intelligence.db")
 
 STALE_THRESHOLD_DAYS = 14  # leads with no activity beyond this are flagged as stale
 
 
-def _coerce_dates(df, columns):
+def _coerce_dates(df: pd.DataFrame, columns: list[str]) -> pd.DataFrame:
     """Parse date strings to datetime, silently coercing bad values to NaT."""
     for col in columns:
         if col in df.columns:
@@ -20,7 +23,7 @@ def _coerce_dates(df, columns):
     return df
 
 
-def _coerce_numeric(df, columns):
+def _coerce_numeric(df: pd.DataFrame, columns: list[str]) -> pd.DataFrame:
     """Parse string columns to float, silently coercing bad values to NaN."""
     for col in columns:
         if col in df.columns:
@@ -41,14 +44,11 @@ def load_crm() -> pd.DataFrame:
     df = _coerce_dates(df, ["created_date", "last_activity_date"])
     df = _coerce_numeric(df, ["deal_value"])
 
-    # Trim whitespace on all string-ish columns
     for col in ["source", "owner", "company", "region", "pipeline_stage", "status", "account_segment"]:
         if col in df.columns:
             df[col] = df[col].str.strip()
 
-    # Stale-lead flag: computed relative to today at load time.
-    # Note: Streamlit caches this result, so "today" is fixed until the cache
-    # expires or the user clicks Refresh Data.
+    # Anchor to the current date or max date in data for realistic staleness
     today = pd.Timestamp(date.today())
     df["days_since_activity"] = (today - df["last_activity_date"]).dt.days
     df["stale_lead"] = df["days_since_activity"] > STALE_THRESHOLD_DAYS
@@ -105,14 +105,7 @@ def build_joined(crm: pd.DataFrame, ops: pd.DataFrame) -> pd.DataFrame:
     Left-join ops projects to CRM accounts using company name as the bridge key.
 
     Join key: ops.client_id == crm.company (exact string match)
-
-    Assumption: In this prototype, company names are consistent across both
-    systems. Production should use stable UUID foreign keys instead.
-
-    All ops rows are kept. Unmatched rows (no CRM company found) get NaN for
-    the CRM fields and crm_matched=False, which surfaces them in the quality tab.
     """
-    # Build a deduplicated lookup: one row per unique CRM company
     crm_lookup = (
         crm[["company", "owner", "region", "account_segment"]]
         .drop_duplicates(subset=["company"])
@@ -124,17 +117,44 @@ def build_joined(crm: pd.DataFrame, ops: pd.DataFrame) -> pd.DataFrame:
     return joined
 
 
+def sync_to_sqlite(crm: pd.DataFrame, ops: pd.DataFrame, targets: pd.DataFrame, joined: pd.DataFrame) -> str:
+    """
+    Mirror in-memory DataFrames into an embedded SQLite database (PRD Section 4.1).
+    Allows relational SQL querying and lightweight persistence.
+    """
+    try:
+        conn = sqlite3.connect(DB_PATH)
+        # Convert date columns to ISO strings for SQLite storage
+        crm.to_sql("crm_leads", conn, if_exists="replace", index=False)
+        ops.to_sql("ops_projects", conn, if_exists="replace", index=False)
+        targets.to_sql("targets_sheet", conn, if_exists="replace", index=False)
+        joined.to_sql("sales_ops_joined", conn, if_exists="replace", index=False)
+        conn.close()
+        return DB_PATH
+    except Exception as e:
+        return f"SQLite Sync Error: {e}"
+
+
+def query_db(sql: str) -> pd.DataFrame:
+    """Run an ad-hoc SQL query against the SQLite database."""
+    conn = sqlite3.connect(DB_PATH)
+    result = pd.read_sql_query(sql, conn)
+    conn.close()
+    return result
+
+
 def load_all():
     """
-    Load all three sources, build the joined view, and return a quality summary dict.
-    Called once per Streamlit session (cached). Use the Refresh button to reload.
-
-    Returns: crm, ops, targets, joined DataFrames + quality dict
+    Load all three sources, build the joined view, sync to SQLite, and return quality metrics.
+    Called once per Streamlit session (cached).
     """
     crm = load_crm()
     ops = load_ops()
     targets = load_targets()
     joined = build_joined(crm, ops)
+
+    # Persist to SQLite
+    sync_to_sqlite(crm, ops, targets, joined)
 
     quality = {
         "crm_total":             len(crm),
@@ -146,6 +166,7 @@ def load_all():
         "joined_matched":        int(joined["crm_matched"].sum()),
         "joined_unmatched":      int((~joined["crm_matched"]).sum()),
         "targets_total":         len(targets),
+        "sqlite_db":             "data/intelligence.db",
         "load_time":             datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
     }
 

@@ -1,736 +1,771 @@
 month,owner,region,account_segment,campaign,target_revenue,forecast_revenue,currency
-2024-01,Alice Johnson,North,Enterprise,Q1 Push,35039.64,43349.7,USD
-2024-01,Alice Johnson,South,Mid-Market,Always-On,31854.41,37248.55,USD
-2024-01,Alice Johnson,East,Mid-Market,Q3 Scale,48450.28,59469.29,USD
-2024-01,Alice Johnson,West,Mid-Market,Q4 Close,11481.28,10180.03,USD
-2024-01,Alice Johnson,Central,Mid-Market,Q4 Close,21406.92,21974.61,USD
-2024-01,Bob Smith,North,Mid-Market,Q1 Push,19286.89,20115.02,USD
-2024-01,Bob Smith,South,Enterprise,Partner Enablement,48608.37,43635.24,USD
-2024-01,Bob Smith,East,Mid-Market,Partner Enablement,13675.33,12088.8,USD
-2024-01,Bob Smith,West,Mid-Market,Q3 Scale,49194.51,40690.67,USD
-2024-01,Bob Smith,Central,Mid-Market,Q4 Close,28035.01,22309.15,USD
-2024-01,Carol Davis,North,Enterprise,Q1 Push,27995.87,24773.08,USD
-2024-01,Carol Davis,South,SMB,Always-On,19369.59,18874.15,USD
-2024-01,Carol Davis,East,Mid-Market,Always-On,30402.21,23200.87,USD
-2024-01,Carol Davis,West,Mid-Market,Q4 Close,14653.21,15371.54,USD
-2024-01,Carol Davis,Central,Enterprise,Partner Enablement,10617.03,10159.49,USD
-2024-01,David Lee,North,Enterprise,Always-On,55056.8,66211.52,USD
-2024-01,David Lee,South,Enterprise,Q2 Growth,36055.23,39396.04,USD
-2024-01,David Lee,East,Enterprise,Q1 Push,23445.95,20730.99,USD
-2024-01,David Lee,West,Mid-Market,Q4 Close,18360.37,16303.66,USD
-2024-01,David Lee,Central,Enterprise,Partner Enablement,49133.33,45721.63,USD
-2024-01,Emily Chen,North,Enterprise,Q4 Close,41251.68,43186.52,USD
-2024-01,Emily Chen,South,Mid-Market,Q3 Scale,15348.62,13849.5,USD
-2024-01,Emily Chen,East,Mid-Market,Q4 Close,52080.67,48952.96,USD
-2024-01,Emily Chen,West,SMB,Always-On,26736.81,30954.21,USD
-2024-01,Emily Chen,Central,SMB,Q2 Growth,16806.22,15299.25,USD
-2024-01,Frank Wilson,North,Mid-Market,Q3 Scale,33950.49,28478.3,USD
-2024-01,Frank Wilson,South,Mid-Market,Always-On,24572.41,26967.7,USD
-2024-01,Frank Wilson,East,Mid-Market,Q4 Close,49098.72,44824.34,USD
-2024-01,Frank Wilson,West,Enterprise,Always-On,28250.78,34353.9,USD
-2024-01,Frank Wilson,Central,SMB,Q1 Push,59863.25,50282.95,USD
-2024-01,Grace Kim,North,SMB,Q2 Growth,57650.23,56543.99,USD
-2024-01,Grace Kim,South,SMB,Q1 Push,31922.75,28592.11,USD
-2024-01,Grace Kim,East,Mid-Market,Partner Enablement,50948.28,58479.88,USD
-2024-01,Grace Kim,West,Enterprise,Q3 Scale,34965.16,37296.22,USD
-2024-01,Grace Kim,Central,Mid-Market,Q1 Push,42933.15,47553.54,USD
-2024-02,Alice Johnson,North,SMB,Q4 Close,32453.34,34042.48,USD
-2024-02,Alice Johnson,South,SMB,Q4 Close,36718.37,44493.41,USD
-2024-02,Alice Johnson,East,Mid-Market,Partner Enablement,37182.26,42587.09,USD
-2024-02,Alice Johnson,West,SMB,Q1 Push,54775.08,55785.84,USD
-2024-02,Alice Johnson,Central,SMB,Q3 Scale,15468.47,13521.23,USD
-2024-02,Bob Smith,North,SMB,Partner Enablement,18316.92,19348.88,USD
-2024-02,Bob Smith,South,Mid-Market,Q4 Close,43873.59,41671.53,USD
-2024-02,Bob Smith,East,Enterprise,Always-On,15297.23,12227.13,USD
-2024-02,Bob Smith,West,SMB,Always-On,47342.65,48715.43,USD
-2024-02,Bob Smith,Central,Mid-Market,Partner Enablement,21051.59,19726.6,USD
-2024-02,Carol Davis,North,Mid-Market,Q1 Push,39429.5,39438.68,USD
-2024-02,Carol Davis,South,Enterprise,Q1 Push,34138.55,30646.73,USD
-2024-02,Carol Davis,East,Mid-Market,Q3 Scale,51565.89,57499.85,USD
-2024-02,Carol Davis,West,SMB,Q4 Close,27153.33,31012.77,USD
-2024-02,Carol Davis,Central,SMB,Partner Enablement,27415.01,21899.43,USD
-2024-02,David Lee,North,Enterprise,Partner Enablement,32622.36,25562.46,USD
-2024-02,David Lee,South,SMB,Q1 Push,15754.26,18504.8,USD
-2024-02,David Lee,East,SMB,Q2 Growth,43856.97,36496.76,USD
-2024-02,David Lee,West,Mid-Market,Always-On,35799.7,36728.89,USD
-2024-02,David Lee,Central,Mid-Market,Partner Enablement,31318.47,30724.27,USD
-2024-02,Emily Chen,North,Mid-Market,Q4 Close,19222.59,20572.77,USD
-2024-02,Emily Chen,South,Enterprise,Q4 Close,11459.61,12113.42,USD
-2024-02,Emily Chen,East,SMB,Q2 Growth,39610.16,37408.54,USD
-2024-02,Emily Chen,West,Enterprise,Always-On,20289.22,22848.96,USD
-2024-02,Emily Chen,Central,Enterprise,Q3 Scale,15087.6,17893.74,USD
-2024-02,Frank Wilson,North,Mid-Market,Partner Enablement,26299.25,25741.05,USD
-2024-02,Frank Wilson,South,SMB,Q3 Scale,53131.83,53868.1,USD
-2024-02,Frank Wilson,East,SMB,Q1 Push,39848.54,42066.28,USD
-2024-02,Frank Wilson,West,SMB,Q2 Growth,27396.23,32129.17,USD
-2024-02,Frank Wilson,Central,Mid-Market,Always-On,50686.91,55907.37,USD
-2024-02,Grace Kim,North,Mid-Market,Q1 Push,39508.42,42908.32,USD
-2024-02,Grace Kim,South,Mid-Market,Partner Enablement,21928.64,17728.75,USD
-2024-02,Grace Kim,East,SMB,Q2 Growth,17067.93,16116.08,USD
-2024-02,Grace Kim,West,Mid-Market,Partner Enablement,38740.3,37249.55,USD
-2024-02,Grace Kim,Central,Enterprise,Always-On,36868.96,44595.98,USD
-2024-03,Alice Johnson,North,Enterprise,Q3 Scale,18343.28,16406.55,USD
-2024-03,Alice Johnson,South,Mid-Market,Q1 Push,52099.26,55209.85,USD
-2024-03,Alice Johnson,East,Mid-Market,Always-On,34230.45,29012.51,USD
-2024-03,Alice Johnson,West,SMB,Q4 Close,35271.9,35183.19,USD
-2024-03,Alice Johnson,Central,Mid-Market,Q2 Growth,30781.52,36012.71,USD
-2024-03,Bob Smith,North,Enterprise,Q3 Scale,14133.53,10818.23,USD
-2024-03,Bob Smith,South,Mid-Market,Q2 Growth,11634.75,10034.06,USD
-2024-03,Bob Smith,East,Mid-Market,Always-On,49037.01,50646.66,USD
-2024-03,Bob Smith,West,Mid-Market,Always-On,35540.3,36832.44,USD
-2024-03,Bob Smith,Central,Enterprise,Partner Enablement,51164.14,47758.19,USD
-2024-03,Carol Davis,North,Mid-Market,Q1 Push,32068.33,27555.38,USD
-2024-03,Carol Davis,South,Enterprise,Q3 Scale,46799.43,50395.3,USD
-2024-03,Carol Davis,East,Mid-Market,Q3 Scale,53740.49,41171.41,USD
-2024-03,Carol Davis,West,Enterprise,Q2 Growth,53109.98,42142.32,USD
-2024-03,Carol Davis,Central,SMB,Q3 Scale,20493.91,22928.72,USD
-2024-03,David Lee,North,Mid-Market,Q2 Growth,53052.43,55977.26,USD
-2024-03,David Lee,South,Enterprise,Q1 Push,40807.56,46619.56,USD
-2024-03,David Lee,East,SMB,Always-On,38503.72,39125.19,USD
-2024-03,David Lee,West,Mid-Market,Q3 Scale,18418.87,22830.19,USD
-2024-03,David Lee,Central,SMB,Partner Enablement,38636.78,47376.37,USD
-2024-03,Emily Chen,North,Mid-Market,Q1 Push,50759.05,41510.47,USD
-2024-03,Emily Chen,South,Enterprise,Partner Enablement,59624.31,70566.79,USD
-2024-03,Emily Chen,East,SMB,Q3 Scale,53303.94,46632.35,USD
-2024-03,Emily Chen,West,SMB,Q4 Close,51424.09,58147.11,USD
-2024-03,Emily Chen,Central,Mid-Market,Partner Enablement,34472.94,35807.48,USD
-2024-03,Frank Wilson,North,SMB,Q1 Push,30711.25,29974.05,USD
-2024-03,Frank Wilson,South,SMB,Q3 Scale,30142.54,33907.38,USD
-2024-03,Frank Wilson,East,SMB,Q1 Push,32734.78,32539.1,USD
-2024-03,Frank Wilson,West,Enterprise,Partner Enablement,53445.39,62722.64,USD
-2024-03,Frank Wilson,Central,SMB,Q3 Scale,58607.51,62558.84,USD
-2024-03,Grace Kim,North,Mid-Market,Q2 Growth,52505.31,60267.64,USD
-2024-03,Grace Kim,South,Mid-Market,Q3 Scale,58406.43,67893.03,USD
-2024-03,Grace Kim,East,SMB,Always-On,26143.26,23314.47,USD
-2024-03,Grace Kim,West,Mid-Market,Partner Enablement,16529.71,19442.43,USD
-2024-03,Grace Kim,Central,SMB,Q4 Close,48112.7,37189.74,USD
-2024-04,Alice Johnson,North,Enterprise,Q4 Close,10814.07,13136.03,USD
-2024-04,Alice Johnson,South,Mid-Market,Q2 Growth,32825.91,40898.43,USD
-2024-04,Alice Johnson,East,SMB,Q3 Scale,59784.7,72022.84,USD
-2024-04,Alice Johnson,West,Mid-Market,Q1 Push,17948.87,21832.34,USD
-2024-04,Alice Johnson,Central,Mid-Market,Partner Enablement,42729.4,37396.54,USD
-2024-04,Bob Smith,North,Mid-Market,Partner Enablement,55190.01,45960.17,USD
-2024-04,Bob Smith,South,Enterprise,Q4 Close,25275.46,27795.95,USD
-2024-04,Bob Smith,East,Enterprise,Q2 Growth,42774.26,47130.78,USD
-2024-04,Bob Smith,West,Enterprise,Always-On,33840.34,27625.56,USD
-2024-04,Bob Smith,Central,SMB,Q3 Scale,43999.14,33203.66,USD
-2024-04,Carol Davis,North,Mid-Market,Partner Enablement,50855.45,63268.12,USD
-2024-04,Carol Davis,South,Mid-Market,Q1 Push,16608.76,13044.76,USD
-2024-04,Carol Davis,East,Mid-Market,Q3 Scale,46538.17,37287.01,USD
-2024-04,Carol Davis,West,Enterprise,Partner Enablement,54049.45,44242.97,USD
-2024-04,Carol Davis,Central,SMB,Always-On,59647.01,48995.64,USD
-2024-04,David Lee,North,Mid-Market,Q3 Scale,10423.74,11205.63,USD
-2024-04,David Lee,South,Enterprise,Q4 Close,46121.6,49075.23,USD
-2024-04,David Lee,East,Enterprise,Q1 Push,40803.8,39628.32,USD
-2024-04,David Lee,West,Enterprise,Always-On,54829.65,44960.67,USD
-2024-04,David Lee,Central,Mid-Market,Q3 Scale,46500.46,43048.63,USD
-2024-04,Emily Chen,North,SMB,Q1 Push,49553.83,43304.75,USD
-2024-04,Emily Chen,South,SMB,Always-On,22408.35,23539.96,USD
-2024-04,Emily Chen,East,Enterprise,Partner Enablement,24246.04,29595.68,USD
-2024-04,Emily Chen,West,SMB,Always-On,53791.36,45869.12,USD
-2024-04,Emily Chen,Central,SMB,Q1 Push,19432.33,18380.57,USD
-2024-04,Frank Wilson,North,Enterprise,Q4 Close,49190.08,56415.56,USD
-2024-04,Frank Wilson,South,SMB,Always-On,29294.28,25501.87,USD
-2024-04,Frank Wilson,East,Enterprise,Q3 Scale,13550.6,16184.33,USD
-2024-04,Frank Wilson,West,SMB,Q4 Close,56696.22,46263.63,USD
-2024-04,Frank Wilson,Central,Mid-Market,Q1 Push,28270.62,30856.56,USD
-2024-04,Grace Kim,North,Mid-Market,Q2 Growth,10834.47,8491.69,USD
-2024-04,Grace Kim,South,Mid-Market,Always-On,11991.34,9356.06,USD
-2024-04,Grace Kim,East,Mid-Market,Q4 Close,24324.39,26910.43,USD
-2024-04,Grace Kim,West,SMB,Always-On,45090.53,35676.25,USD
-2024-04,Grace Kim,Central,Mid-Market,Q1 Push,40802.35,36262.43,USD
-2024-05,Alice Johnson,North,Enterprise,Always-On,35565.23,30287.31,USD
-2024-05,Alice Johnson,South,SMB,Partner Enablement,26337.51,27475.78,USD
-2024-05,Alice Johnson,East,Mid-Market,Partner Enablement,42157.73,38156.32,USD
-2024-05,Alice Johnson,West,Enterprise,Q1 Push,57671.4,50134.83,USD
-2024-05,Alice Johnson,Central,SMB,Always-On,56231.39,45434.59,USD
-2024-05,Bob Smith,North,SMB,Partner Enablement,12751.43,13810.31,USD
-2024-05,Bob Smith,South,Enterprise,Partner Enablement,18782.3,14205.66,USD
-2024-05,Bob Smith,East,Mid-Market,Always-On,10567.53,10548.58,USD
-2024-05,Bob Smith,West,Mid-Market,Q2 Growth,35861.14,41643.87,USD
-2024-05,Bob Smith,Central,Mid-Market,Partner Enablement,28593.47,32164.46,USD
-2024-05,Carol Davis,North,Enterprise,Q3 Scale,54320.74,61692.89,USD
-2024-05,Carol Davis,South,Enterprise,Q3 Scale,50355.39,44614.39,USD
-2024-05,Carol Davis,East,Enterprise,Q4 Close,45616.16,47364.44,USD
-2024-05,Carol Davis,West,Mid-Market,Always-On,32759.89,30468.73,USD
-2024-05,Carol Davis,Central,Enterprise,Always-On,18344.07,15200.91,USD
-2024-05,David Lee,North,SMB,Always-On,43706.02,35299.9,USD
-2024-05,David Lee,South,Enterprise,Q2 Growth,10128.43,11944.91,USD
-2024-05,David Lee,East,Enterprise,Q2 Growth,12299.08,11462.6,USD
-2024-05,David Lee,West,SMB,Partner Enablement,56558.0,66667.32,USD
-2024-05,David Lee,Central,Mid-Market,Q2 Growth,47033.29,45137.13,USD
-2024-05,Emily Chen,North,Mid-Market,Q1 Push,30812.83,34206.68,USD
-2024-05,Emily Chen,South,SMB,Q1 Push,38576.8,31235.65,USD
-2024-05,Emily Chen,East,Enterprise,Q4 Close,18967.22,21853.44,USD
-2024-05,Emily Chen,West,Mid-Market,Q3 Scale,13446.32,13211.64,USD
-2024-05,Emily Chen,Central,Enterprise,Q3 Scale,26365.05,27064.93,USD
-2024-05,Frank Wilson,North,Mid-Market,Partner Enablement,20033.56,20672.7,USD
-2024-05,Frank Wilson,South,SMB,Q4 Close,41135.88,40393.93,USD
-2024-05,Frank Wilson,East,SMB,Always-On,59889.36,68150.68,USD
-2024-05,Frank Wilson,West,Enterprise,Q4 Close,48024.11,41904.08,USD
-2024-05,Frank Wilson,Central,SMB,Partner Enablement,11195.51,11428.07,USD
-2024-05,Grace Kim,North,Enterprise,Partner Enablement,53859.93,66005.08,USD
-2024-05,Grace Kim,South,Mid-Market,Q1 Push,28813.74,32243.77,USD
-2024-05,Grace Kim,East,Mid-Market,Q4 Close,20259.72,25153.61,USD
-2024-05,Grace Kim,West,Enterprise,Partner Enablement,58059.25,71777.47,USD
-2024-05,Grace Kim,Central,Enterprise,Always-On,23991.26,18520.06,USD
-2024-06,Alice Johnson,North,Mid-Market,Partner Enablement,30652.84,36715.63,USD
-2024-06,Alice Johnson,South,Enterprise,Partner Enablement,14245.12,11364.59,USD
-2024-06,Alice Johnson,East,SMB,Q1 Push,50998.14,40156.71,USD
-2024-06,Alice Johnson,West,Enterprise,Q3 Scale,31749.14,39118.41,USD
-2024-06,Alice Johnson,Central,Mid-Market,Partner Enablement,23049.55,20917.57,USD
-2024-06,Bob Smith,North,Mid-Market,Q3 Scale,51594.99,47112.72,USD
-2024-06,Bob Smith,South,Enterprise,Always-On,21680.56,26488.82,USD
-2024-06,Bob Smith,East,Mid-Market,Q4 Close,15448.64,12402.61,USD
-2024-06,Bob Smith,West,Mid-Market,Q2 Growth,25701.66,20827.81,USD
-2024-06,Bob Smith,Central,Enterprise,Q1 Push,32595.85,31998.48,USD
-2024-06,Carol Davis,North,SMB,Partner Enablement,17880.77,19544.17,USD
-2024-06,Carol Davis,South,Mid-Market,Q2 Growth,40165.12,34442.01,USD
-2024-06,Carol Davis,East,Mid-Market,Q4 Close,14560.65,12727.6,USD
-2024-06,Carol Davis,West,Mid-Market,Q2 Growth,35672.98,38833.31,USD
-2024-06,Carol Davis,Central,Mid-Market,Always-On,11554.1,11001.77,USD
-2024-06,David Lee,North,Mid-Market,Q1 Push,47403.92,41474.94,USD
-2024-06,David Lee,South,Enterprise,Q1 Push,50194.84,41154.57,USD
-2024-06,David Lee,East,Enterprise,Q2 Growth,51518.62,63949.22,USD
-2024-06,David Lee,West,SMB,Partner Enablement,51183.67,47914.05,USD
-2024-06,David Lee,Central,Enterprise,Q1 Push,14201.97,14813.5,USD
-2024-06,Emily Chen,North,SMB,Q4 Close,59858.07,50812.03,USD
-2024-06,Emily Chen,South,Mid-Market,Q1 Push,50464.93,40169.55,USD
-2024-06,Emily Chen,East,Enterprise,Always-On,12134.82,11898.16,USD
-2024-06,Emily Chen,West,Mid-Market,Q1 Push,31657.82,35210.32,USD
-2024-06,Emily Chen,Central,Mid-Market,Q2 Growth,29136.47,28068.09,USD
-2024-06,Frank Wilson,North,Mid-Market,Q2 Growth,55415.21,49180.49,USD
-2024-06,Frank Wilson,South,Enterprise,Partner Enablement,11732.47,12431.59,USD
-2024-06,Frank Wilson,East,SMB,Q4 Close,24755.26,23665.93,USD
-2024-06,Frank Wilson,West,Enterprise,Q4 Close,13048.95,11612.1,USD
-2024-06,Frank Wilson,Central,SMB,Q2 Growth,19972.89,23814.2,USD
-2024-06,Grace Kim,North,Enterprise,Q4 Close,41537.72,47813.41,USD
-2024-06,Grace Kim,South,SMB,Q4 Close,49095.79,45637.29,USD
-2024-06,Grace Kim,East,Mid-Market,Q4 Close,27201.71,28094.62,USD
-2024-06,Grace Kim,West,SMB,Q2 Growth,23521.78,17947.86,USD
-2024-06,Grace Kim,Central,Mid-Market,Q1 Push,11465.17,13246.22,USD
-2024-07,Alice Johnson,North,Mid-Market,Always-On,50432.69,49718.67,USD
-2024-07,Alice Johnson,South,Enterprise,Q2 Growth,59980.29,74195.01,USD
-2024-07,Alice Johnson,East,SMB,Q1 Push,42843.22,37841.85,USD
-2024-07,Alice Johnson,West,SMB,Q4 Close,48202.49,58995.09,USD
-2024-07,Alice Johnson,Central,Enterprise,Q2 Growth,27740.23,32445.28,USD
-2024-07,Bob Smith,North,SMB,Partner Enablement,21827.56,19841.3,USD
-2024-07,Bob Smith,South,SMB,Partner Enablement,27939.16,29218.25,USD
-2024-07,Bob Smith,East,Enterprise,Always-On,27584.11,28517.16,USD
-2024-07,Bob Smith,West,Mid-Market,Always-On,57418.43,67084.73,USD
-2024-07,Bob Smith,Central,Enterprise,Q1 Push,25452.65,25330.94,USD
-2024-07,Carol Davis,North,SMB,Q4 Close,21631.17,18589.92,USD
-2024-07,Carol Davis,South,Enterprise,Q2 Growth,10034.17,12130.79,USD
-2024-07,Carol Davis,East,Mid-Market,Q1 Push,27037.95,22677.54,USD
-2024-07,Carol Davis,West,Enterprise,Q1 Push,11095.64,11576.13,USD
-2024-07,Carol Davis,Central,Enterprise,Q3 Scale,52324.04,61759.88,USD
-2024-07,David Lee,North,SMB,Q1 Push,45226.9,48893.43,USD
-2024-07,David Lee,South,Enterprise,Partner Enablement,26828.05,24448.44,USD
-2024-07,David Lee,East,Mid-Market,Partner Enablement,57434.68,65815.62,USD
-2024-07,David Lee,West,SMB,Partner Enablement,25864.17,28543.48,USD
-2024-07,David Lee,Central,Mid-Market,Q2 Growth,54480.01,57577.44,USD
-2024-07,Emily Chen,North,Mid-Market,Q3 Scale,43276.58,50080.83,USD
-2024-07,Emily Chen,South,Enterprise,Partner Enablement,46699.75,41901.75,USD
-2024-07,Emily Chen,East,SMB,Q4 Close,10089.9,11109.02,USD
-2024-07,Emily Chen,West,SMB,Q1 Push,52537.85,59652.27,USD
-2024-07,Emily Chen,Central,SMB,Q2 Growth,19104.09,17367.69,USD
-2024-07,Frank Wilson,North,Mid-Market,Q2 Growth,41982.34,33672.15,USD
-2024-07,Frank Wilson,South,Mid-Market,Q3 Scale,26558.42,20952.03,USD
-2024-07,Frank Wilson,East,Enterprise,Partner Enablement,18394.37,21938.23,USD
-2024-07,Frank Wilson,West,Mid-Market,Q4 Close,43501.23,48488.34,USD
-2024-07,Frank Wilson,Central,SMB,Q1 Push,10569.78,9035.49,USD
-2024-07,Grace Kim,North,SMB,Q1 Push,27524.06,31474.04,USD
-2024-07,Grace Kim,South,Mid-Market,Q2 Growth,12407.37,12024.11,USD
-2024-07,Grace Kim,East,Mid-Market,Q3 Scale,54227.6,54040.03,USD
-2024-07,Grace Kim,West,Mid-Market,Always-On,37301.2,29867.6,USD
-2024-07,Grace Kim,Central,Enterprise,Q4 Close,42548.48,46530.18,USD
-2024-08,Alice Johnson,North,Mid-Market,Q1 Push,13685.47,16051.43,USD
-2024-08,Alice Johnson,South,Enterprise,Q3 Scale,25935.85,31792.97,USD
-2024-08,Alice Johnson,East,SMB,Q1 Push,18505.26,17352.92,USD
-2024-08,Alice Johnson,West,Enterprise,Q3 Scale,37352.31,44787.74,USD
-2024-08,Alice Johnson,Central,Mid-Market,Partner Enablement,39701.53,41957.46,USD
-2024-08,Bob Smith,North,Enterprise,Always-On,11549.66,14104.69,USD
-2024-08,Bob Smith,South,Enterprise,Q3 Scale,54487.66,45145.85,USD
-2024-08,Bob Smith,East,SMB,Always-On,20277.52,17134.34,USD
-2024-08,Bob Smith,West,Mid-Market,Partner Enablement,46101.91,51403.03,USD
-2024-08,Bob Smith,Central,Enterprise,Q4 Close,24076.15,20916.74,USD
-2024-08,Carol Davis,North,Enterprise,Q1 Push,38588.49,45145.73,USD
-2024-08,Carol Davis,South,Mid-Market,Partner Enablement,28041.45,27026.43,USD
-2024-08,Carol Davis,East,Enterprise,Q1 Push,41254.55,40848.78,USD
-2024-08,Carol Davis,West,Enterprise,Q4 Close,20347.65,21753.58,USD
-2024-08,Carol Davis,Central,Mid-Market,Q4 Close,52188.45,47187.58,USD
-2024-08,David Lee,North,Enterprise,Partner Enablement,34454.84,37229.14,USD
-2024-08,David Lee,South,Mid-Market,Q3 Scale,37206.3,31344.1,USD
-2024-08,David Lee,East,Mid-Market,Q4 Close,19329.15,14928.07,USD
-2024-08,David Lee,West,SMB,Q1 Push,23170.04,27075.1,USD
-2024-08,David Lee,Central,Enterprise,Q1 Push,17556.53,19281.2,USD
-2024-08,Emily Chen,North,Mid-Market,Always-On,43407.06,50095.66,USD
-2024-08,Emily Chen,South,Mid-Market,Always-On,21375.64,16683.51,USD
-2024-08,Emily Chen,East,Mid-Market,Always-On,30931.6,31480.86,USD
-2024-08,Emily Chen,West,Enterprise,Q4 Close,54082.69,53440.79,USD
-2024-08,Emily Chen,Central,SMB,Always-On,55138.86,61047.15,USD
-2024-08,Frank Wilson,North,SMB,Always-On,55022.75,63288.55,USD
-2024-08,Frank Wilson,South,Mid-Market,Q2 Growth,17372.38,21274.69,USD
-2024-08,Frank Wilson,East,Enterprise,Q2 Growth,57453.07,47891.87,USD
-2024-08,Frank Wilson,West,SMB,Q4 Close,16309.3,15684.45,USD
-2024-08,Frank Wilson,Central,Enterprise,Always-On,20095.96,23337.08,USD
-2024-08,Grace Kim,North,Enterprise,Q1 Push,22894.32,27596.86,USD
-2024-08,Grace Kim,South,Mid-Market,Q3 Scale,29404.96,27895.82,USD
-2024-08,Grace Kim,East,Enterprise,Partner Enablement,35984.41,43490.07,USD
-2024-08,Grace Kim,West,Mid-Market,Q1 Push,41152.9,41617.15,USD
-2024-08,Grace Kim,Central,SMB,Always-On,30722.12,25318.1,USD
-2024-09,Alice Johnson,North,Enterprise,Always-On,47918.87,58452.64,USD
-2024-09,Alice Johnson,South,SMB,Q3 Scale,48977.23,55974.74,USD
-2024-09,Alice Johnson,East,SMB,Q4 Close,53894.68,47538.79,USD
-2024-09,Alice Johnson,West,Enterprise,Q3 Scale,38601.16,38080.94,USD
-2024-09,Alice Johnson,Central,SMB,Partner Enablement,30148.7,31931.16,USD
-2024-09,Bob Smith,North,Mid-Market,Partner Enablement,30085.99,28518.4,USD
-2024-09,Bob Smith,South,Mid-Market,Q3 Scale,21878.96,24567.34,USD
-2024-09,Bob Smith,East,Mid-Market,Q3 Scale,11011.64,12759.11,USD
-2024-09,Bob Smith,West,SMB,Partner Enablement,24017.33,23916.69,USD
-2024-09,Bob Smith,Central,Enterprise,Q3 Scale,14910.87,17661.18,USD
-2024-09,Carol Davis,North,Mid-Market,Q3 Scale,58710.97,57040.95,USD
-2024-09,Carol Davis,South,Enterprise,Q2 Growth,46439.97,48877.58,USD
-2024-09,Carol Davis,East,Mid-Market,Partner Enablement,32085.83,38718.5,USD
-2024-09,Carol Davis,West,Mid-Market,Q1 Push,34223.02,34505.38,USD
-2024-09,Carol Davis,Central,Mid-Market,Partner Enablement,35763.49,29665.32,USD
-2024-09,David Lee,North,SMB,Always-On,35339.76,28901.74,USD
-2024-09,David Lee,South,Enterprise,Q1 Push,11447.41,9688.88,USD
-2024-09,David Lee,East,Mid-Market,Partner Enablement,22474.51,21985.11,USD
-2024-09,David Lee,West,Mid-Market,Always-On,19955.49,18641.94,USD
-2024-09,David Lee,Central,SMB,Q1 Push,29847.11,36160.87,USD
-2024-09,Emily Chen,North,Mid-Market,Q2 Growth,22096.9,21973.01,USD
-2024-09,Emily Chen,South,SMB,Q3 Scale,58026.02,57288.58,USD
-2024-09,Emily Chen,East,Mid-Market,Partner Enablement,27212.45,31806.64,USD
-2024-09,Emily Chen,West,Enterprise,Q4 Close,51543.51,40987.19,USD
-2024-09,Emily Chen,Central,Enterprise,Q2 Growth,12482.55,14690.85,USD
-2024-09,Frank Wilson,North,Mid-Market,Partner Enablement,42368.99,46133.37,USD
-2024-09,Frank Wilson,South,SMB,Q1 Push,30475.36,23162.07,USD
-2024-09,Frank Wilson,East,Enterprise,Always-On,33704.86,27508.46,USD
-2024-09,Frank Wilson,West,SMB,Q3 Scale,50043.24,43131.52,USD
-2024-09,Frank Wilson,Central,Mid-Market,Q4 Close,45637.02,50414.49,USD
-2024-09,Grace Kim,North,Mid-Market,Q3 Scale,54774.15,64403.07,USD
-2024-09,Grace Kim,South,SMB,Always-On,20910.45,18841.83,USD
-2024-09,Grace Kim,East,SMB,Partner Enablement,29857.63,23920.62,USD
-2024-09,Grace Kim,West,SMB,Partner Enablement,58324.27,68221.27,USD
-2024-09,Grace Kim,Central,SMB,Q1 Push,39688.63,35376.0,USD
-2024-10,Alice Johnson,North,Mid-Market,Partner Enablement,34086.92,31296.63,USD
-2024-10,Alice Johnson,South,SMB,Partner Enablement,26256.85,23327.7,USD
-2024-10,Alice Johnson,East,Enterprise,Q2 Growth,57609.39,61972.34,USD
-2024-10,Alice Johnson,West,Enterprise,Always-On,35864.68,31207.69,USD
-2024-10,Alice Johnson,Central,Enterprise,Partner Enablement,30204.92,27480.22,USD
-2024-10,Bob Smith,North,Mid-Market,Q3 Scale,11272.76,11257.95,USD
-2024-10,Bob Smith,South,SMB,Q1 Push,55345.58,52705.57,USD
-2024-10,Bob Smith,East,Enterprise,Q3 Scale,39151.19,48836.29,USD
-2024-10,Bob Smith,West,SMB,Partner Enablement,46327.49,39896.38,USD
-2024-10,Bob Smith,Central,SMB,Q3 Scale,49244.85,59254.52,USD
-2024-10,Carol Davis,North,SMB,Always-On,35365.74,41473.74,USD
-2024-10,Carol Davis,South,Enterprise,Partner Enablement,19056.79,15222.59,USD
-2024-10,Carol Davis,East,Enterprise,Partner Enablement,22932.59,26468.15,USD
-2024-10,Carol Davis,West,Enterprise,Q3 Scale,54979.56,59224.93,USD
-2024-10,Carol Davis,Central,Mid-Market,Q3 Scale,21166.4,25097.34,USD
-2024-10,David Lee,North,Mid-Market,Q1 Push,28584.12,29807.1,USD
-2024-10,David Lee,South,SMB,Always-On,33526.83,39668.83,USD
-2024-10,David Lee,East,Enterprise,Always-On,57215.05,44948.59,USD
-2024-10,David Lee,West,SMB,Q3 Scale,15990.8,17435.55,USD
-2024-10,David Lee,Central,Enterprise,Q2 Growth,30655.36,36339.62,USD
-2024-10,Emily Chen,North,SMB,Q4 Close,59617.39,54927.58,USD
-2024-10,Emily Chen,South,Enterprise,Q1 Push,17161.21,20270.77,USD
-2024-10,Emily Chen,East,Enterprise,Q3 Scale,34379.04,36631.43,USD
-2024-10,Emily Chen,West,Mid-Market,Q2 Growth,41724.95,31392.05,USD
-2024-10,Emily Chen,Central,Enterprise,Q4 Close,48059.66,40096.31,USD
-2024-10,Frank Wilson,North,Enterprise,Always-On,49260.55,56150.93,USD
-2024-10,Frank Wilson,South,Mid-Market,Q4 Close,31685.57,30567.22,USD
-2024-10,Frank Wilson,East,Enterprise,Partner Enablement,29165.82,22424.51,USD
-2024-10,Frank Wilson,West,Mid-Market,Always-On,28655.07,21692.99,USD
-2024-10,Frank Wilson,Central,SMB,Partner Enablement,19528.84,21254.68,USD
-2024-10,Grace Kim,North,Mid-Market,Q3 Scale,22441.16,24612.62,USD
-2024-10,Grace Kim,South,SMB,Q3 Scale,16446.54,15488.94,USD
-2024-10,Grace Kim,East,Mid-Market,Q3 Scale,18351.01,21322.44,USD
-2024-10,Grace Kim,West,SMB,Q3 Scale,32796.32,33129.01,USD
-2024-10,Grace Kim,Central,Enterprise,Q3 Scale,31683.26,34642.16,USD
-2024-11,Alice Johnson,North,Enterprise,Q2 Growth,59806.95,59513.26,USD
-2024-11,Alice Johnson,South,Mid-Market,Q1 Push,57404.22,69407.6,USD
-2024-11,Alice Johnson,East,Enterprise,Q2 Growth,21420.91,23853.99,USD
-2024-11,Alice Johnson,West,Enterprise,Q1 Push,46703.83,48798.33,USD
-2024-11,Alice Johnson,Central,Enterprise,Q4 Close,28329.57,30461.94,USD
-2024-11,Bob Smith,North,SMB,Always-On,53827.21,47254.62,USD
-2024-11,Bob Smith,South,SMB,Q1 Push,12429.35,15503.63,USD
-2024-11,Bob Smith,East,SMB,Q1 Push,42678.38,32430.06,USD
-2024-11,Bob Smith,West,SMB,Q3 Scale,30838.78,28992.37,USD
-2024-11,Bob Smith,Central,SMB,Partner Enablement,33719.82,27871.57,USD
-2024-11,Carol Davis,North,SMB,Q1 Push,41515.57,37387.19,USD
-2024-11,Carol Davis,South,SMB,Partner Enablement,43124.15,38164.38,USD
-2024-11,Carol Davis,East,Enterprise,Always-On,16858.18,19645.28,USD
-2024-11,Carol Davis,West,Enterprise,Q1 Push,45938.31,37158.0,USD
-2024-11,Carol Davis,Central,Mid-Market,Always-On,34886.95,36788.32,USD
-2024-11,David Lee,North,Mid-Market,Q3 Scale,58655.99,54489.12,USD
-2024-11,David Lee,South,Enterprise,Partner Enablement,18018.68,18452.38,USD
-2024-11,David Lee,East,Enterprise,Q1 Push,56656.22,51857.54,USD
-2024-11,David Lee,West,SMB,Partner Enablement,43581.66,52447.91,USD
-2024-11,David Lee,Central,SMB,Q1 Push,34705.2,42504.26,USD
-2024-11,Emily Chen,North,Mid-Market,Partner Enablement,46178.18,36972.34,USD
-2024-11,Emily Chen,South,Mid-Market,Q3 Scale,21558.01,26825.34,USD
-2024-11,Emily Chen,East,Enterprise,Q1 Push,33213.87,26567.92,USD
-2024-11,Emily Chen,West,SMB,Q3 Scale,52612.43,48935.21,USD
-2024-11,Emily Chen,Central,Enterprise,Q1 Push,31299.76,25288.66,USD
-2024-11,Frank Wilson,North,Enterprise,Q3 Scale,52599.94,56896.17,USD
-2024-11,Frank Wilson,South,SMB,Q3 Scale,27876.37,27008.22,USD
-2024-11,Frank Wilson,East,Mid-Market,Q2 Growth,53923.78,42948.98,USD
-2024-11,Frank Wilson,West,Mid-Market,Q3 Scale,15691.6,14908.98,USD
-2024-11,Frank Wilson,Central,Mid-Market,Q4 Close,51785.42,56702.51,USD
-2024-11,Grace Kim,North,Enterprise,Q2 Growth,42442.32,48743.09,USD
-2024-11,Grace Kim,South,Enterprise,Q1 Push,44808.49,34920.3,USD
-2024-11,Grace Kim,East,SMB,Partner Enablement,30801.39,32199.01,USD
-2024-11,Grace Kim,West,Mid-Market,Always-On,31908.14,33684.2,USD
-2024-11,Grace Kim,Central,SMB,Q2 Growth,11440.81,12496.02,USD
-2024-12,Alice Johnson,North,Mid-Market,Q4 Close,34153.98,33951.15,USD
-2024-12,Alice Johnson,South,Mid-Market,Q1 Push,12298.62,10832.7,USD
-2024-12,Alice Johnson,East,SMB,Always-On,45228.41,49252.13,USD
-2024-12,Alice Johnson,West,SMB,Q3 Scale,46188.68,39814.29,USD
-2024-12,Alice Johnson,Central,SMB,Q1 Push,35954.98,39339.09,USD
-2024-12,Bob Smith,North,Mid-Market,Q3 Scale,31642.4,35228.31,USD
-2024-12,Bob Smith,South,Enterprise,Always-On,43185.53,46238.84,USD
-2024-12,Bob Smith,East,Enterprise,Partner Enablement,54603.09,57685.82,USD
-2024-12,Bob Smith,West,Mid-Market,Q4 Close,56718.57,56876.46,USD
-2024-12,Bob Smith,Central,Mid-Market,Q3 Scale,53470.78,42104.64,USD
-2024-12,Carol Davis,North,Enterprise,Always-On,22044.59,27226.67,USD
-2024-12,Carol Davis,South,Mid-Market,Q2 Growth,21135.33,22649.86,USD
-2024-12,Carol Davis,East,SMB,Q4 Close,13941.53,13552.48,USD
-2024-12,Carol Davis,West,Mid-Market,Q1 Push,14400.99,14389.87,USD
-2024-12,Carol Davis,Central,Enterprise,Q1 Push,59033.54,66272.2,USD
-2024-12,David Lee,North,SMB,Q1 Push,30171.98,23169.55,USD
-2024-12,David Lee,South,SMB,Partner Enablement,51295.44,58779.02,USD
-2024-12,David Lee,East,Enterprise,Partner Enablement,25229.9,25335.08,USD
-2024-12,David Lee,West,Mid-Market,Q1 Push,43573.72,53385.54,USD
-2024-12,David Lee,Central,Mid-Market,Always-On,50829.43,59580.16,USD
-2024-12,Emily Chen,North,SMB,Partner Enablement,48370.82,50788.18,USD
-2024-12,Emily Chen,South,Enterprise,Partner Enablement,28164.73,27496.27,USD
-2024-12,Emily Chen,East,SMB,Q3 Scale,21087.36,19414.68,USD
-2024-12,Emily Chen,West,Enterprise,Q1 Push,37384.53,35027.26,USD
-2024-12,Emily Chen,Central,SMB,Partner Enablement,54843.86,54636.06,USD
-2024-12,Frank Wilson,North,SMB,Q2 Growth,46077.95,37022.75,USD
-2024-12,Frank Wilson,South,Mid-Market,Q2 Growth,19377.17,23545.36,USD
-2024-12,Frank Wilson,East,SMB,Q3 Scale,32852.3,37474.95,USD
-2024-12,Frank Wilson,West,SMB,Partner Enablement,15388.29,14730.21,USD
-2024-12,Frank Wilson,Central,Mid-Market,Q4 Close,39440.56,44807.34,USD
-2024-12,Grace Kim,North,Enterprise,Q4 Close,42922.83,52713.32,USD
-2024-12,Grace Kim,South,SMB,Q4 Close,10216.88,11423.56,USD
-2024-12,Grace Kim,East,SMB,Q2 Growth,51940.81,51497.55,USD
-2024-12,Grace Kim,West,Enterprise,Q1 Push,44590.89,37314.78,USD
-2024-12,Grace Kim,Central,Mid-Market,Always-On,29370.28,30846.81,USD
-2025-01,Alice Johnson,North,SMB,Partner Enablement,54069.53,51870.65,USD
-2025-01,Alice Johnson,South,Mid-Market,Q3 Scale,48118.73,42671.59,USD
-2025-01,Alice Johnson,East,Mid-Market,Always-On,32642.29,26658.5,USD
-2025-01,Alice Johnson,West,Mid-Market,Partner Enablement,45000.71,50590.4,USD
-2025-01,Alice Johnson,Central,SMB,Always-On,37390.3,33911.33,USD
-2025-01,Bob Smith,North,SMB,Partner Enablement,41629.16,35403.29,USD
-2025-01,Bob Smith,South,SMB,Q2 Growth,24528.97,22631.58,USD
-2025-01,Bob Smith,East,Enterprise,Always-On,59066.77,63499.33,USD
-2025-01,Bob Smith,West,SMB,Q1 Push,37124.57,39665.33,USD
-2025-01,Bob Smith,Central,SMB,Always-On,48038.75,49534.68,USD
-2025-01,Carol Davis,North,SMB,Partner Enablement,57133.68,63136.25,USD
-2025-01,Carol Davis,South,Mid-Market,Q1 Push,54693.3,55620.43,USD
-2025-01,Carol Davis,East,Enterprise,Q1 Push,36136.5,27559.0,USD
-2025-01,Carol Davis,West,Enterprise,Q3 Scale,43512.71,36983.68,USD
-2025-01,Carol Davis,Central,Enterprise,Partner Enablement,44169.52,36360.98,USD
-2025-01,David Lee,North,SMB,Q1 Push,49217.87,41933.65,USD
-2025-01,David Lee,South,SMB,Partner Enablement,27934.12,27272.0,USD
-2025-01,David Lee,East,SMB,Partner Enablement,46974.62,55543.77,USD
-2025-01,David Lee,West,SMB,Q3 Scale,38063.53,33069.51,USD
-2025-01,David Lee,Central,Mid-Market,Q4 Close,44646.8,34533.85,USD
-2025-01,Emily Chen,North,SMB,Q3 Scale,30828.31,35269.31,USD
-2025-01,Emily Chen,South,SMB,Q3 Scale,58291.66,45286.85,USD
-2025-01,Emily Chen,East,Mid-Market,Q2 Growth,20154.36,23871.33,USD
-2025-01,Emily Chen,West,SMB,Q3 Scale,55574.32,61260.38,USD
-2025-01,Emily Chen,Central,SMB,Q2 Growth,47755.39,48868.45,USD
-2025-01,Frank Wilson,North,Mid-Market,Q4 Close,48807.34,60137.72,USD
-2025-01,Frank Wilson,South,Enterprise,Q2 Growth,18871.29,20594.79,USD
-2025-01,Frank Wilson,East,Enterprise,Q4 Close,46753.97,37855.61,USD
-2025-01,Frank Wilson,West,Enterprise,Always-On,23955.61,21131.72,USD
-2025-01,Frank Wilson,Central,Mid-Market,Partner Enablement,52300.71,39373.15,USD
-2025-01,Grace Kim,North,Mid-Market,Always-On,56874.72,43791.84,USD
-2025-01,Grace Kim,South,SMB,Partner Enablement,12542.77,15254.4,USD
-2025-01,Grace Kim,East,SMB,Q3 Scale,25057.74,28689.96,USD
-2025-01,Grace Kim,West,SMB,Q2 Growth,13644.04,15060.85,USD
-2025-01,Grace Kim,Central,SMB,Q2 Growth,57849.39,58445.42,USD
-2025-02,Alice Johnson,North,Enterprise,Q3 Scale,30796.56,31366.85,USD
-2025-02,Alice Johnson,South,Mid-Market,Q3 Scale,21059.9,18041.53,USD
-2025-02,Alice Johnson,East,SMB,Always-On,28039.89,24092.51,USD
-2025-02,Alice Johnson,West,SMB,Q1 Push,33742.86,34777.66,USD
-2025-02,Alice Johnson,Central,Enterprise,Partner Enablement,15736.1,14524.48,USD
-2025-02,Bob Smith,North,Enterprise,Partner Enablement,40685.05,43149.17,USD
-2025-02,Bob Smith,South,Enterprise,Q4 Close,54283.01,51063.28,USD
-2025-02,Bob Smith,East,Enterprise,Always-On,22829.53,25386.16,USD
-2025-02,Bob Smith,West,SMB,Q4 Close,51105.45,47910.29,USD
-2025-02,Bob Smith,Central,SMB,Q2 Growth,34340.24,30844.99,USD
-2025-02,Carol Davis,North,Enterprise,Q2 Growth,26015.64,20582.86,USD
-2025-02,Carol Davis,South,SMB,Q1 Push,58581.44,66587.14,USD
-2025-02,Carol Davis,East,SMB,Q2 Growth,41346.65,35367.54,USD
-2025-02,Carol Davis,West,Enterprise,Q2 Growth,53247.54,51229.71,USD
-2025-02,Carol Davis,Central,SMB,Q4 Close,36887.71,40627.07,USD
-2025-02,David Lee,North,SMB,Partner Enablement,42328.06,51634.97,USD
-2025-02,David Lee,South,Mid-Market,Q1 Push,17687.73,17327.12,USD
-2025-02,David Lee,East,Mid-Market,Always-On,14376.04,11172.11,USD
-2025-02,David Lee,West,Mid-Market,Q4 Close,13522.1,15696.58,USD
-2025-02,David Lee,Central,Mid-Market,Q3 Scale,29401.63,31315.93,USD
-2025-02,Emily Chen,North,SMB,Q1 Push,10844.55,11784.22,USD
-2025-02,Emily Chen,South,SMB,Always-On,42071.14,44560.69,USD
-2025-02,Emily Chen,East,Mid-Market,Always-On,12275.84,14413.38,USD
-2025-02,Emily Chen,West,Mid-Market,Always-On,15306.78,17502.48,USD
-2025-02,Emily Chen,Central,Mid-Market,Q4 Close,14325.26,16225.32,USD
-2025-02,Frank Wilson,North,Mid-Market,Q2 Growth,29755.66,32146.87,USD
-2025-02,Frank Wilson,South,Mid-Market,Always-On,36673.39,30005.83,USD
-2025-02,Frank Wilson,East,Mid-Market,Partner Enablement,24748.92,26407.66,USD
-2025-02,Frank Wilson,West,SMB,Partner Enablement,54348.91,66994.96,USD
-2025-02,Frank Wilson,Central,SMB,Always-On,28656.53,35096.59,USD
-2025-02,Grace Kim,North,SMB,Always-On,17068.69,13158.02,USD
-2025-02,Grace Kim,South,Enterprise,Q3 Scale,29704.09,30409.94,USD
-2025-02,Grace Kim,East,SMB,Q3 Scale,20502.64,22977.62,USD
-2025-02,Grace Kim,West,SMB,Q2 Growth,20586.85,24762.15,USD
-2025-02,Grace Kim,Central,Mid-Market,Q2 Growth,18047.72,15528.15,USD
-2025-03,Alice Johnson,North,SMB,Q1 Push,15731.13,17075.97,USD
-2025-03,Alice Johnson,South,SMB,Q4 Close,52569.39,63934.1,USD
-2025-03,Alice Johnson,East,SMB,Q1 Push,42233.73,33219.88,USD
-2025-03,Alice Johnson,West,SMB,Q4 Close,22534.38,19125.13,USD
-2025-03,Alice Johnson,Central,SMB,Partner Enablement,57577.0,53464.23,USD
-2025-03,Bob Smith,North,Enterprise,Q2 Growth,21726.64,19392.52,USD
-2025-03,Bob Smith,South,SMB,Partner Enablement,25889.3,25250.43,USD
-2025-03,Bob Smith,East,SMB,Always-On,25283.77,26347.84,USD
-2025-03,Bob Smith,West,Mid-Market,Q2 Growth,28224.67,25632.7,USD
-2025-03,Bob Smith,Central,Enterprise,Partner Enablement,10241.59,8941.8,USD
-2025-03,Carol Davis,North,Mid-Market,Q2 Growth,46990.81,45490.02,USD
-2025-03,Carol Davis,South,Mid-Market,Q4 Close,43979.01,40275.16,USD
-2025-03,Carol Davis,East,Mid-Market,Always-On,32267.9,36700.98,USD
-2025-03,Carol Davis,West,Enterprise,Q3 Scale,15441.63,16565.41,USD
-2025-03,Carol Davis,Central,SMB,Q2 Growth,52935.68,43407.3,USD
-2025-03,David Lee,North,Enterprise,Partner Enablement,23161.73,27635.83,USD
-2025-03,David Lee,South,SMB,Partner Enablement,13770.0,10455.77,USD
-2025-03,David Lee,East,Mid-Market,Always-On,11559.71,12033.03,USD
-2025-03,David Lee,West,Mid-Market,Always-On,20638.03,15856.78,USD
-2025-03,David Lee,Central,SMB,Q2 Growth,54699.3,55784.46,USD
-2025-03,Emily Chen,North,SMB,Partner Enablement,28290.93,24376.97,USD
-2025-03,Emily Chen,South,SMB,Always-On,52858.21,43182.02,USD
-2025-03,Emily Chen,East,Enterprise,Partner Enablement,14527.7,13538.84,USD
-2025-03,Emily Chen,West,SMB,Partner Enablement,21944.04,27035.06,USD
-2025-03,Emily Chen,Central,Mid-Market,Q2 Growth,18292.18,18421.48,USD
-2025-03,Frank Wilson,North,SMB,Q2 Growth,18957.26,23210.43,USD
-2025-03,Frank Wilson,South,Mid-Market,Q1 Push,46795.99,46410.0,USD
-2025-03,Frank Wilson,East,Enterprise,Q3 Scale,20940.96,20811.57,USD
-2025-03,Frank Wilson,West,Enterprise,Always-On,28471.76,21963.24,USD
-2025-03,Frank Wilson,Central,Mid-Market,Q4 Close,55386.3,51543.91,USD
-2025-03,Grace Kim,North,SMB,Q3 Scale,54077.6,41637.18,USD
-2025-03,Grace Kim,South,SMB,Q3 Scale,15161.25,18712.33,USD
-2025-03,Grace Kim,East,SMB,Always-On,51743.61,45620.17,USD
-2025-03,Grace Kim,West,Mid-Market,Always-On,18692.49,20128.78,USD
-2025-03,Grace Kim,Central,SMB,Q3 Scale,42666.83,49823.53,USD
-2025-04,Alice Johnson,North,SMB,Q4 Close,28816.44,34684.08,USD
-2025-04,Alice Johnson,South,Mid-Market,Q4 Close,27644.9,32727.68,USD
-2025-04,Alice Johnson,East,Enterprise,Q4 Close,54358.6,40948.27,USD
-2025-04,Alice Johnson,West,SMB,Q3 Scale,18280.29,14414.82,USD
-2025-04,Alice Johnson,Central,Mid-Market,Always-On,20575.86,17354.77,USD
-2025-04,Bob Smith,North,Enterprise,Q4 Close,45865.14,37112.47,USD
-2025-04,Bob Smith,South,Mid-Market,Partner Enablement,50558.63,56126.54,USD
-2025-04,Bob Smith,East,Enterprise,Partner Enablement,33940.73,29031.27,USD
-2025-04,Bob Smith,West,Enterprise,Q2 Growth,51668.25,39331.06,USD
-2025-04,Bob Smith,Central,SMB,Always-On,38674.33,32121.53,USD
-2025-04,Carol Davis,North,Enterprise,Q2 Growth,11959.54,12391.69,USD
-2025-04,Carol Davis,South,Mid-Market,Always-On,22912.98,19247.33,USD
-2025-04,Carol Davis,East,SMB,Partner Enablement,58462.18,62485.04,USD
-2025-04,Carol Davis,West,Enterprise,Q2 Growth,43087.25,38422.08,USD
-2025-04,Carol Davis,Central,Mid-Market,Q2 Growth,32460.17,40457.96,USD
-2025-04,David Lee,North,Enterprise,Always-On,20968.19,20032.66,USD
-2025-04,David Lee,South,SMB,Always-On,51022.66,42907.1,USD
-2025-04,David Lee,East,Mid-Market,Q4 Close,23226.03,25829.51,USD
-2025-04,David Lee,West,Mid-Market,Q4 Close,39826.67,31240.89,USD
-2025-04,David Lee,Central,SMB,Always-On,16610.66,12595.55,USD
-2025-04,Emily Chen,North,SMB,Q1 Push,44218.39,51437.36,USD
-2025-04,Emily Chen,South,SMB,Q1 Push,18871.11,22660.51,USD
-2025-04,Emily Chen,East,Enterprise,Q1 Push,53887.63,54734.47,USD
-2025-04,Emily Chen,West,SMB,Always-On,34112.05,27806.93,USD
-2025-04,Emily Chen,Central,SMB,Partner Enablement,51376.09,61573.45,USD
-2025-04,Frank Wilson,North,Enterprise,Partner Enablement,31574.84,30322.65,USD
-2025-04,Frank Wilson,South,Mid-Market,Q4 Close,36490.83,31555.19,USD
-2025-04,Frank Wilson,East,SMB,Always-On,27525.89,31718.37,USD
-2025-04,Frank Wilson,West,Mid-Market,Q2 Growth,14885.85,12160.87,USD
-2025-04,Frank Wilson,Central,SMB,Always-On,55504.27,43954.32,USD
-2025-04,Grace Kim,North,SMB,Partner Enablement,30432.34,25700.43,USD
-2025-04,Grace Kim,South,Enterprise,Always-On,49471.12,51400.18,USD
-2025-04,Grace Kim,East,SMB,Q3 Scale,10359.7,11160.23,USD
-2025-04,Grace Kim,West,Mid-Market,Partner Enablement,30442.25,24454.0,USD
-2025-04,Grace Kim,Central,SMB,Q4 Close,39268.51,34581.87,USD
-2025-05,Alice Johnson,North,SMB,Q4 Close,38233.51,40372.31,USD
-2025-05,Alice Johnson,South,SMB,Q4 Close,47748.6,45676.98,USD
-2025-05,Alice Johnson,East,Mid-Market,Q3 Scale,18935.98,19495.48,USD
-2025-05,Alice Johnson,West,SMB,Q4 Close,59425.41,61732.64,USD
-2025-05,Alice Johnson,Central,SMB,Q1 Push,46789.12,55094.16,USD
-2025-05,Bob Smith,North,SMB,Q2 Growth,47390.71,46125.26,USD
-2025-05,Bob Smith,South,Mid-Market,Always-On,15013.93,15076.56,USD
-2025-05,Bob Smith,East,Enterprise,Q2 Growth,40701.27,44457.27,USD
-2025-05,Bob Smith,West,Enterprise,Q2 Growth,29455.18,31456.32,USD
-2025-05,Bob Smith,Central,Enterprise,Q1 Push,33583.43,35266.72,USD
-2025-05,Carol Davis,North,SMB,Q1 Push,23154.6,21659.22,USD
-2025-05,Carol Davis,South,Mid-Market,Always-On,46224.74,56178.89,USD
-2025-05,Carol Davis,East,SMB,Q1 Push,42808.76,38238.27,USD
-2025-05,Carol Davis,West,SMB,Q4 Close,57285.79,66458.07,USD
-2025-05,Carol Davis,Central,SMB,Always-On,31948.6,27183.58,USD
-2025-05,David Lee,North,SMB,Always-On,24300.33,18633.61,USD
-2025-05,David Lee,South,Enterprise,Partner Enablement,35790.68,30988.84,USD
-2025-05,David Lee,East,Enterprise,Q2 Growth,11803.06,10264.28,USD
-2025-05,David Lee,West,Mid-Market,Q3 Scale,14342.14,12735.37,USD
-2025-05,David Lee,Central,Enterprise,Always-On,43483.1,41427.46,USD
-2025-05,Emily Chen,North,Enterprise,Always-On,10768.33,11864.66,USD
-2025-05,Emily Chen,South,SMB,Q3 Scale,24224.69,28218.92,USD
-2025-05,Emily Chen,East,Enterprise,Always-On,27373.75,31692.16,USD
-2025-05,Emily Chen,West,Mid-Market,Always-On,58152.86,56837.41,USD
-2025-05,Emily Chen,Central,SMB,Q1 Push,10232.57,8569.96,USD
-2025-05,Frank Wilson,North,Mid-Market,Q1 Push,37931.54,37991.65,USD
-2025-05,Frank Wilson,South,SMB,Always-On,50147.11,61598.44,USD
-2025-05,Frank Wilson,East,Mid-Market,Always-On,22507.07,21863.01,USD
-2025-05,Frank Wilson,West,Mid-Market,Q4 Close,34181.49,29793.84,USD
-2025-05,Frank Wilson,Central,Enterprise,Q4 Close,44079.73,52819.06,USD
-2025-05,Grace Kim,North,SMB,Q2 Growth,15813.42,12394.2,USD
-2025-05,Grace Kim,South,Mid-Market,Q4 Close,43845.65,37924.96,USD
-2025-05,Grace Kim,East,Enterprise,Partner Enablement,57772.28,58249.02,USD
-2025-05,Grace Kim,West,Enterprise,Q4 Close,51608.85,45112.78,USD
-2025-05,Grace Kim,Central,Enterprise,Always-On,43684.9,50697.96,USD
-2025-06,Alice Johnson,North,Mid-Market,Q2 Growth,56569.81,55906.68,USD
-2025-06,Alice Johnson,South,SMB,Partner Enablement,54715.81,48398.21,USD
-2025-06,Alice Johnson,East,SMB,Q2 Growth,56512.76,47758.02,USD
-2025-06,Alice Johnson,West,Mid-Market,Q2 Growth,21743.07,18938.83,USD
-2025-06,Alice Johnson,Central,SMB,Q3 Scale,21460.38,25054.35,USD
-2025-06,Bob Smith,North,Enterprise,Partner Enablement,17799.78,14299.36,USD
-2025-06,Bob Smith,South,Enterprise,Always-On,57788.98,57577.03,USD
-2025-06,Bob Smith,East,Mid-Market,Always-On,57899.65,67974.5,USD
-2025-06,Bob Smith,West,SMB,Q3 Scale,25770.85,30900.81,USD
-2025-06,Bob Smith,Central,SMB,Q3 Scale,34540.27,42905.83,USD
-2025-06,Carol Davis,North,Enterprise,Q1 Push,29893.97,33633.25,USD
-2025-06,Carol Davis,South,SMB,Q1 Push,36286.77,34892.92,USD
-2025-06,Carol Davis,East,SMB,Q2 Growth,35123.76,33257.23,USD
-2025-06,Carol Davis,West,SMB,Q4 Close,32859.8,26622.49,USD
-2025-06,Carol Davis,Central,SMB,Q2 Growth,25782.56,19445.45,USD
-2025-06,David Lee,North,Mid-Market,Always-On,28971.4,23187.95,USD
-2025-06,David Lee,South,Mid-Market,Q2 Growth,53092.1,44787.23,USD
-2025-06,David Lee,East,Mid-Market,Q3 Scale,23470.41,28851.32,USD
-2025-06,David Lee,West,Mid-Market,Partner Enablement,19195.68,18465.7,USD
-2025-06,David Lee,Central,Mid-Market,Q3 Scale,47609.79,44397.99,USD
-2025-06,Emily Chen,North,SMB,Partner Enablement,32536.45,33698.16,USD
-2025-06,Emily Chen,South,Mid-Market,Q2 Growth,21428.34,17141.28,USD
-2025-06,Emily Chen,East,Enterprise,Q2 Growth,37767.0,44495.36,USD
-2025-06,Emily Chen,West,Mid-Market,Q1 Push,50001.87,55965.64,USD
-2025-06,Emily Chen,Central,SMB,Always-On,18830.36,18826.57,USD
-2025-06,Frank Wilson,North,Mid-Market,Q3 Scale,36699.13,33317.81,USD
-2025-06,Frank Wilson,South,Enterprise,Q4 Close,22548.7,26590.58,USD
-2025-06,Frank Wilson,East,Enterprise,Q3 Scale,14948.74,12432.43,USD
-2025-06,Frank Wilson,West,Mid-Market,Partner Enablement,33826.97,36023.39,USD
-2025-06,Frank Wilson,Central,SMB,Always-On,26732.83,24874.39,USD
-2025-06,Grace Kim,North,Enterprise,Q4 Close,56592.23,49736.5,USD
-2025-06,Grace Kim,South,SMB,Q2 Growth,16061.87,19012.18,USD
-2025-06,Grace Kim,East,SMB,Q2 Growth,38842.69,41753.28,USD
-2025-06,Grace Kim,West,Mid-Market,Partner Enablement,58968.66,52617.99,USD
-2025-06,Grace Kim,Central,Mid-Market,Q1 Push,35522.23,40402.0,USD
-2025-07,Alice Johnson,North,SMB,Q2 Growth,29053.55,25952.43,USD
-2025-07,Alice Johnson,South,Mid-Market,Q4 Close,53412.88,57167.29,USD
-2025-07,Alice Johnson,East,Enterprise,Q1 Push,41563.67,43052.43,USD
-2025-07,Alice Johnson,West,Mid-Market,Partner Enablement,18099.97,15640.35,USD
-2025-07,Alice Johnson,Central,SMB,Q4 Close,24567.82,21711.47,USD
-2025-07,Bob Smith,North,Mid-Market,Partner Enablement,23562.41,22913.25,USD
-2025-07,Bob Smith,South,Mid-Market,Q2 Growth,39345.99,48504.28,USD
-2025-07,Bob Smith,East,SMB,Q2 Growth,19194.31,14617.44,USD
-2025-07,Bob Smith,West,SMB,Partner Enablement,43101.13,52592.8,USD
-2025-07,Bob Smith,Central,Enterprise,Q1 Push,14003.24,11671.07,USD
-2025-07,Carol Davis,North,SMB,Q1 Push,13189.62,15687.02,USD
-2025-07,Carol Davis,South,Enterprise,Q1 Push,11318.25,10735.43,USD
-2025-07,Carol Davis,East,SMB,Q4 Close,23122.61,19137.13,USD
-2025-07,Carol Davis,West,Mid-Market,Q4 Close,25468.53,22251.81,USD
-2025-07,Carol Davis,Central,Enterprise,Q1 Push,41324.03,33705.47,USD
-2025-07,David Lee,North,Mid-Market,Q4 Close,11757.75,10916.14,USD
-2025-07,David Lee,South,Mid-Market,Always-On,33359.67,39546.19,USD
-2025-07,David Lee,East,SMB,Always-On,32242.25,39811.8,USD
-2025-07,David Lee,West,SMB,Partner Enablement,18851.83,19771.65,USD
-2025-07,David Lee,Central,SMB,Partner Enablement,41792.56,43129.6,USD
-2025-07,Emily Chen,North,Mid-Market,Q4 Close,41976.41,37981.54,USD
-2025-07,Emily Chen,South,Mid-Market,Q3 Scale,36983.41,42617.98,USD
-2025-07,Emily Chen,East,Mid-Market,Q1 Push,28289.17,24891.74,USD
-2025-07,Emily Chen,West,Enterprise,Q3 Scale,10004.62,11582.25,USD
-2025-07,Emily Chen,Central,SMB,Q4 Close,24338.11,24765.23,USD
-2025-07,Frank Wilson,North,Enterprise,Q4 Close,57347.88,56690.3,USD
-2025-07,Frank Wilson,South,Enterprise,Always-On,49898.24,52318.4,USD
-2025-07,Frank Wilson,East,SMB,Q4 Close,28682.19,27416.39,USD
-2025-07,Frank Wilson,West,SMB,Partner Enablement,29737.6,24730.82,USD
-2025-07,Frank Wilson,Central,Mid-Market,Q1 Push,29486.16,27692.78,USD
-2025-07,Grace Kim,North,SMB,Partner Enablement,31111.97,27060.6,USD
-2025-07,Grace Kim,South,SMB,Always-On,44232.01,39469.92,USD
-2025-07,Grace Kim,East,Enterprise,Q2 Growth,50440.43,48243.85,USD
-2025-07,Grace Kim,West,Mid-Market,Always-On,16831.2,13552.11,USD
-2025-07,Grace Kim,Central,Mid-Market,Q2 Growth,32638.36,35909.91,USD
-2025-08,Alice Johnson,North,SMB,Q1 Push,26032.19,21504.53,USD
-2025-08,Alice Johnson,South,Mid-Market,Q2 Growth,19296.88,15459.44,USD
-2025-08,Alice Johnson,East,Enterprise,Q1 Push,45759.8,50955.99,USD
-2025-08,Alice Johnson,West,Mid-Market,Q4 Close,17534.18,17477.89,USD
-2025-08,Alice Johnson,Central,Mid-Market,Q4 Close,25578.83,29408.78,USD
-2025-08,Bob Smith,North,Enterprise,Q2 Growth,44846.74,34346.71,USD
-2025-08,Bob Smith,South,Enterprise,Always-On,12801.92,14566.36,USD
-2025-08,Bob Smith,East,Mid-Market,Q4 Close,33507.34,28350.43,USD
-2025-08,Bob Smith,West,SMB,Q2 Growth,51412.6,41694.63,USD
-2025-08,Bob Smith,Central,Enterprise,Partner Enablement,29239.89,36183.96,USD
-2025-08,Carol Davis,North,SMB,Q1 Push,59726.77,50743.26,USD
-2025-08,Carol Davis,South,Mid-Market,Q4 Close,36056.96,44748.78,USD
-2025-08,Carol Davis,East,Mid-Market,Q2 Growth,44072.12,39931.75,USD
-2025-08,Carol Davis,West,SMB,Always-On,41458.21,31968.13,USD
-2025-08,Carol Davis,Central,Mid-Market,Q2 Growth,16107.08,15955.91,USD
-2025-08,David Lee,North,SMB,Q2 Growth,28021.33,21745.78,USD
-2025-08,David Lee,South,Mid-Market,Q3 Scale,58663.7,50919.09,USD
-2025-08,David Lee,East,SMB,Q1 Push,10753.39,12336.24,USD
-2025-08,David Lee,West,Enterprise,Always-On,29790.42,25963.68,USD
-2025-08,David Lee,Central,SMB,Q2 Growth,49173.76,48565.74,USD
-2025-08,Emily Chen,North,Enterprise,Q4 Close,28569.93,22705.66,USD
-2025-08,Emily Chen,South,SMB,Q1 Push,14570.08,15434.41,USD
-2025-08,Emily Chen,East,SMB,Always-On,12988.76,13927.68,USD
-2025-08,Emily Chen,West,Enterprise,Q3 Scale,49573.31,40298.82,USD
-2025-08,Emily Chen,Central,Mid-Market,Q4 Close,59083.79,67608.45,USD
-2025-08,Frank Wilson,North,Mid-Market,Q3 Scale,46659.44,35492.74,USD
-2025-08,Frank Wilson,South,Enterprise,Q4 Close,46219.96,40458.56,USD
-2025-08,Frank Wilson,East,SMB,Partner Enablement,45331.3,46669.14,USD
-2025-08,Frank Wilson,West,SMB,Q3 Scale,34504.6,35655.36,USD
-2025-08,Frank Wilson,Central,SMB,Always-On,26184.04,25770.26,USD
-2025-08,Grace Kim,North,Mid-Market,Q3 Scale,18017.17,18297.67,USD
-2025-08,Grace Kim,South,Mid-Market,Q1 Push,50970.93,52031.28,USD
-2025-08,Grace Kim,East,SMB,Q2 Growth,48795.9,48941.26,USD
-2025-08,Grace Kim,West,Mid-Market,Always-On,54146.62,57388.23,USD
-2025-08,Grace Kim,Central,SMB,Always-On,21939.33,24363.67,USD
-2025-09,Alice Johnson,North,SMB,Q4 Close,50952.49,43051.53,USD
-2025-09,Alice Johnson,South,Mid-Market,Q3 Scale,48286.7,39936.28,USD
-2025-09,Alice Johnson,East,Enterprise,Always-On,30490.23,27776.97,USD
-2025-09,Alice Johnson,West,Enterprise,Q2 Growth,42944.55,33148.41,USD
-2025-09,Alice Johnson,Central,Mid-Market,Q2 Growth,53674.64,45679.24,USD
-2025-09,Bob Smith,North,Mid-Market,Partner Enablement,14937.68,15468.06,USD
-2025-09,Bob Smith,South,SMB,Q3 Scale,34495.48,36633.69,USD
-2025-09,Bob Smith,East,SMB,Q1 Push,12454.28,10715.18,USD
-2025-09,Bob Smith,West,SMB,Q4 Close,10654.31,12897.23,USD
-2025-09,Bob Smith,Central,Mid-Market,Partner Enablement,56420.19,65788.13,USD
-2025-09,Carol Davis,North,Mid-Market,Q3 Scale,13035.01,13413.15,USD
-2025-09,Carol Davis,South,SMB,Q3 Scale,49712.48,38733.48,USD
-2025-09,Carol Davis,East,Mid-Market,Q1 Push,36451.04,40721.29,USD
-2025-09,Carol Davis,West,Enterprise,Q1 Push,57230.17,70409.9,USD
-2025-09,Carol Davis,Central,Enterprise,Q2 Growth,46258.6,46990.9,USD
-2025-09,David Lee,North,SMB,Q2 Growth,36309.6,31748.44,USD
-2025-09,David Lee,South,SMB,Q1 Push,37921.17,39023.57,USD
-2025-09,David Lee,East,SMB,Q4 Close,48314.17,50163.72,USD
-2025-09,David Lee,West,Enterprise,Q2 Growth,45127.52,43482.06,USD
-2025-09,David Lee,Central,SMB,Q3 Scale,49623.08,50862.8,USD
-2025-09,Emily Chen,North,SMB,Q4 Close,42876.59,43603.36,USD
-2025-09,Emily Chen,South,SMB,Q3 Scale,56676.0,68081.62,USD
-2025-09,Emily Chen,East,SMB,Q4 Close,52242.7,49952.99,USD
-2025-09,Emily Chen,West,Enterprise,Always-On,51307.75,46778.58,USD
-2025-09,Emily Chen,Central,SMB,Partner Enablement,37281.31,34952.4,USD
-2025-09,Frank Wilson,North,Mid-Market,Q4 Close,22704.46,27945.24,USD
-2025-09,Frank Wilson,South,Mid-Market,Always-On,10009.78,7680.82,USD
-2025-09,Frank Wilson,East,Mid-Market,Q1 Push,10815.12,8841.82,USD
-2025-09,Frank Wilson,West,Mid-Market,Q1 Push,25016.7,21537.96,USD
-2025-09,Frank Wilson,Central,Mid-Market,Always-On,48576.15,59344.22,USD
-2025-09,Grace Kim,North,SMB,Q2 Growth,35563.57,36820.18,USD
-2025-09,Grace Kim,South,Enterprise,Q2 Growth,14714.36,14422.79,USD
-2025-09,Grace Kim,East,Enterprise,Q2 Growth,23249.41,27778.69,USD
-2025-09,Grace Kim,West,SMB,Q4 Close,22812.19,20534.42,USD
-2025-09,Grace Kim,Central,Enterprise,Partner Enablement,38453.25,33020.52,USD
+2025-01,Alice Johnson,North,SMB,Q2 Growth,38867.4,44687.84,USD
+2025-01,Alice Johnson,South,Enterprise,Q3 Scale,28289.65,24004.82,USD
+2025-01,Alice Johnson,East,SMB,Q3 Scale,43535.07,43306.16,USD
+2025-01,Alice Johnson,West,SMB,Q1 Push,39848.54,42066.28,USD
+2025-01,Alice Johnson,Central,SMB,Q2 Growth,27396.23,32129.17,USD
+2025-01,Bob Smith,North,Mid-Market,Always-On,50686.91,55907.37,USD
+2025-01,Bob Smith,South,Mid-Market,Q1 Push,39508.42,42908.32,USD
+2025-01,Bob Smith,East,Mid-Market,Partner Enablement,21928.64,17728.75,USD
+2025-01,Bob Smith,West,SMB,Q2 Growth,17067.93,16116.08,USD
+2025-01,Bob Smith,Central,Mid-Market,Partner Enablement,38740.3,37249.55,USD
+2025-01,Carol Davis,North,Enterprise,Always-On,36868.96,44595.98,USD
+2025-01,Carol Davis,South,Enterprise,Q3 Scale,18343.28,16406.55,USD
+2025-01,Carol Davis,East,Mid-Market,Q1 Push,52099.26,55209.85,USD
+2025-01,Carol Davis,West,Mid-Market,Always-On,34230.45,29012.51,USD
+2025-01,Carol Davis,Central,SMB,Q4 Close,35271.9,35183.19,USD
+2025-01,David Lee,North,Mid-Market,Q2 Growth,30781.52,36012.71,USD
+2025-01,David Lee,South,Enterprise,Q3 Scale,14133.53,10818.23,USD
+2025-01,David Lee,East,Mid-Market,Q2 Growth,11634.75,10034.06,USD
+2025-01,David Lee,West,Mid-Market,Always-On,49037.01,50646.66,USD
+2025-01,David Lee,Central,Mid-Market,Always-On,35540.3,36832.44,USD
+2025-01,Emily Chen,North,Enterprise,Partner Enablement,51164.14,47758.19,USD
+2025-01,Emily Chen,South,Mid-Market,Q1 Push,32068.33,27555.38,USD
+2025-01,Emily Chen,East,Enterprise,Q3 Scale,46799.43,50395.3,USD
+2025-01,Emily Chen,West,Mid-Market,Q3 Scale,53740.49,41171.41,USD
+2025-01,Emily Chen,Central,Enterprise,Q2 Growth,53109.98,42142.32,USD
+2025-01,Frank Wilson,North,SMB,Q3 Scale,20493.91,22928.72,USD
+2025-01,Frank Wilson,South,Mid-Market,Q2 Growth,53052.43,55977.26,USD
+2025-01,Frank Wilson,East,Enterprise,Q1 Push,40807.56,46619.56,USD
+2025-01,Frank Wilson,West,SMB,Always-On,38503.72,39125.19,USD
+2025-01,Frank Wilson,Central,Mid-Market,Q3 Scale,18418.87,22830.19,USD
+2025-01,Grace Kim,North,SMB,Partner Enablement,38636.78,47376.37,USD
+2025-01,Grace Kim,South,Mid-Market,Q1 Push,50759.05,41510.47,USD
+2025-01,Grace Kim,East,Enterprise,Partner Enablement,59624.31,70566.79,USD
+2025-01,Grace Kim,West,SMB,Q3 Scale,53303.94,46632.35,USD
+2025-01,Grace Kim,Central,SMB,Q4 Close,51424.09,58147.11,USD
+2025-02,Alice Johnson,North,Mid-Market,Partner Enablement,34472.94,35807.48,USD
+2025-02,Alice Johnson,South,SMB,Q1 Push,30711.25,29974.05,USD
+2025-02,Alice Johnson,East,SMB,Q3 Scale,30142.54,33907.38,USD
+2025-02,Alice Johnson,West,SMB,Q1 Push,32734.78,32539.1,USD
+2025-02,Alice Johnson,Central,Enterprise,Partner Enablement,53445.39,62722.64,USD
+2025-02,Bob Smith,North,SMB,Q3 Scale,58607.51,62558.84,USD
+2025-02,Bob Smith,South,Mid-Market,Q2 Growth,52505.31,60267.64,USD
+2025-02,Bob Smith,East,Mid-Market,Q3 Scale,58406.43,67893.03,USD
+2025-02,Bob Smith,West,SMB,Always-On,26143.26,23314.47,USD
+2025-02,Bob Smith,Central,Mid-Market,Partner Enablement,16529.71,19442.43,USD
+2025-02,Carol Davis,North,SMB,Q4 Close,48112.7,37189.74,USD
+2025-02,Carol Davis,South,Enterprise,Q4 Close,10814.07,13136.03,USD
+2025-02,Carol Davis,East,Mid-Market,Q2 Growth,32825.91,40898.43,USD
+2025-02,Carol Davis,West,SMB,Q3 Scale,59784.7,72022.84,USD
+2025-02,Carol Davis,Central,Mid-Market,Q1 Push,17948.87,21832.34,USD
+2025-02,David Lee,North,Mid-Market,Partner Enablement,42729.4,37396.54,USD
+2025-02,David Lee,South,Mid-Market,Partner Enablement,55190.01,45960.17,USD
+2025-02,David Lee,East,Enterprise,Q4 Close,25275.46,27795.95,USD
+2025-02,David Lee,West,Enterprise,Q2 Growth,42774.26,47130.78,USD
+2025-02,David Lee,Central,Enterprise,Always-On,33840.34,27625.56,USD
+2025-02,Emily Chen,North,SMB,Q3 Scale,43999.14,33203.66,USD
+2025-02,Emily Chen,South,Mid-Market,Partner Enablement,50855.45,63268.12,USD
+2025-02,Emily Chen,East,Mid-Market,Q1 Push,16608.76,13044.76,USD
+2025-02,Emily Chen,West,Mid-Market,Q3 Scale,46538.17,37287.01,USD
+2025-02,Emily Chen,Central,Enterprise,Partner Enablement,54049.45,44242.97,USD
+2025-02,Frank Wilson,North,SMB,Always-On,59647.01,48995.64,USD
+2025-02,Frank Wilson,South,Mid-Market,Q3 Scale,10423.74,11205.63,USD
+2025-02,Frank Wilson,East,Enterprise,Q4 Close,46121.6,49075.23,USD
+2025-02,Frank Wilson,West,Enterprise,Q1 Push,40803.8,39628.32,USD
+2025-02,Frank Wilson,Central,Enterprise,Always-On,54829.65,44960.67,USD
+2025-02,Grace Kim,North,Mid-Market,Q3 Scale,46500.46,43048.63,USD
+2025-02,Grace Kim,South,SMB,Q1 Push,49553.83,43304.75,USD
+2025-02,Grace Kim,East,SMB,Always-On,22408.35,23539.96,USD
+2025-02,Grace Kim,West,Enterprise,Partner Enablement,24246.04,29595.68,USD
+2025-02,Grace Kim,Central,SMB,Always-On,53791.36,45869.12,USD
+2025-03,Alice Johnson,North,SMB,Q1 Push,19432.33,18380.57,USD
+2025-03,Alice Johnson,South,Enterprise,Q4 Close,49190.08,56415.56,USD
+2025-03,Alice Johnson,East,SMB,Always-On,29294.28,25501.87,USD
+2025-03,Alice Johnson,West,Enterprise,Q3 Scale,13550.6,16184.33,USD
+2025-03,Alice Johnson,Central,SMB,Q4 Close,56696.22,46263.63,USD
+2025-03,Bob Smith,North,Mid-Market,Q1 Push,28270.62,30856.56,USD
+2025-03,Bob Smith,South,Mid-Market,Q2 Growth,10834.47,8491.69,USD
+2025-03,Bob Smith,East,Mid-Market,Always-On,11991.34,9356.06,USD
+2025-03,Bob Smith,West,Mid-Market,Q4 Close,24324.39,26910.43,USD
+2025-03,Bob Smith,Central,SMB,Always-On,45090.53,35676.25,USD
+2025-03,Carol Davis,North,Mid-Market,Q1 Push,40802.35,36262.43,USD
+2025-03,Carol Davis,South,Enterprise,Always-On,35565.23,30287.31,USD
+2025-03,Carol Davis,East,SMB,Partner Enablement,26337.51,27475.78,USD
+2025-03,Carol Davis,West,Mid-Market,Partner Enablement,42157.73,38156.32,USD
+2025-03,Carol Davis,Central,Enterprise,Q1 Push,57671.4,50134.83,USD
+2025-03,David Lee,North,SMB,Always-On,56231.39,45434.59,USD
+2025-03,David Lee,South,SMB,Partner Enablement,12751.43,13810.31,USD
+2025-03,David Lee,East,Enterprise,Partner Enablement,18782.3,14205.66,USD
+2025-03,David Lee,West,Mid-Market,Always-On,10567.53,10548.58,USD
+2025-03,David Lee,Central,Mid-Market,Q2 Growth,35861.14,41643.87,USD
+2025-03,Emily Chen,North,Mid-Market,Partner Enablement,28593.47,32164.46,USD
+2025-03,Emily Chen,South,Enterprise,Q3 Scale,54320.74,61692.89,USD
+2025-03,Emily Chen,East,Enterprise,Q3 Scale,50355.39,44614.39,USD
+2025-03,Emily Chen,West,Enterprise,Q4 Close,45616.16,47364.44,USD
+2025-03,Emily Chen,Central,Mid-Market,Always-On,32759.89,30468.73,USD
+2025-03,Frank Wilson,North,Enterprise,Always-On,18344.07,15200.91,USD
+2025-03,Frank Wilson,South,SMB,Always-On,43706.02,35299.9,USD
+2025-03,Frank Wilson,East,Enterprise,Q2 Growth,10128.43,11944.91,USD
+2025-03,Frank Wilson,West,Enterprise,Q2 Growth,12299.08,11462.6,USD
+2025-03,Frank Wilson,Central,SMB,Partner Enablement,56558.0,66667.32,USD
+2025-03,Grace Kim,North,Mid-Market,Q2 Growth,47033.29,45137.13,USD
+2025-03,Grace Kim,South,Mid-Market,Q1 Push,30812.83,34206.68,USD
+2025-03,Grace Kim,East,SMB,Q1 Push,38576.8,31235.65,USD
+2025-03,Grace Kim,West,Enterprise,Q4 Close,18967.22,21853.44,USD
+2025-03,Grace Kim,Central,Mid-Market,Q3 Scale,13446.32,13211.64,USD
+2025-04,Alice Johnson,North,Enterprise,Q3 Scale,26365.05,27064.93,USD
+2025-04,Alice Johnson,South,Mid-Market,Partner Enablement,20033.56,20672.7,USD
+2025-04,Alice Johnson,East,SMB,Q4 Close,41135.88,40393.93,USD
+2025-04,Alice Johnson,West,SMB,Always-On,59889.36,68150.68,USD
+2025-04,Alice Johnson,Central,Enterprise,Q4 Close,48024.11,41904.08,USD
+2025-04,Bob Smith,North,SMB,Partner Enablement,11195.51,11428.07,USD
+2025-04,Bob Smith,South,Enterprise,Partner Enablement,53859.93,66005.08,USD
+2025-04,Bob Smith,East,Mid-Market,Q1 Push,28813.74,32243.77,USD
+2025-04,Bob Smith,West,Mid-Market,Q4 Close,20259.72,25153.61,USD
+2025-04,Bob Smith,Central,Enterprise,Partner Enablement,58059.25,71777.47,USD
+2025-04,Carol Davis,North,Enterprise,Always-On,23991.26,18520.06,USD
+2025-04,Carol Davis,South,Mid-Market,Partner Enablement,30652.84,36715.63,USD
+2025-04,Carol Davis,East,Enterprise,Partner Enablement,14245.12,11364.59,USD
+2025-04,Carol Davis,West,SMB,Q1 Push,50998.14,40156.71,USD
+2025-04,Carol Davis,Central,Enterprise,Q3 Scale,31749.14,39118.41,USD
+2025-04,David Lee,North,Mid-Market,Partner Enablement,23049.55,20917.57,USD
+2025-04,David Lee,South,Mid-Market,Q3 Scale,51594.99,47112.72,USD
+2025-04,David Lee,East,Enterprise,Always-On,21680.56,26488.82,USD
+2025-04,David Lee,West,Mid-Market,Q4 Close,15448.64,12402.61,USD
+2025-04,David Lee,Central,Mid-Market,Q2 Growth,25701.66,20827.81,USD
+2025-04,Emily Chen,North,Enterprise,Q1 Push,32595.85,31998.48,USD
+2025-04,Emily Chen,South,SMB,Partner Enablement,17880.77,19544.17,USD
+2025-04,Emily Chen,East,Mid-Market,Q2 Growth,40165.12,34442.01,USD
+2025-04,Emily Chen,West,Mid-Market,Q4 Close,14560.65,12727.6,USD
+2025-04,Emily Chen,Central,Mid-Market,Q2 Growth,35672.98,38833.31,USD
+2025-04,Frank Wilson,North,Mid-Market,Always-On,11554.1,11001.77,USD
+2025-04,Frank Wilson,South,Mid-Market,Q1 Push,47403.92,41474.94,USD
+2025-04,Frank Wilson,East,Enterprise,Q1 Push,50194.84,41154.57,USD
+2025-04,Frank Wilson,West,Enterprise,Q2 Growth,51518.62,63949.22,USD
+2025-04,Frank Wilson,Central,SMB,Partner Enablement,51183.67,47914.05,USD
+2025-04,Grace Kim,North,Enterprise,Q1 Push,14201.97,14813.5,USD
+2025-04,Grace Kim,South,SMB,Q4 Close,59858.07,50812.03,USD
+2025-04,Grace Kim,East,Mid-Market,Q1 Push,50464.93,40169.55,USD
+2025-04,Grace Kim,West,Enterprise,Always-On,12134.82,11898.16,USD
+2025-04,Grace Kim,Central,Mid-Market,Q1 Push,31657.82,35210.32,USD
+2025-05,Alice Johnson,North,Mid-Market,Q2 Growth,29136.47,28068.09,USD
+2025-05,Alice Johnson,South,Mid-Market,Q2 Growth,55415.21,49180.49,USD
+2025-05,Alice Johnson,East,Enterprise,Partner Enablement,11732.47,12431.59,USD
+2025-05,Alice Johnson,West,SMB,Q4 Close,24755.26,23665.93,USD
+2025-05,Alice Johnson,Central,Enterprise,Q4 Close,13048.95,11612.1,USD
+2025-05,Bob Smith,North,SMB,Q2 Growth,19972.89,23814.2,USD
+2025-05,Bob Smith,South,Enterprise,Q4 Close,41537.72,47813.41,USD
+2025-05,Bob Smith,East,SMB,Q4 Close,49095.79,45637.29,USD
+2025-05,Bob Smith,West,Mid-Market,Q4 Close,27201.71,28094.62,USD
+2025-05,Bob Smith,Central,SMB,Q2 Growth,23521.78,17947.86,USD
+2025-05,Carol Davis,North,Mid-Market,Q1 Push,11465.17,13246.22,USD
+2025-05,Carol Davis,South,Mid-Market,Always-On,50432.69,49718.67,USD
+2025-05,Carol Davis,East,Enterprise,Q2 Growth,59980.29,74195.01,USD
+2025-05,Carol Davis,West,SMB,Q1 Push,42843.22,37841.85,USD
+2025-05,Carol Davis,Central,SMB,Q4 Close,48202.49,58995.09,USD
+2025-05,David Lee,North,Enterprise,Q2 Growth,27740.23,32445.28,USD
+2025-05,David Lee,South,SMB,Partner Enablement,21827.56,19841.3,USD
+2025-05,David Lee,East,SMB,Partner Enablement,27939.16,29218.25,USD
+2025-05,David Lee,West,Enterprise,Always-On,27584.11,28517.16,USD
+2025-05,David Lee,Central,Mid-Market,Always-On,57418.43,67084.73,USD
+2025-05,Emily Chen,North,Enterprise,Q1 Push,25452.65,25330.94,USD
+2025-05,Emily Chen,South,SMB,Q4 Close,21631.17,18589.92,USD
+2025-05,Emily Chen,East,Enterprise,Q2 Growth,10034.17,12130.79,USD
+2025-05,Emily Chen,West,Mid-Market,Q1 Push,27037.95,22677.54,USD
+2025-05,Emily Chen,Central,Enterprise,Q1 Push,11095.64,11576.13,USD
+2025-05,Frank Wilson,North,Enterprise,Q3 Scale,52324.04,61759.88,USD
+2025-05,Frank Wilson,South,SMB,Q1 Push,45226.9,48893.43,USD
+2025-05,Frank Wilson,East,Enterprise,Partner Enablement,26828.05,24448.44,USD
+2025-05,Frank Wilson,West,Mid-Market,Partner Enablement,57434.68,65815.62,USD
+2025-05,Frank Wilson,Central,SMB,Partner Enablement,25864.17,28543.48,USD
+2025-05,Grace Kim,North,Mid-Market,Q2 Growth,54480.01,57577.44,USD
+2025-05,Grace Kim,South,Mid-Market,Q3 Scale,43276.58,50080.83,USD
+2025-05,Grace Kim,East,Enterprise,Partner Enablement,46699.75,41901.75,USD
+2025-05,Grace Kim,West,SMB,Q4 Close,10089.9,11109.02,USD
+2025-05,Grace Kim,Central,SMB,Q1 Push,52537.85,59652.27,USD
+2025-06,Alice Johnson,North,SMB,Q2 Growth,19104.09,17367.69,USD
+2025-06,Alice Johnson,South,Mid-Market,Q2 Growth,41982.34,33672.15,USD
+2025-06,Alice Johnson,East,Mid-Market,Q3 Scale,26558.42,20952.03,USD
+2025-06,Alice Johnson,West,Enterprise,Partner Enablement,18394.37,21938.23,USD
+2025-06,Alice Johnson,Central,Mid-Market,Q4 Close,43501.23,48488.34,USD
+2025-06,Bob Smith,North,SMB,Q1 Push,10569.78,9035.49,USD
+2025-06,Bob Smith,South,SMB,Q1 Push,27524.06,31474.04,USD
+2025-06,Bob Smith,East,Mid-Market,Q2 Growth,12407.37,12024.11,USD
+2025-06,Bob Smith,West,Mid-Market,Q3 Scale,54227.6,54040.03,USD
+2025-06,Bob Smith,Central,Mid-Market,Always-On,37301.2,29867.6,USD
+2025-06,Carol Davis,North,Enterprise,Q4 Close,42548.48,46530.18,USD
+2025-06,Carol Davis,South,Mid-Market,Q1 Push,13685.47,16051.43,USD
+2025-06,Carol Davis,East,Enterprise,Q3 Scale,25935.85,31792.97,USD
+2025-06,Carol Davis,West,SMB,Q1 Push,18505.26,17352.92,USD
+2025-06,Carol Davis,Central,Enterprise,Q3 Scale,37352.31,44787.74,USD
+2025-06,David Lee,North,Mid-Market,Partner Enablement,39701.53,41957.46,USD
+2025-06,David Lee,South,Enterprise,Always-On,11549.66,14104.69,USD
+2025-06,David Lee,East,Enterprise,Q3 Scale,54487.66,45145.85,USD
+2025-06,David Lee,West,SMB,Always-On,20277.52,17134.34,USD
+2025-06,David Lee,Central,Mid-Market,Partner Enablement,46101.91,51403.03,USD
+2025-06,Emily Chen,North,Enterprise,Q4 Close,24076.15,20916.74,USD
+2025-06,Emily Chen,South,Enterprise,Q1 Push,38588.49,45145.73,USD
+2025-06,Emily Chen,East,Mid-Market,Partner Enablement,28041.45,27026.43,USD
+2025-06,Emily Chen,West,Enterprise,Q1 Push,41254.55,40848.78,USD
+2025-06,Emily Chen,Central,Enterprise,Q4 Close,20347.65,21753.58,USD
+2025-06,Frank Wilson,North,Mid-Market,Q4 Close,52188.45,47187.58,USD
+2025-06,Frank Wilson,South,Enterprise,Partner Enablement,34454.84,37229.14,USD
+2025-06,Frank Wilson,East,Mid-Market,Q3 Scale,37206.3,31344.1,USD
+2025-06,Frank Wilson,West,Mid-Market,Q4 Close,19329.15,14928.07,USD
+2025-06,Frank Wilson,Central,SMB,Q1 Push,23170.04,27075.1,USD
+2025-06,Grace Kim,North,Enterprise,Q1 Push,17556.53,19281.2,USD
+2025-06,Grace Kim,South,Mid-Market,Always-On,43407.06,50095.66,USD
+2025-06,Grace Kim,East,Mid-Market,Always-On,21375.64,16683.51,USD
+2025-06,Grace Kim,West,Mid-Market,Always-On,30931.6,31480.86,USD
+2025-06,Grace Kim,Central,Enterprise,Q4 Close,54082.69,53440.79,USD
+2025-07,Alice Johnson,North,SMB,Always-On,55138.86,61047.15,USD
+2025-07,Alice Johnson,South,SMB,Always-On,55022.75,63288.55,USD
+2025-07,Alice Johnson,East,Mid-Market,Q2 Growth,17372.38,21274.69,USD
+2025-07,Alice Johnson,West,Enterprise,Q2 Growth,57453.07,47891.87,USD
+2025-07,Alice Johnson,Central,SMB,Q4 Close,16309.3,15684.45,USD
+2025-07,Bob Smith,North,Enterprise,Always-On,20095.96,23337.08,USD
+2025-07,Bob Smith,South,Enterprise,Q1 Push,22894.32,27596.86,USD
+2025-07,Bob Smith,East,Mid-Market,Q3 Scale,29404.96,27895.82,USD
+2025-07,Bob Smith,West,Enterprise,Partner Enablement,35984.41,43490.07,USD
+2025-07,Bob Smith,Central,Mid-Market,Q1 Push,41152.9,41617.15,USD
+2025-07,Carol Davis,North,SMB,Always-On,30722.12,25318.1,USD
+2025-07,Carol Davis,South,Enterprise,Always-On,47918.87,58452.64,USD
+2025-07,Carol Davis,East,SMB,Q3 Scale,48977.23,55974.74,USD
+2025-07,Carol Davis,West,SMB,Q4 Close,53894.68,47538.79,USD
+2025-07,Carol Davis,Central,Enterprise,Q3 Scale,38601.16,38080.94,USD
+2025-07,David Lee,North,SMB,Partner Enablement,30148.7,31931.16,USD
+2025-07,David Lee,South,Mid-Market,Partner Enablement,30085.99,28518.4,USD
+2025-07,David Lee,East,Mid-Market,Q3 Scale,21878.96,24567.34,USD
+2025-07,David Lee,West,Mid-Market,Q3 Scale,11011.64,12759.11,USD
+2025-07,David Lee,Central,SMB,Partner Enablement,24017.33,23916.69,USD
+2025-07,Emily Chen,North,Enterprise,Q3 Scale,14910.87,17661.18,USD
+2025-07,Emily Chen,South,Mid-Market,Q3 Scale,58710.97,57040.95,USD
+2025-07,Emily Chen,East,Enterprise,Q2 Growth,46439.97,48877.58,USD
+2025-07,Emily Chen,West,Mid-Market,Partner Enablement,32085.83,38718.5,USD
+2025-07,Emily Chen,Central,Mid-Market,Q1 Push,34223.02,34505.38,USD
+2025-07,Frank Wilson,North,Mid-Market,Partner Enablement,35763.49,29665.32,USD
+2025-07,Frank Wilson,South,SMB,Always-On,35339.76,28901.74,USD
+2025-07,Frank Wilson,East,Enterprise,Q1 Push,11447.41,9688.88,USD
+2025-07,Frank Wilson,West,Mid-Market,Partner Enablement,22474.51,21985.11,USD
+2025-07,Frank Wilson,Central,Mid-Market,Always-On,19955.49,18641.94,USD
+2025-07,Grace Kim,North,SMB,Q1 Push,29847.11,36160.87,USD
+2025-07,Grace Kim,South,Mid-Market,Q2 Growth,22096.9,21973.01,USD
+2025-07,Grace Kim,East,SMB,Q3 Scale,58026.02,57288.58,USD
+2025-07,Grace Kim,West,Mid-Market,Partner Enablement,27212.45,31806.64,USD
+2025-07,Grace Kim,Central,Enterprise,Q4 Close,51543.51,40987.19,USD
+2025-08,Alice Johnson,North,Enterprise,Q2 Growth,12482.55,14690.85,USD
+2025-08,Alice Johnson,South,Mid-Market,Partner Enablement,42368.99,46133.37,USD
+2025-08,Alice Johnson,East,SMB,Q1 Push,30475.36,23162.07,USD
+2025-08,Alice Johnson,West,Enterprise,Always-On,33704.86,27508.46,USD
+2025-08,Alice Johnson,Central,SMB,Q3 Scale,50043.24,43131.52,USD
+2025-08,Bob Smith,North,Mid-Market,Q4 Close,45637.02,50414.49,USD
+2025-08,Bob Smith,South,Mid-Market,Q3 Scale,54774.15,64403.07,USD
+2025-08,Bob Smith,East,SMB,Always-On,20910.45,18841.83,USD
+2025-08,Bob Smith,West,SMB,Partner Enablement,29857.63,23920.62,USD
+2025-08,Bob Smith,Central,SMB,Partner Enablement,58324.27,68221.27,USD
+2025-08,Carol Davis,North,SMB,Q1 Push,39688.63,35376.0,USD
+2025-08,Carol Davis,South,Mid-Market,Partner Enablement,34086.92,31296.63,USD
+2025-08,Carol Davis,East,SMB,Partner Enablement,26256.85,23327.7,USD
+2025-08,Carol Davis,West,Enterprise,Q2 Growth,57609.39,61972.34,USD
+2025-08,Carol Davis,Central,Enterprise,Always-On,35864.68,31207.69,USD
+2025-08,David Lee,North,Enterprise,Partner Enablement,30204.92,27480.22,USD
+2025-08,David Lee,South,Mid-Market,Q3 Scale,11272.76,11257.95,USD
+2025-08,David Lee,East,SMB,Q1 Push,55345.58,52705.57,USD
+2025-08,David Lee,West,Enterprise,Q3 Scale,39151.19,48836.29,USD
+2025-08,David Lee,Central,SMB,Partner Enablement,46327.49,39896.38,USD
+2025-08,Emily Chen,North,SMB,Q3 Scale,49244.85,59254.52,USD
+2025-08,Emily Chen,South,SMB,Always-On,35365.74,41473.74,USD
+2025-08,Emily Chen,East,Enterprise,Partner Enablement,19056.79,15222.59,USD
+2025-08,Emily Chen,West,Enterprise,Partner Enablement,22932.59,26468.15,USD
+2025-08,Emily Chen,Central,Enterprise,Q3 Scale,54979.56,59224.93,USD
+2025-08,Frank Wilson,North,Mid-Market,Q3 Scale,21166.4,25097.34,USD
+2025-08,Frank Wilson,South,Mid-Market,Q1 Push,28584.12,29807.1,USD
+2025-08,Frank Wilson,East,SMB,Always-On,33526.83,39668.83,USD
+2025-08,Frank Wilson,West,Enterprise,Always-On,57215.05,44948.59,USD
+2025-08,Frank Wilson,Central,SMB,Q3 Scale,15990.8,17435.55,USD
+2025-08,Grace Kim,North,Enterprise,Q2 Growth,30655.36,36339.62,USD
+2025-08,Grace Kim,South,SMB,Q4 Close,59617.39,54927.58,USD
+2025-08,Grace Kim,East,Enterprise,Q1 Push,17161.21,20270.77,USD
+2025-08,Grace Kim,West,Enterprise,Q3 Scale,34379.04,36631.43,USD
+2025-08,Grace Kim,Central,Mid-Market,Q2 Growth,41724.95,31392.05,USD
+2025-09,Alice Johnson,North,Enterprise,Q4 Close,48059.66,40096.31,USD
+2025-09,Alice Johnson,South,Enterprise,Always-On,49260.55,56150.93,USD
+2025-09,Alice Johnson,East,Mid-Market,Q4 Close,31685.57,30567.22,USD
+2025-09,Alice Johnson,West,Enterprise,Partner Enablement,29165.82,22424.51,USD
+2025-09,Alice Johnson,Central,Mid-Market,Always-On,28655.07,21692.99,USD
+2025-09,Bob Smith,North,SMB,Partner Enablement,19528.84,21254.68,USD
+2025-09,Bob Smith,South,Mid-Market,Q3 Scale,22441.16,24612.62,USD
+2025-09,Bob Smith,East,SMB,Q3 Scale,16446.54,15488.94,USD
+2025-09,Bob Smith,West,Mid-Market,Q3 Scale,18351.01,21322.44,USD
+2025-09,Bob Smith,Central,SMB,Q3 Scale,32796.32,33129.01,USD
+2025-09,Carol Davis,North,Enterprise,Q3 Scale,31683.26,34642.16,USD
+2025-09,Carol Davis,South,Enterprise,Q2 Growth,59806.95,59513.26,USD
+2025-09,Carol Davis,East,Mid-Market,Q1 Push,57404.22,69407.6,USD
+2025-09,Carol Davis,West,Enterprise,Q2 Growth,21420.91,23853.99,USD
+2025-09,Carol Davis,Central,Enterprise,Q1 Push,46703.83,48798.33,USD
+2025-09,David Lee,North,Enterprise,Q4 Close,28329.57,30461.94,USD
+2025-09,David Lee,South,SMB,Always-On,53827.21,47254.62,USD
+2025-09,David Lee,East,SMB,Q1 Push,12429.35,15503.63,USD
+2025-09,David Lee,West,SMB,Q1 Push,42678.38,32430.06,USD
+2025-09,David Lee,Central,SMB,Q3 Scale,30838.78,28992.37,USD
+2025-09,Emily Chen,North,SMB,Partner Enablement,33719.82,27871.57,USD
+2025-09,Emily Chen,South,SMB,Q1 Push,41515.57,37387.19,USD
+2025-09,Emily Chen,East,SMB,Partner Enablement,43124.15,38164.38,USD
+2025-09,Emily Chen,West,Enterprise,Always-On,16858.18,19645.28,USD
+2025-09,Emily Chen,Central,Enterprise,Q1 Push,45938.31,37158.0,USD
+2025-09,Frank Wilson,North,Mid-Market,Always-On,34886.95,36788.32,USD
+2025-09,Frank Wilson,South,Mid-Market,Q3 Scale,58655.99,54489.12,USD
+2025-09,Frank Wilson,East,Enterprise,Partner Enablement,18018.68,18452.38,USD
+2025-09,Frank Wilson,West,Enterprise,Q1 Push,56656.22,51857.54,USD
+2025-09,Frank Wilson,Central,SMB,Partner Enablement,43581.66,52447.91,USD
+2025-09,Grace Kim,North,SMB,Q1 Push,34705.2,42504.26,USD
+2025-09,Grace Kim,South,Mid-Market,Partner Enablement,46178.18,36972.34,USD
+2025-09,Grace Kim,East,Mid-Market,Q3 Scale,21558.01,26825.34,USD
+2025-09,Grace Kim,West,Enterprise,Q1 Push,33213.87,26567.92,USD
+2025-09,Grace Kim,Central,SMB,Q3 Scale,52612.43,48935.21,USD
+2025-10,Alice Johnson,North,Enterprise,Q1 Push,31299.76,25288.66,USD
+2025-10,Alice Johnson,South,Enterprise,Q3 Scale,52599.94,56896.17,USD
+2025-10,Alice Johnson,East,SMB,Q3 Scale,27876.37,27008.22,USD
+2025-10,Alice Johnson,West,Mid-Market,Q2 Growth,53923.78,42948.98,USD
+2025-10,Alice Johnson,Central,Mid-Market,Q3 Scale,15691.6,14908.98,USD
+2025-10,Bob Smith,North,Mid-Market,Q4 Close,51785.42,56702.51,USD
+2025-10,Bob Smith,South,Enterprise,Q2 Growth,42442.32,48743.09,USD
+2025-10,Bob Smith,East,Enterprise,Q1 Push,44808.49,34920.3,USD
+2025-10,Bob Smith,West,SMB,Partner Enablement,30801.39,32199.01,USD
+2025-10,Bob Smith,Central,Mid-Market,Always-On,31908.14,33684.2,USD
+2025-10,Carol Davis,North,SMB,Q2 Growth,11440.81,12496.02,USD
+2025-10,Carol Davis,South,Mid-Market,Q4 Close,34153.98,33951.15,USD
+2025-10,Carol Davis,East,Mid-Market,Q1 Push,12298.62,10832.7,USD
+2025-10,Carol Davis,West,SMB,Always-On,45228.41,49252.13,USD
+2025-10,Carol Davis,Central,SMB,Q3 Scale,46188.68,39814.29,USD
+2025-10,David Lee,North,SMB,Q1 Push,35954.98,39339.09,USD
+2025-10,David Lee,South,Mid-Market,Q3 Scale,31642.4,35228.31,USD
+2025-10,David Lee,East,Enterprise,Always-On,43185.53,46238.84,USD
+2025-10,David Lee,West,Enterprise,Partner Enablement,54603.09,57685.82,USD
+2025-10,David Lee,Central,Mid-Market,Q4 Close,56718.57,56876.46,USD
+2025-10,Emily Chen,North,Mid-Market,Q3 Scale,53470.78,42104.64,USD
+2025-10,Emily Chen,South,Enterprise,Always-On,22044.59,27226.67,USD
+2025-10,Emily Chen,East,Mid-Market,Q2 Growth,21135.33,22649.86,USD
+2025-10,Emily Chen,West,SMB,Q4 Close,13941.53,13552.48,USD
+2025-10,Emily Chen,Central,Mid-Market,Q1 Push,14400.99,14389.87,USD
+2025-10,Frank Wilson,North,Enterprise,Q1 Push,59033.54,66272.2,USD
+2025-10,Frank Wilson,South,SMB,Q1 Push,30171.98,23169.55,USD
+2025-10,Frank Wilson,East,SMB,Partner Enablement,51295.44,58779.02,USD
+2025-10,Frank Wilson,West,Enterprise,Partner Enablement,25229.9,25335.08,USD
+2025-10,Frank Wilson,Central,Mid-Market,Q1 Push,43573.72,53385.54,USD
+2025-10,Grace Kim,North,Mid-Market,Always-On,50829.43,59580.16,USD
+2025-10,Grace Kim,South,SMB,Partner Enablement,48370.82,50788.18,USD
+2025-10,Grace Kim,East,Enterprise,Partner Enablement,28164.73,27496.27,USD
+2025-10,Grace Kim,West,SMB,Q3 Scale,21087.36,19414.68,USD
+2025-10,Grace Kim,Central,Enterprise,Q1 Push,37384.53,35027.26,USD
+2025-11,Alice Johnson,North,SMB,Partner Enablement,54843.86,54636.06,USD
+2025-11,Alice Johnson,South,SMB,Q2 Growth,46077.95,37022.75,USD
+2025-11,Alice Johnson,East,Mid-Market,Q2 Growth,19377.17,23545.36,USD
+2025-11,Alice Johnson,West,SMB,Q3 Scale,32852.3,37474.95,USD
+2025-11,Alice Johnson,Central,SMB,Partner Enablement,15388.29,14730.21,USD
+2025-11,Bob Smith,North,Mid-Market,Q4 Close,39440.56,44807.34,USD
+2025-11,Bob Smith,South,Enterprise,Q4 Close,42922.83,52713.32,USD
+2025-11,Bob Smith,East,SMB,Q4 Close,10216.88,11423.56,USD
+2025-11,Bob Smith,West,SMB,Q2 Growth,51940.81,51497.55,USD
+2025-11,Bob Smith,Central,Enterprise,Q1 Push,44590.89,37314.78,USD
+2025-11,Carol Davis,North,Mid-Market,Always-On,29370.28,30846.81,USD
+2025-11,Carol Davis,South,SMB,Partner Enablement,54069.53,51870.65,USD
+2025-11,Carol Davis,East,Mid-Market,Q3 Scale,48118.73,42671.59,USD
+2025-11,Carol Davis,West,Mid-Market,Always-On,32642.29,26658.5,USD
+2025-11,Carol Davis,Central,Mid-Market,Partner Enablement,45000.71,50590.4,USD
+2025-11,David Lee,North,SMB,Always-On,37390.3,33911.33,USD
+2025-11,David Lee,South,SMB,Partner Enablement,41629.16,35403.29,USD
+2025-11,David Lee,East,SMB,Q2 Growth,24528.97,22631.58,USD
+2025-11,David Lee,West,Enterprise,Always-On,59066.77,63499.33,USD
+2025-11,David Lee,Central,SMB,Q1 Push,37124.57,39665.33,USD
+2025-11,Emily Chen,North,SMB,Always-On,48038.75,49534.68,USD
+2025-11,Emily Chen,South,SMB,Partner Enablement,57133.68,63136.25,USD
+2025-11,Emily Chen,East,Mid-Market,Q1 Push,54693.3,55620.43,USD
+2025-11,Emily Chen,West,Enterprise,Q1 Push,36136.5,27559.0,USD
+2025-11,Emily Chen,Central,Enterprise,Q3 Scale,43512.71,36983.68,USD
+2025-11,Frank Wilson,North,Enterprise,Partner Enablement,44169.52,36360.98,USD
+2025-11,Frank Wilson,South,SMB,Q1 Push,49217.87,41933.65,USD
+2025-11,Frank Wilson,East,SMB,Partner Enablement,27934.12,27272.0,USD
+2025-11,Frank Wilson,West,SMB,Partner Enablement,46974.62,55543.77,USD
+2025-11,Frank Wilson,Central,SMB,Q3 Scale,38063.53,33069.51,USD
+2025-11,Grace Kim,North,Mid-Market,Q4 Close,44646.8,34533.85,USD
+2025-11,Grace Kim,South,SMB,Q3 Scale,30828.31,35269.31,USD
+2025-11,Grace Kim,East,SMB,Q3 Scale,58291.66,45286.85,USD
+2025-11,Grace Kim,West,Mid-Market,Q2 Growth,20154.36,23871.33,USD
+2025-11,Grace Kim,Central,SMB,Q3 Scale,55574.32,61260.38,USD
+2025-12,Alice Johnson,North,SMB,Q2 Growth,47755.39,48868.45,USD
+2025-12,Alice Johnson,South,Mid-Market,Q4 Close,48807.34,60137.72,USD
+2025-12,Alice Johnson,East,Enterprise,Q2 Growth,18871.29,20594.79,USD
+2025-12,Alice Johnson,West,Enterprise,Q4 Close,46753.97,37855.61,USD
+2025-12,Alice Johnson,Central,Enterprise,Always-On,23955.61,21131.72,USD
+2025-12,Bob Smith,North,Mid-Market,Partner Enablement,52300.71,39373.15,USD
+2025-12,Bob Smith,South,Mid-Market,Always-On,56874.72,43791.84,USD
+2025-12,Bob Smith,East,SMB,Partner Enablement,12542.77,15254.4,USD
+2025-12,Bob Smith,West,SMB,Q3 Scale,25057.74,28689.96,USD
+2025-12,Bob Smith,Central,SMB,Q2 Growth,13644.04,15060.85,USD
+2025-12,Carol Davis,North,SMB,Q2 Growth,57849.39,58445.42,USD
+2025-12,Carol Davis,South,Enterprise,Q3 Scale,30796.56,31366.85,USD
+2025-12,Carol Davis,East,Mid-Market,Q3 Scale,21059.9,18041.53,USD
+2025-12,Carol Davis,West,SMB,Always-On,28039.89,24092.51,USD
+2025-12,Carol Davis,Central,SMB,Q1 Push,33742.86,34777.66,USD
+2025-12,David Lee,North,Enterprise,Partner Enablement,15736.1,14524.48,USD
+2025-12,David Lee,South,Enterprise,Partner Enablement,40685.05,43149.17,USD
+2025-12,David Lee,East,Enterprise,Q4 Close,54283.01,51063.28,USD
+2025-12,David Lee,West,Enterprise,Always-On,22829.53,25386.16,USD
+2025-12,David Lee,Central,SMB,Q4 Close,51105.45,47910.29,USD
+2025-12,Emily Chen,North,SMB,Q2 Growth,34340.24,30844.99,USD
+2025-12,Emily Chen,South,Enterprise,Q2 Growth,26015.64,20582.86,USD
+2025-12,Emily Chen,East,SMB,Q1 Push,58581.44,66587.14,USD
+2025-12,Emily Chen,West,SMB,Q2 Growth,41346.65,35367.54,USD
+2025-12,Emily Chen,Central,Enterprise,Q2 Growth,53247.54,51229.71,USD
+2025-12,Frank Wilson,North,SMB,Q4 Close,36887.71,40627.07,USD
+2025-12,Frank Wilson,South,SMB,Partner Enablement,42328.06,51634.97,USD
+2025-12,Frank Wilson,East,Mid-Market,Q1 Push,17687.73,17327.12,USD
+2025-12,Frank Wilson,West,Mid-Market,Always-On,14376.04,11172.11,USD
+2025-12,Frank Wilson,Central,Mid-Market,Q4 Close,13522.1,15696.58,USD
+2025-12,Grace Kim,North,Mid-Market,Q3 Scale,29401.63,31315.93,USD
+2025-12,Grace Kim,South,SMB,Q1 Push,10844.55,11784.22,USD
+2025-12,Grace Kim,East,SMB,Always-On,42071.14,44560.69,USD
+2025-12,Grace Kim,West,Mid-Market,Always-On,12275.84,14413.38,USD
+2025-12,Grace Kim,Central,Mid-Market,Always-On,15306.78,17502.48,USD
+2026-01,Alice Johnson,North,Mid-Market,Q4 Close,14325.26,16225.32,USD
+2026-01,Alice Johnson,South,Mid-Market,Q2 Growth,29755.66,32146.87,USD
+2026-01,Alice Johnson,East,Mid-Market,Always-On,36673.39,30005.83,USD
+2026-01,Alice Johnson,West,Mid-Market,Partner Enablement,24748.92,26407.66,USD
+2026-01,Alice Johnson,Central,SMB,Partner Enablement,54348.91,66994.96,USD
+2026-01,Bob Smith,North,SMB,Always-On,28656.53,35096.59,USD
+2026-01,Bob Smith,South,SMB,Always-On,17068.69,13158.02,USD
+2026-01,Bob Smith,East,Enterprise,Q3 Scale,29704.09,30409.94,USD
+2026-01,Bob Smith,West,SMB,Q3 Scale,20502.64,22977.62,USD
+2026-01,Bob Smith,Central,SMB,Q2 Growth,20586.85,24762.15,USD
+2026-01,Carol Davis,North,Mid-Market,Q2 Growth,18047.72,15528.15,USD
+2026-01,Carol Davis,South,SMB,Q1 Push,15731.13,17075.97,USD
+2026-01,Carol Davis,East,SMB,Q4 Close,52569.39,63934.1,USD
+2026-01,Carol Davis,West,SMB,Q1 Push,42233.73,33219.88,USD
+2026-01,Carol Davis,Central,SMB,Q4 Close,22534.38,19125.13,USD
+2026-01,David Lee,North,SMB,Partner Enablement,57577.0,53464.23,USD
+2026-01,David Lee,South,Enterprise,Q2 Growth,21726.64,19392.52,USD
+2026-01,David Lee,East,SMB,Partner Enablement,25889.3,25250.43,USD
+2026-01,David Lee,West,SMB,Always-On,25283.77,26347.84,USD
+2026-01,David Lee,Central,Mid-Market,Q2 Growth,28224.67,25632.7,USD
+2026-01,Emily Chen,North,Enterprise,Partner Enablement,10241.59,8941.8,USD
+2026-01,Emily Chen,South,Mid-Market,Q2 Growth,46990.81,45490.02,USD
+2026-01,Emily Chen,East,Mid-Market,Q4 Close,43979.01,40275.16,USD
+2026-01,Emily Chen,West,Mid-Market,Always-On,32267.9,36700.98,USD
+2026-01,Emily Chen,Central,Enterprise,Q3 Scale,15441.63,16565.41,USD
+2026-01,Frank Wilson,North,SMB,Q2 Growth,52935.68,43407.3,USD
+2026-01,Frank Wilson,South,Enterprise,Partner Enablement,23161.73,27635.83,USD
+2026-01,Frank Wilson,East,SMB,Partner Enablement,13770.0,10455.77,USD
+2026-01,Frank Wilson,West,Mid-Market,Always-On,11559.71,12033.03,USD
+2026-01,Frank Wilson,Central,Mid-Market,Always-On,20638.03,15856.78,USD
+2026-01,Grace Kim,North,SMB,Q2 Growth,54699.3,55784.46,USD
+2026-01,Grace Kim,South,SMB,Partner Enablement,28290.93,24376.97,USD
+2026-01,Grace Kim,East,SMB,Always-On,52858.21,43182.02,USD
+2026-01,Grace Kim,West,Enterprise,Partner Enablement,14527.7,13538.84,USD
+2026-01,Grace Kim,Central,SMB,Partner Enablement,21944.04,27035.06,USD
+2026-02,Alice Johnson,North,Mid-Market,Q2 Growth,18292.18,18421.48,USD
+2026-02,Alice Johnson,South,SMB,Q2 Growth,18957.26,23210.43,USD
+2026-02,Alice Johnson,East,Mid-Market,Q1 Push,46795.99,46410.0,USD
+2026-02,Alice Johnson,West,Enterprise,Q3 Scale,20940.96,20811.57,USD
+2026-02,Alice Johnson,Central,Enterprise,Always-On,28471.76,21963.24,USD
+2026-02,Bob Smith,North,Mid-Market,Q4 Close,55386.3,51543.91,USD
+2026-02,Bob Smith,South,SMB,Q3 Scale,54077.6,41637.18,USD
+2026-02,Bob Smith,East,SMB,Q3 Scale,15161.25,18712.33,USD
+2026-02,Bob Smith,West,SMB,Always-On,51743.61,45620.17,USD
+2026-02,Bob Smith,Central,Mid-Market,Always-On,18692.49,20128.78,USD
+2026-02,Carol Davis,North,SMB,Q3 Scale,42666.83,49823.53,USD
+2026-02,Carol Davis,South,SMB,Q4 Close,28816.44,34684.08,USD
+2026-02,Carol Davis,East,Mid-Market,Q4 Close,27644.9,32727.68,USD
+2026-02,Carol Davis,West,Enterprise,Q4 Close,54358.6,40948.27,USD
+2026-02,Carol Davis,Central,SMB,Q3 Scale,18280.29,14414.82,USD
+2026-02,David Lee,North,Mid-Market,Always-On,20575.86,17354.77,USD
+2026-02,David Lee,South,Enterprise,Q4 Close,45865.14,37112.47,USD
+2026-02,David Lee,East,Mid-Market,Partner Enablement,50558.63,56126.54,USD
+2026-02,David Lee,West,Enterprise,Partner Enablement,33940.73,29031.27,USD
+2026-02,David Lee,Central,Enterprise,Q2 Growth,51668.25,39331.06,USD
+2026-02,Emily Chen,North,SMB,Always-On,38674.33,32121.53,USD
+2026-02,Emily Chen,South,Enterprise,Q2 Growth,11959.54,12391.69,USD
+2026-02,Emily Chen,East,Mid-Market,Always-On,22912.98,19247.33,USD
+2026-02,Emily Chen,West,SMB,Partner Enablement,58462.18,62485.04,USD
+2026-02,Emily Chen,Central,Enterprise,Q2 Growth,43087.25,38422.08,USD
+2026-02,Frank Wilson,North,Mid-Market,Q2 Growth,32460.17,40457.96,USD
+2026-02,Frank Wilson,South,Enterprise,Always-On,20968.19,20032.66,USD
+2026-02,Frank Wilson,East,SMB,Always-On,51022.66,42907.1,USD
+2026-02,Frank Wilson,West,Mid-Market,Q4 Close,23226.03,25829.51,USD
+2026-02,Frank Wilson,Central,Mid-Market,Q4 Close,39826.67,31240.89,USD
+2026-02,Grace Kim,North,SMB,Always-On,16610.66,12595.55,USD
+2026-02,Grace Kim,South,SMB,Q1 Push,44218.39,51437.36,USD
+2026-02,Grace Kim,East,SMB,Q1 Push,18871.11,22660.51,USD
+2026-02,Grace Kim,West,Enterprise,Q1 Push,53887.63,54734.47,USD
+2026-02,Grace Kim,Central,SMB,Always-On,34112.05,27806.93,USD
+2026-03,Alice Johnson,North,SMB,Partner Enablement,51376.09,61573.45,USD
+2026-03,Alice Johnson,South,Enterprise,Partner Enablement,31574.84,30322.65,USD
+2026-03,Alice Johnson,East,Mid-Market,Q4 Close,36490.83,31555.19,USD
+2026-03,Alice Johnson,West,SMB,Always-On,27525.89,31718.37,USD
+2026-03,Alice Johnson,Central,Mid-Market,Q2 Growth,14885.85,12160.87,USD
+2026-03,Bob Smith,North,SMB,Always-On,55504.27,43954.32,USD
+2026-03,Bob Smith,South,SMB,Partner Enablement,30432.34,25700.43,USD
+2026-03,Bob Smith,East,Enterprise,Always-On,49471.12,51400.18,USD
+2026-03,Bob Smith,West,SMB,Q3 Scale,10359.7,11160.23,USD
+2026-03,Bob Smith,Central,Mid-Market,Partner Enablement,30442.25,24454.0,USD
+2026-03,Carol Davis,North,SMB,Q4 Close,39268.51,34581.87,USD
+2026-03,Carol Davis,South,SMB,Q4 Close,38233.51,40372.31,USD
+2026-03,Carol Davis,East,SMB,Q4 Close,47748.6,45676.98,USD
+2026-03,Carol Davis,West,Mid-Market,Q3 Scale,18935.98,19495.48,USD
+2026-03,Carol Davis,Central,SMB,Q4 Close,59425.41,61732.64,USD
+2026-03,David Lee,North,SMB,Q1 Push,46789.12,55094.16,USD
+2026-03,David Lee,South,SMB,Q2 Growth,47390.71,46125.26,USD
+2026-03,David Lee,East,Mid-Market,Always-On,15013.93,15076.56,USD
+2026-03,David Lee,West,Enterprise,Q2 Growth,40701.27,44457.27,USD
+2026-03,David Lee,Central,Enterprise,Q2 Growth,29455.18,31456.32,USD
+2026-03,Emily Chen,North,Enterprise,Q1 Push,33583.43,35266.72,USD
+2026-03,Emily Chen,South,SMB,Q1 Push,23154.6,21659.22,USD
+2026-03,Emily Chen,East,Mid-Market,Always-On,46224.74,56178.89,USD
+2026-03,Emily Chen,West,SMB,Q1 Push,42808.76,38238.27,USD
+2026-03,Emily Chen,Central,SMB,Q4 Close,57285.79,66458.07,USD
+2026-03,Frank Wilson,North,SMB,Always-On,31948.6,27183.58,USD
+2026-03,Frank Wilson,South,SMB,Always-On,24300.33,18633.61,USD
+2026-03,Frank Wilson,East,Enterprise,Partner Enablement,35790.68,30988.84,USD
+2026-03,Frank Wilson,West,Enterprise,Q2 Growth,11803.06,10264.28,USD
+2026-03,Frank Wilson,Central,Mid-Market,Q3 Scale,14342.14,12735.37,USD
+2026-03,Grace Kim,North,Enterprise,Always-On,43483.1,41427.46,USD
+2026-03,Grace Kim,South,Enterprise,Always-On,10768.33,11864.66,USD
+2026-03,Grace Kim,East,SMB,Q3 Scale,24224.69,28218.92,USD
+2026-03,Grace Kim,West,Enterprise,Always-On,27373.75,31692.16,USD
+2026-03,Grace Kim,Central,Mid-Market,Always-On,58152.86,56837.41,USD
+2026-04,Alice Johnson,North,SMB,Q1 Push,10232.57,8569.96,USD
+2026-04,Alice Johnson,South,Mid-Market,Q1 Push,37931.54,37991.65,USD
+2026-04,Alice Johnson,East,SMB,Always-On,50147.11,61598.44,USD
+2026-04,Alice Johnson,West,Mid-Market,Always-On,22507.07,21863.01,USD
+2026-04,Alice Johnson,Central,Mid-Market,Q4 Close,34181.49,29793.84,USD
+2026-04,Bob Smith,North,Enterprise,Q4 Close,44079.73,52819.06,USD
+2026-04,Bob Smith,South,SMB,Q2 Growth,15813.42,12394.2,USD
+2026-04,Bob Smith,East,Mid-Market,Q4 Close,43845.65,37924.96,USD
+2026-04,Bob Smith,West,Enterprise,Partner Enablement,57772.28,58249.02,USD
+2026-04,Bob Smith,Central,Enterprise,Q4 Close,51608.85,45112.78,USD
+2026-04,Carol Davis,North,Enterprise,Always-On,43684.9,50697.96,USD
+2026-04,Carol Davis,South,Mid-Market,Q2 Growth,56569.81,55906.68,USD
+2026-04,Carol Davis,East,SMB,Partner Enablement,54715.81,48398.21,USD
+2026-04,Carol Davis,West,SMB,Q2 Growth,56512.76,47758.02,USD
+2026-04,Carol Davis,Central,Mid-Market,Q2 Growth,21743.07,18938.83,USD
+2026-04,David Lee,North,SMB,Q3 Scale,21460.38,25054.35,USD
+2026-04,David Lee,South,Enterprise,Partner Enablement,17799.78,14299.36,USD
+2026-04,David Lee,East,Enterprise,Always-On,57788.98,57577.03,USD
+2026-04,David Lee,West,Mid-Market,Always-On,57899.65,67974.5,USD
+2026-04,David Lee,Central,SMB,Q3 Scale,25770.85,30900.81,USD
+2026-04,Emily Chen,North,SMB,Q3 Scale,34540.27,42905.83,USD
+2026-04,Emily Chen,South,Enterprise,Q1 Push,29893.97,33633.25,USD
+2026-04,Emily Chen,East,SMB,Q1 Push,36286.77,34892.92,USD
+2026-04,Emily Chen,West,SMB,Q2 Growth,35123.76,33257.23,USD
+2026-04,Emily Chen,Central,SMB,Q4 Close,32859.8,26622.49,USD
+2026-04,Frank Wilson,North,SMB,Q2 Growth,25782.56,19445.45,USD
+2026-04,Frank Wilson,South,Mid-Market,Always-On,28971.4,23187.95,USD
+2026-04,Frank Wilson,East,Mid-Market,Q2 Growth,53092.1,44787.23,USD
+2026-04,Frank Wilson,West,Mid-Market,Q3 Scale,23470.41,28851.32,USD
+2026-04,Frank Wilson,Central,Mid-Market,Partner Enablement,19195.68,18465.7,USD
+2026-04,Grace Kim,North,Mid-Market,Q3 Scale,47609.79,44397.99,USD
+2026-04,Grace Kim,South,SMB,Partner Enablement,32536.45,33698.16,USD
+2026-04,Grace Kim,East,Mid-Market,Q2 Growth,21428.34,17141.28,USD
+2026-04,Grace Kim,West,Enterprise,Q2 Growth,37767.0,44495.36,USD
+2026-04,Grace Kim,Central,Mid-Market,Q1 Push,50001.87,55965.64,USD
+2026-05,Alice Johnson,North,SMB,Always-On,18830.36,18826.57,USD
+2026-05,Alice Johnson,South,Mid-Market,Q3 Scale,36699.13,33317.81,USD
+2026-05,Alice Johnson,East,Enterprise,Q4 Close,22548.7,26590.58,USD
+2026-05,Alice Johnson,West,Enterprise,Q3 Scale,14948.74,12432.43,USD
+2026-05,Alice Johnson,Central,Mid-Market,Partner Enablement,33826.97,36023.39,USD
+2026-05,Bob Smith,North,SMB,Always-On,26732.83,24874.39,USD
+2026-05,Bob Smith,South,Enterprise,Q4 Close,56592.23,49736.5,USD
+2026-05,Bob Smith,East,SMB,Q2 Growth,16061.87,19012.18,USD
+2026-05,Bob Smith,West,SMB,Q2 Growth,38842.69,41753.28,USD
+2026-05,Bob Smith,Central,Mid-Market,Partner Enablement,58968.66,52617.99,USD
+2026-05,Carol Davis,North,Mid-Market,Q1 Push,35522.23,40402.0,USD
+2026-05,Carol Davis,South,SMB,Q2 Growth,29053.55,25952.43,USD
+2026-05,Carol Davis,East,Mid-Market,Q4 Close,53412.88,57167.29,USD
+2026-05,Carol Davis,West,Enterprise,Q1 Push,41563.67,43052.43,USD
+2026-05,Carol Davis,Central,Mid-Market,Partner Enablement,18099.97,15640.35,USD
+2026-05,David Lee,North,SMB,Q4 Close,24567.82,21711.47,USD
+2026-05,David Lee,South,Mid-Market,Partner Enablement,23562.41,22913.25,USD
+2026-05,David Lee,East,Mid-Market,Q2 Growth,39345.99,48504.28,USD
+2026-05,David Lee,West,SMB,Q2 Growth,19194.31,14617.44,USD
+2026-05,David Lee,Central,SMB,Partner Enablement,43101.13,52592.8,USD
+2026-05,Emily Chen,North,Enterprise,Q1 Push,14003.24,11671.07,USD
+2026-05,Emily Chen,South,SMB,Q1 Push,13189.62,15687.02,USD
+2026-05,Emily Chen,East,Enterprise,Q1 Push,11318.25,10735.43,USD
+2026-05,Emily Chen,West,SMB,Q4 Close,23122.61,19137.13,USD
+2026-05,Emily Chen,Central,Mid-Market,Q4 Close,25468.53,22251.81,USD
+2026-05,Frank Wilson,North,Enterprise,Q1 Push,41324.03,33705.47,USD
+2026-05,Frank Wilson,South,Mid-Market,Q4 Close,11757.75,10916.14,USD
+2026-05,Frank Wilson,East,Mid-Market,Always-On,33359.67,39546.19,USD
+2026-05,Frank Wilson,West,SMB,Always-On,32242.25,39811.8,USD
+2026-05,Frank Wilson,Central,SMB,Partner Enablement,18851.83,19771.65,USD
+2026-05,Grace Kim,North,SMB,Partner Enablement,41792.56,43129.6,USD
+2026-05,Grace Kim,South,Mid-Market,Q4 Close,41976.41,37981.54,USD
+2026-05,Grace Kim,East,Mid-Market,Q3 Scale,36983.41,42617.98,USD
+2026-05,Grace Kim,West,Mid-Market,Q1 Push,28289.17,24891.74,USD
+2026-05,Grace Kim,Central,Enterprise,Q3 Scale,10004.62,11582.25,USD
+2026-06,Alice Johnson,North,SMB,Q4 Close,24338.11,24765.23,USD
+2026-06,Alice Johnson,South,Enterprise,Q4 Close,57347.88,56690.3,USD
+2026-06,Alice Johnson,East,Enterprise,Always-On,49898.24,52318.4,USD
+2026-06,Alice Johnson,West,SMB,Q4 Close,28682.19,27416.39,USD
+2026-06,Alice Johnson,Central,SMB,Partner Enablement,29737.6,24730.82,USD
+2026-06,Bob Smith,North,Mid-Market,Q1 Push,29486.16,27692.78,USD
+2026-06,Bob Smith,South,SMB,Partner Enablement,31111.97,27060.6,USD
+2026-06,Bob Smith,East,SMB,Always-On,44232.01,39469.92,USD
+2026-06,Bob Smith,West,Enterprise,Q2 Growth,50440.43,48243.85,USD
+2026-06,Bob Smith,Central,Mid-Market,Always-On,16831.2,13552.11,USD
+2026-06,Carol Davis,North,Mid-Market,Q2 Growth,32638.36,35909.91,USD
+2026-06,Carol Davis,South,SMB,Q1 Push,26032.19,21504.53,USD
+2026-06,Carol Davis,East,Mid-Market,Q2 Growth,19296.88,15459.44,USD
+2026-06,Carol Davis,West,Enterprise,Q1 Push,45759.8,50955.99,USD
+2026-06,Carol Davis,Central,Mid-Market,Q4 Close,17534.18,17477.89,USD
+2026-06,David Lee,North,Mid-Market,Q4 Close,25578.83,29408.78,USD
+2026-06,David Lee,South,Enterprise,Q2 Growth,44846.74,34346.71,USD
+2026-06,David Lee,East,Enterprise,Always-On,12801.92,14566.36,USD
+2026-06,David Lee,West,Mid-Market,Q4 Close,33507.34,28350.43,USD
+2026-06,David Lee,Central,SMB,Q2 Growth,51412.6,41694.63,USD
+2026-06,Emily Chen,North,Enterprise,Partner Enablement,29239.89,36183.96,USD
+2026-06,Emily Chen,South,SMB,Q1 Push,59726.77,50743.26,USD
+2026-06,Emily Chen,East,Mid-Market,Q4 Close,36056.96,44748.78,USD
+2026-06,Emily Chen,West,Mid-Market,Q2 Growth,44072.12,39931.75,USD
+2026-06,Emily Chen,Central,SMB,Always-On,41458.21,31968.13,USD
+2026-06,Frank Wilson,North,Mid-Market,Q2 Growth,16107.08,15955.91,USD
+2026-06,Frank Wilson,South,SMB,Q2 Growth,28021.33,21745.78,USD
+2026-06,Frank Wilson,East,Mid-Market,Q3 Scale,58663.7,50919.09,USD
+2026-06,Frank Wilson,West,SMB,Q1 Push,10753.39,12336.24,USD
+2026-06,Frank Wilson,Central,Enterprise,Always-On,29790.42,25963.68,USD
+2026-06,Grace Kim,North,SMB,Q2 Growth,49173.76,48565.74,USD
+2026-06,Grace Kim,South,Enterprise,Q4 Close,28569.93,22705.66,USD
+2026-06,Grace Kim,East,SMB,Q1 Push,14570.08,15434.41,USD
+2026-06,Grace Kim,West,SMB,Always-On,12988.76,13927.68,USD
+2026-06,Grace Kim,Central,Enterprise,Q3 Scale,49573.31,40298.82,USD
+2026-07,Alice Johnson,North,Mid-Market,Q4 Close,59083.79,67608.45,USD
+2026-07,Alice Johnson,South,Mid-Market,Q3 Scale,46659.44,35492.74,USD
+2026-07,Alice Johnson,East,Enterprise,Q4 Close,46219.96,40458.56,USD
+2026-07,Alice Johnson,West,SMB,Partner Enablement,45331.3,46669.14,USD
+2026-07,Alice Johnson,Central,SMB,Q3 Scale,34504.6,35655.36,USD
+2026-07,Bob Smith,North,SMB,Always-On,26184.04,25770.26,USD
+2026-07,Bob Smith,South,Mid-Market,Q3 Scale,18017.17,18297.67,USD
+2026-07,Bob Smith,East,Mid-Market,Q1 Push,50970.93,52031.28,USD
+2026-07,Bob Smith,West,SMB,Q2 Growth,48795.9,48941.26,USD
+2026-07,Bob Smith,Central,Mid-Market,Always-On,54146.62,57388.23,USD
+2026-07,Carol Davis,North,SMB,Always-On,21939.33,24363.67,USD
+2026-07,Carol Davis,South,SMB,Q4 Close,50952.49,43051.53,USD
+2026-07,Carol Davis,East,Mid-Market,Q3 Scale,48286.7,39936.28,USD
+2026-07,Carol Davis,West,Enterprise,Always-On,30490.23,27776.97,USD
+2026-07,Carol Davis,Central,Enterprise,Q2 Growth,42944.55,33148.41,USD
+2026-07,David Lee,North,Mid-Market,Q2 Growth,53674.64,45679.24,USD
+2026-07,David Lee,South,Mid-Market,Partner Enablement,14937.68,15468.06,USD
+2026-07,David Lee,East,SMB,Q3 Scale,34495.48,36633.69,USD
+2026-07,David Lee,West,SMB,Q1 Push,12454.28,10715.18,USD
+2026-07,David Lee,Central,SMB,Q4 Close,10654.31,12897.23,USD
+2026-07,Emily Chen,North,Mid-Market,Partner Enablement,56420.19,65788.13,USD
+2026-07,Emily Chen,South,Mid-Market,Q3 Scale,13035.01,13413.15,USD
+2026-07,Emily Chen,East,SMB,Q3 Scale,49712.48,38733.48,USD
+2026-07,Emily Chen,West,Mid-Market,Q1 Push,36451.04,40721.29,USD
+2026-07,Emily Chen,Central,Enterprise,Q1 Push,57230.17,70409.9,USD
+2026-07,Frank Wilson,North,Enterprise,Q2 Growth,46258.6,46990.9,USD
+2026-07,Frank Wilson,South,SMB,Q2 Growth,36309.6,31748.44,USD
+2026-07,Frank Wilson,East,SMB,Q1 Push,37921.17,39023.57,USD
+2026-07,Frank Wilson,West,SMB,Q4 Close,48314.17,50163.72,USD
+2026-07,Frank Wilson,Central,Enterprise,Q2 Growth,45127.52,43482.06,USD
+2026-07,Grace Kim,North,SMB,Q3 Scale,49623.08,50862.8,USD
+2026-07,Grace Kim,South,SMB,Q4 Close,42876.59,43603.36,USD
+2026-07,Grace Kim,East,SMB,Q3 Scale,56676.0,68081.62,USD
+2026-07,Grace Kim,West,SMB,Q4 Close,52242.7,49952.99,USD
+2026-07,Grace Kim,Central,Enterprise,Always-On,51307.75,46778.58,USD
+2026-08,Alice Johnson,North,SMB,Partner Enablement,37281.31,34952.4,USD
+2026-08,Alice Johnson,South,Mid-Market,Q4 Close,22704.46,27945.24,USD
+2026-08,Alice Johnson,East,Mid-Market,Always-On,10009.78,7680.82,USD
+2026-08,Alice Johnson,West,Mid-Market,Q1 Push,10815.12,8841.82,USD
+2026-08,Alice Johnson,Central,Mid-Market,Q1 Push,25016.7,21537.96,USD
+2026-08,Bob Smith,North,Mid-Market,Always-On,48576.15,59344.22,USD
+2026-08,Bob Smith,South,SMB,Q2 Growth,35563.57,36820.18,USD
+2026-08,Bob Smith,East,Enterprise,Q2 Growth,14714.36,14422.79,USD
+2026-08,Bob Smith,West,Enterprise,Q2 Growth,23249.41,27778.69,USD
+2026-08,Bob Smith,Central,SMB,Q4 Close,22812.19,20534.42,USD
+2026-08,Carol Davis,North,Enterprise,Partner Enablement,38453.25,33020.52,USD
+2026-08,Carol Davis,South,Mid-Market,Partner Enablement,26234.6,26005.48,USD
+2026-08,Carol Davis,East,Enterprise,Always-On,45142.39,52354.23,USD
+2026-08,Carol Davis,West,SMB,Q4 Close,42112.73,32371.46,USD
+2026-08,Carol Davis,Central,Mid-Market,Q3 Scale,13923.87,10832.23,USD
+2026-08,David Lee,North,Enterprise,Q2 Growth,53989.63,52216.19,USD
+2026-08,David Lee,South,Enterprise,Partner Enablement,47383.93,55663.75,USD
+2026-08,David Lee,East,Mid-Market,Always-On,48870.93,45999.44,USD
+2026-08,David Lee,West,Enterprise,Q3 Scale,12059.11,12299.87,USD
+2026-08,David Lee,Central,Enterprise,Partner Enablement,35120.08,30217.27,USD
+2026-08,Emily Chen,North,Mid-Market,Always-On,46578.93,44084.23,USD
+2026-08,Emily Chen,South,Mid-Market,Q3 Scale,38762.74,30817.99,USD
+2026-08,Emily Chen,East,Mid-Market,Q1 Push,49318.41,40638.68,USD
+2026-08,Emily Chen,West,SMB,Q4 Close,33792.73,37937.66,USD
+2026-08,Emily Chen,Central,Mid-Market,Partner Enablement,23127.9,21954.47,USD
+2026-08,Frank Wilson,North,SMB,Q2 Growth,16518.76,13503.02,USD
+2026-08,Frank Wilson,South,Enterprise,Always-On,34393.05,37011.19,USD
+2026-08,Frank Wilson,East,Enterprise,Q2 Growth,40799.84,45607.44,USD
+2026-08,Frank Wilson,West,Mid-Market,Partner Enablement,13582.2,15461.79,USD
+2026-08,Frank Wilson,Central,SMB,Q4 Close,56206.9,44673.09,USD
+2026-08,Grace Kim,North,Mid-Market,Q3 Scale,31177.03,28812.37,USD
+2026-08,Grace Kim,South,Mid-Market,Q2 Growth,39693.86,30250.83,USD
+2026-08,Grace Kim,East,Mid-Market,Always-On,59382.6,62833.35,USD
+2026-08,Grace Kim,West,Enterprise,Q2 Growth,17290.92,13356.18,USD
+2026-08,Grace Kim,Central,SMB,Q1 Push,44267.96,36653.68,USD
+2026-09,Alice Johnson,North,SMB,Q2 Growth,15618.59,12139.85,USD
+2026-09,Alice Johnson,South,Enterprise,Q3 Scale,53437.62,61991.22,USD
+2026-09,Alice Johnson,East,Mid-Market,Q4 Close,44689.76,36003.81,USD
+2026-09,Alice Johnson,West,SMB,Q2 Growth,11137.41,9516.97,USD
+2026-09,Alice Johnson,Central,Mid-Market,Always-On,20190.07,20424.94,USD
+2026-09,Bob Smith,North,Enterprise,Partner Enablement,34151.32,38077.42,USD
+2026-09,Bob Smith,South,SMB,Partner Enablement,44937.76,34116.49,USD
+2026-09,Bob Smith,East,Enterprise,Q3 Scale,36339.95,31896.6,USD
+2026-09,Bob Smith,West,Mid-Market,Q1 Push,20034.8,22003.49,USD
+2026-09,Bob Smith,Central,Enterprise,Q4 Close,33248.04,40648.66,USD
+2026-09,Carol Davis,North,SMB,Q3 Scale,43018.64,46524.26,USD
+2026-09,Carol Davis,South,SMB,Q4 Close,53214.11,40418.2,USD
+2026-09,Carol Davis,East,SMB,Q1 Push,21558.43,20272.48,USD
+2026-09,Carol Davis,West,SMB,Always-On,55193.6,54770.32,USD
+2026-09,Carol Davis,Central,Mid-Market,Always-On,14401.03,12232.78,USD
+2026-09,David Lee,North,Enterprise,Always-On,56317.5,42843.21,USD
+2026-09,David Lee,South,SMB,Q2 Growth,25246.38,25119.3,USD
+2026-09,David Lee,East,Mid-Market,Partner Enablement,10918.61,11924.82,USD
+2026-09,David Lee,West,SMB,Q3 Scale,25116.31,31345.08,USD
+2026-09,David Lee,Central,Mid-Market,Q1 Push,50594.64,53776.85,USD
+2026-09,Emily Chen,North,Enterprise,Q2 Growth,57206.83,70053.09,USD
+2026-09,Emily Chen,South,Enterprise,Q1 Push,27089.31,25637.95,USD
+2026-09,Emily Chen,East,SMB,Always-On,46494.48,46976.11,USD
+2026-09,Emily Chen,West,Mid-Market,Q2 Growth,53635.07,58637.17,USD
+2026-09,Emily Chen,Central,Mid-Market,Always-On,38644.93,37224.05,USD
+2026-09,Frank Wilson,North,Enterprise,Partner Enablement,26464.24,27023.08,USD
+2026-09,Frank Wilson,South,Enterprise,Q2 Growth,16928.83,17278.87,USD
+2026-09,Frank Wilson,East,SMB,Q2 Growth,25449.92,28060.27,USD
+2026-09,Frank Wilson,West,Enterprise,Partner Enablement,31503.21,37945.65,USD
+2026-09,Frank Wilson,Central,Mid-Market,Q1 Push,56651.5,68466.51,USD
+2026-09,Grace Kim,North,Enterprise,Q2 Growth,37867.01,46360.61,USD
+2026-09,Grace Kim,South,SMB,Q1 Push,25879.88,30792.37,USD
+2026-09,Grace Kim,East,Mid-Market,Q4 Close,48271.75,57446.57,USD
+2026-09,Grace Kim,West,SMB,Partner Enablement,25167.41,28258.09,USD
+2026-09,Grace Kim,Central,Enterprise,Q2 Growth,23689.81,26995.82,USD
+2026-10,Alice Johnson,North,SMB,Always-On,19237.32,21761.71,USD
+2026-10,Alice Johnson,South,Enterprise,Always-On,23343.13,24125.63,USD
+2026-10,Alice Johnson,East,Mid-Market,Q1 Push,21609.13,23633.67,USD
+2026-10,Alice Johnson,West,SMB,Always-On,44407.06,43887.55,USD
+2026-10,Alice Johnson,Central,Enterprise,Q4 Close,33438.17,35938.82,USD
+2026-10,Bob Smith,North,Enterprise,Q2 Growth,34572.28,28306.27,USD
+2026-10,Bob Smith,South,Enterprise,Q3 Scale,11611.48,13147.32,USD
+2026-10,Bob Smith,East,SMB,Q2 Growth,57509.9,49531.96,USD
+2026-10,Bob Smith,West,Mid-Market,Always-On,47888.83,37500.22,USD
+2026-10,Bob Smith,Central,Mid-Market,Q2 Growth,34497.14,31476.84,USD
+2026-10,Carol Davis,North,SMB,Partner Enablement,31377.78,35711.28,USD
+2026-10,Carol Davis,South,Mid-Market,Always-On,51216.43,56855.38,USD
+2026-10,Carol Davis,East,SMB,Always-On,56956.96,59005.54,USD
+2026-10,Carol Davis,West,Enterprise,Always-On,42069.69,46363.17,USD
+2026-10,Carol Davis,Central,Enterprise,Q2 Growth,15465.81,15132.53,USD
+2026-10,David Lee,North,SMB,Q1 Push,35935.13,34059.52,USD
+2026-10,David Lee,South,SMB,Q1 Push,37885.05,38190.53,USD
+2026-10,David Lee,East,Mid-Market,Q3 Scale,19492.52,18903.4,USD
+2026-10,David Lee,West,SMB,Q1 Push,33067.36,31785.37,USD
+2026-10,David Lee,Central,Mid-Market,Partner Enablement,44497.65,53478.96,USD
+2026-10,Emily Chen,North,Enterprise,Q2 Growth,32584.9,36212.36,USD
+2026-10,Emily Chen,South,SMB,Always-On,48936.56,59649.81,USD
+2026-10,Emily Chen,East,Mid-Market,Q1 Push,16765.33,16040.73,USD
+2026-10,Emily Chen,West,SMB,Q2 Growth,18943.93,19799.4,USD
+2026-10,Emily Chen,Central,Mid-Market,Partner Enablement,54127.42,43036.16,USD
+2026-10,Frank Wilson,North,Enterprise,Partner Enablement,42428.82,46915.03,USD
+2026-10,Frank Wilson,South,SMB,Q4 Close,46663.12,37124.97,USD
+2026-10,Frank Wilson,East,SMB,Q4 Close,41703.62,33056.51,USD
+2026-10,Frank Wilson,West,SMB,Q2 Growth,46343.69,57354.75,USD
+2026-10,Frank Wilson,Central,Enterprise,Q3 Scale,28933.93,27206.68,USD
+2026-10,Grace Kim,North,Enterprise,Q2 Growth,38274.58,41327.56,USD
+2026-10,Grace Kim,South,SMB,Q1 Push,53440.93,44860.1,USD
+2026-10,Grace Kim,East,Mid-Market,Q3 Scale,30979.08,28028.61,USD
+2026-10,Grace Kim,West,Enterprise,Q2 Growth,41322.64,33420.8,USD
+2026-10,Grace Kim,Central,Enterprise,Q4 Close,10176.64,11527.06,USD

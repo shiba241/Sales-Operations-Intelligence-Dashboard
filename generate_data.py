@@ -17,8 +17,10 @@ random.seed(42)
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "data")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-DATE_START = datetime(2024, 1, 1)
-DATE_END   = datetime(2025, 9, 30)
+# 22-month window (Jan 2025 to Oct 2026) allowing Year-over-Year comparison
+# between 2025 and 2026 across identical months (Jan-Oct)
+DATE_START = datetime(2025, 1, 1)
+DATE_END   = datetime(2026, 10, 24)
 
 # Reference data
 REGIONS   = ["North", "South", "East", "West", "Central"]
@@ -43,7 +45,7 @@ OPS_CLIENTS = CRM_COMPANIES[:12] + ["Zenith Consulting", "Arc Analytics", "Prism
 
 
 def rand_date(start: datetime, end: datetime) -> datetime:
-    return start + timedelta(days=random.randint(0, (end - start).days))
+    return start + timedelta(days=random.randint(0, max(0, (end - start).days)))
 
 
 def fmt_date(d: datetime) -> str:
@@ -79,7 +81,17 @@ def generate_crm(n: int = 200) -> None:
             else ""
         )
 
-        last_activity = min(created + timedelta(days=random.randint(0, 60)), DATE_END)
+        days_from_creation = (DATE_END - created).days
+        if days_from_creation <= 14:
+            last_activity = created + timedelta(days=random.randint(0, days_from_creation))
+        else:
+            # Realistically, ~65% had active touchpoints recently, ~35% have gone stale (>14 days)
+            if random.random() < 0.65:
+                last_activity = DATE_END - timedelta(days=random.randint(1, 13))
+            else:
+                last_activity = created + timedelta(days=random.randint(0, min(days_from_creation - 15, 60)))
+
+        last_activity = min(max(last_activity, created), DATE_END)
 
         rows.append({
             "lead_id":            f"CRM-{i:04d}",
@@ -105,24 +117,25 @@ def generate_ops(n: int = 150) -> None:
     projects = []
     for i in range(1, n + 1):
         created = rand_date(DATE_START, DATE_END)
-        due     = created + timedelta(days=random.randint(7, 90))
 
         status = random.choices(
             ["Open", "In Progress", "Completed", "Overdue", "On Hold"],
-            weights=[20, 30, 35, 10, 5],
+            weights=[25, 30, 30, 10, 5],
             k=1,
         )[0]
 
         completed_date = None
         if status == "Completed":
-            # Completed a few days before or on the due date
-            completed_date = fmt_date(due - timedelta(days=random.randint(0, 5)))
-
-        if status == "Completed":
-            sla_status = "Breached" if random.random() < 0.15 else "Met"
+            days_span = max(7, (DATE_END - created).days)
+            due = created + timedelta(days=random.randint(5, min(60, days_span)))
+            completed_date = fmt_date(min(due - timedelta(days=random.randint(0, 5)), DATE_END))
+            sla_status = "Breached" if random.random() < 0.12 else "Met"
         elif status == "Overdue":
+            due = min(created + timedelta(days=random.randint(7, 45)), DATE_END - timedelta(days=random.randint(2, 20)))
             sla_status = "Breached"
         else:
+            # Active projects mostly due in the future (next 7 to 45 days)
+            due = DATE_END + timedelta(days=random.randint(5, 45))
             sla_status = "Pending"
 
         projects.append({
@@ -136,7 +149,7 @@ def generate_ops(n: int = 150) -> None:
             "amount":         round(random.uniform(500, 80_000), 2),
             "assigned_team":  random.choice(TEAMS),
             "sla_status":     sla_status,
-            "sla_days":       (due - created).days,
+            "sla_days":       max(1, (due - created).days),
             "currency":       "USD",
         })
 
@@ -155,10 +168,9 @@ def generate_targets() -> None:
     """
     rows = []
 
-    # Build month list from Jan 2024 to Sep 2025
     months = []
-    d = datetime(2024, 1, 1)
-    while d <= datetime(2025, 9, 1):
+    d = datetime(2025, 1, 1)
+    while d <= datetime(2026, 10, 1):
         months.append(d)
         month = d.month + 1
         year  = d.year + (month - 1) // 12
